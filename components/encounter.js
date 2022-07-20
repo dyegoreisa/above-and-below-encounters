@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View, TouchableOpacity, TextInput } from 'react-native';
+import { Alert, StyleSheet, Text, View, TouchableOpacity, TextInput } from 'react-native';
 import { useForm } from 'react-hook-form'
 import * as EncounterBase from '../assets/encounters.json';
 import AdventureComponent from './adventure';
@@ -8,7 +8,7 @@ import AdventureComponent from './adventure';
 const Encounter = () => {
     const [selectedEncounter, setSelectedEncounter] = useState(null);
 
-    const { register, setValue, handleSubmit } = useForm();
+    const { register, setValue, handleSubmit, reset } = useForm();
 
     useEffect(() => {
         register('encounterNum')
@@ -22,7 +22,16 @@ const Encounter = () => {
     const openEncounter = (data) => {
         let encounterId = lpad(data.encounterNum);
         console.log("encounterId", encounterId);
-        setSelectedEncounter(EncounterBase[encounterId]);
+
+        let encounter = EncounterBase[encounterId];
+
+        if (typeof encounter !== 'undefined') {
+            setSelectedEncounter(encounter);
+        } else {
+            reset();
+            alert('Aventura não encontrada');
+        }
+
     };
 
     if (selectedEncounter !== null) {

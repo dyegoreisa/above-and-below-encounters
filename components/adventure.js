@@ -1,16 +1,30 @@
 import { useState, useEffect } from 'react';
-import { StatusBar } from 'expo-status-bar';
-import { Image, StyleSheet, Text, View, TouchableOpacity, TextInput, Alert } from 'react-native';
+import { StyleSheet, Text, View, TouchableOpacity } from 'react-native';
 import { useForm } from 'react-hook-form'
 import Failure from './failure';
+import Reward from './reward';
 
-const Preconditions = ({ preconditions }) => {
+const Preconditions = ({ preconditions, setSelectedReward }) => {
+  const { register, setValue, handleSubmit } = useForm();
+
+  useEffect(() => {
+    register('mensagem')
+  }, [register])
+
+  const onSuccess = (data, reward) => {
+    console.log("message", reward);
+    setSelectedReward(reward);
+  }
+
   let contents = [];
 
   preconditions.forEach(element => {
     contents.push(
-      <TouchableOpacity key={element.id} style={styles.button}>
-        <Text style={styles.buttonText}>{element.precondition}</Text>
+      <TouchableOpacity 
+        key={element.id} 
+        style={styles.button}
+        onPress={handleSubmit(data => onSuccess(data, element.reward))}>
+          <Text style={styles.buttonText}>{element.precondition}</Text>
       </TouchableOpacity>
     )
   })
@@ -18,7 +32,7 @@ const Preconditions = ({ preconditions }) => {
   return <>{contents}</>;
 }
 
-const Options = ({ options, setSelectedFailure }) => {
+const Options = ({ options, setSelectedFailure, setSelectedReward }) => {
 
   const { register, setValue, handleSubmit } = useForm();
 
@@ -37,11 +51,13 @@ const Options = ({ options, setSelectedFailure }) => {
     contents.push(
       <View key={element.id}>
         <Text style={styles.instructions}>{element.option}</Text>
-        <Preconditions preconditions={element.preconditions} />
-        <TouchableOpacity 
-          style={styles.button} 
+        <Preconditions 
+          preconditions={element.preconditions}
+          setSelectedReward={setSelectedReward} />
+        <TouchableOpacity
+          style={styles.button}
           onPress={handleSubmit(data => onFailure(data, element.failure))}>
-            <Text style={styles.buttonText}>Falhou?</Text>
+          <Text style={styles.buttonText}>Falhou?</Text>
         </TouchableOpacity>
       </View>
     )
@@ -52,19 +68,26 @@ const Options = ({ options, setSelectedFailure }) => {
 
 const AdventureComponent = ({ encounterData }) => {
   const [selectedFailure, setSelectedFailure] = useState(null);
+  const [selectedReward, setSelectedReward] = useState(null);
 
   if (selectedFailure !== null) {
     return <Failure message={selectedFailure} />
   }
+
+  if (selectedReward !== null) {
+    return <Reward reward={selectedReward} />
+  }
+
 
   return (
     <View style={styles.container}>
       <Text style={styles.instructions}>
         {encounterData.adventure}
       </Text>
-      <Options 
-        options={encounterData.options} 
-        setSelectedFailure={setSelectedFailure} />
+      <Options
+        options={encounterData.options}
+        setSelectedFailure={setSelectedFailure} 
+        setSelectedReward={setSelectedReward} />
     </View>
   );
 };
