@@ -1,11 +1,12 @@
 import { useState, useEffect } from 'react';
 import { StatusBar } from 'expo-status-bar';
-import { Image, StyleSheet, Text, View, TouchableOpacity, TextInput, Alert } from 'react-native';
+import { StyleSheet, Text, View, TouchableOpacity, TextInput } from 'react-native';
 import { useForm } from 'react-hook-form'
+import * as EncounterBase from '../assets/encounters.json';
 import AdventureComponent from './adventure';
 
-const EncounterComponent = ({ encounterBase }) => {
-    const [selectEncounter, setSelectEncounter] = useState(null);
+const Encounter = () => {
+    const [selectedEncounter, setSelectedEncounter] = useState(null);
 
     const { register, setValue, handleSubmit } = useForm();
 
@@ -21,11 +22,11 @@ const EncounterComponent = ({ encounterBase }) => {
     const openEncounter = (data) => {
         let encounterId = lpad(data.encounterNum);
         console.log("encounterId", encounterId);
-        setSelectEncounter(encounterBase[encounterId]);
+        setSelectedEncounter(EncounterBase[encounterId]);
     };
 
-    if (selectEncounter !== null) {
-        return <AdventureComponent encounterData={selectEncounter} />
+    if (selectedEncounter !== null) {
+        return <AdventureComponent encounterData={selectedEncounter} />
     }
 
     return (
@@ -82,4 +83,4 @@ const styles = StyleSheet.create({
 });
 
 
-export default EncounterComponent;
+export default Encounter;

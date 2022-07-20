@@ -1,11 +1,8 @@
 import { useState, useEffect } from 'react';
 import { StatusBar } from 'expo-status-bar';
 import { Image, StyleSheet, Text, View, TouchableOpacity, TextInput, Alert } from 'react-native';
-
-const onFailure = (message) => {
-  console.log("mensage", message);
-  //return <Text style={styles.instructions}>{messagem}</Text>
-}
+import { useForm } from 'react-hook-form'
+import Failure from './failure';
 
 const Preconditions = ({ preconditions }) => {
   let contents = [];
@@ -21,7 +18,19 @@ const Preconditions = ({ preconditions }) => {
   return <>{contents}</>;
 }
 
-const Options = ({ options }) => {
+const Options = ({ options, setSelectedFailure }) => {
+
+  const { register, setValue, handleSubmit } = useForm();
+
+  useEffect(() => {
+    register('mensagem')
+  }, [register])
+
+  const onFailure = (data, message) => {
+    console.log("message", message);
+    setSelectedFailure(message);
+  }
+
   let contents = [];
 
   options.forEach(element => {
@@ -29,8 +38,10 @@ const Options = ({ options }) => {
       <View key={element.id}>
         <Text style={styles.instructions}>{element.option}</Text>
         <Preconditions preconditions={element.preconditions} />
-        <TouchableOpacity style={styles.button} >
-          <Text style={styles.buttonText}>Falhou?</Text>
+        <TouchableOpacity 
+          style={styles.button} 
+          onPress={handleSubmit(data => onFailure(data, element.failure))}>
+            <Text style={styles.buttonText}>Falhou?</Text>
         </TouchableOpacity>
       </View>
     )
@@ -40,12 +51,20 @@ const Options = ({ options }) => {
 }
 
 const AdventureComponent = ({ encounterData }) => {
+  const [selectedFailure, setSelectedFailure] = useState(null);
+
+  if (selectedFailure !== null) {
+    return <Failure message={selectedFailure} />
+  }
+
   return (
     <View style={styles.container}>
       <Text style={styles.instructions}>
         {encounterData.adventure}
       </Text>
-      <Options options={encounterData.options} />
+      <Options 
+        options={encounterData.options} 
+        setSelectedFailure={setSelectedFailure} />
     </View>
   );
 };
