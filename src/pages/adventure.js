@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { StyleSheet, Text, View, TouchableOpacity } from 'react-native';
-import { useForm } from 'react-hook-form'
+import { findEncounterById } from '../service/base-encounter';
 
 const AdventurePage = ({ navigation }) => {
   const encounterData = navigation.getParam('encounter');
@@ -12,13 +12,33 @@ const AdventurePage = ({ navigation }) => {
       navigation.navigate('FailurePage', { message });
     }
 
+    const goTo = (e, encounterId) => {
+      let encounter = findEncounterById(encounterId);
+      navigation.navigate('AdventurePage', { encounter });
+    }
+
     let contents = [];
 
     options.forEach(element => {
+      let challenge = "";
+      if (element.preconditions.length !== 0) {
+        challenge = <Preconditions preconditions={element.preconditions} />
+      } else {
+        challenge = (
+          <TouchableOpacity
+            key={element.id}
+            style={styles.button}
+            onPress={e => goTo(e, element.encounterId)}>
+            <Text style={styles.buttonText}>Seguir esta Aventura</Text>
+          </TouchableOpacity>
+        );
+      }
+
+
       contents.push(
         <View key={element.id}>
           <Text style={styles.instructions}>{element.option}</Text>
-          <Preconditions preconditions={element.preconditions} />
+          {challenge}
           <TouchableOpacity
             style={styles.button}
             onPress={e => onFailure(e, element.failure)}>
@@ -32,25 +52,25 @@ const AdventurePage = ({ navigation }) => {
   }
 
   const Preconditions = ({ preconditions }) => {
-  
+
     const onSuccess = (e, reward) => {
       console.log("reward", reward);
       navigation.navigate('RewardPage', { reward });
     }
-  
+
     let contents = [];
-  
+
     preconditions.forEach(element => {
       contents.push(
-        <TouchableOpacity 
-          key={element.id} 
+        <TouchableOpacity
+          key={element.id}
           style={styles.button}
           onPress={e => onSuccess(e, element.reward)}>
-            <Text style={styles.buttonText}>{element.precondition}</Text>
+          <Text style={styles.buttonText}>{element.precondition}</Text>
         </TouchableOpacity>
       )
     })
-  
+
     return <>{contents}</>;
   }
 
