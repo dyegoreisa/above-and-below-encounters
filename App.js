@@ -1,5 +1,5 @@
-import Encounter from './components/encounter';
+import Routes from "./src/routes";
 
 export default function App() {
-  return <Encounter />;
+  return <Routes />;
 }

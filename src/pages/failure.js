@@ -1,22 +1,19 @@
-import { useState, useEffect } from 'react';
+import AsyncStorage from '@react-native-async-storage/async-storage';
 import { StyleSheet, Text, View, TouchableOpacity } from 'react-native';
 import Encounter from './encounter';
 
-const Reward = ({ reward }) => {
-    const [back, setBack] = useState(false);
+const FailurePage = ({ navigation }) => {
+    const message = navigation.getParam('message');
 
-    const goBack = () => {
+    const goBack = async () => {
+        await AsyncStorage.clear();
         console.log("back");
-        setBack(true);
-    }
-
-    if (back) {
-        return <Encounter />
+        navigation.navigate('EncounterPage');
     }
 
     return (
         <View>
-            <Text style={styles.instructions}>{reward}</Text>
+            <Text style={styles.instructions}>{message}</Text>
             <TouchableOpacity
                 style={styles.button}
                 onPress={goBack}>
@@ -63,4 +60,4 @@ const styles = StyleSheet.create({
     }
 });
 
-export default Reward;
+export default FailurePage;

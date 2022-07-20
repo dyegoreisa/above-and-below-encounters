@@ -1,42 +1,37 @@
 import { useState, useEffect } from 'react';
 import { StatusBar } from 'expo-status-bar';
-import { Alert, StyleSheet, Text, View, TouchableOpacity, TextInput } from 'react-native';
+import { StyleSheet, Text, View, TouchableOpacity, TextInput } from 'react-native';
 import { useForm } from 'react-hook-form'
-import * as EncounterBase from '../assets/encounters.json';
-import AdventureComponent from './adventure';
+import AsyncStorage from '@react-native-async-storage/async-storage';
+import { findEncounterByNum } from '../service/base-encounter';
 
-const Encounter = () => {
-    const [selectedEncounter, setSelectedEncounter] = useState(null);
-
-    const { register, setValue, handleSubmit, reset } = useForm();
+const EncounterPage = ({ navigation }) => {
+    const { register, setValue, handleSubmit } = useForm();
 
     useEffect(() => {
+        AsyncStorage.getItem('encounterNum').then(encounterNum => {
+            if (encounterNum) {
+                let encounter = findEncounterByNum(encounterNum);
+                if (encounter) {
+                    navigation.navigate('AdventurePage', { encounter });
+                } else {
+                    AsyncStorage.clear();
+                }
+            }
+        })
         register('encounterNum')
     }, [register])
 
-    const lpad = (char) => {
-        let width = 3;
-        return "enc" + (new Array(width).join("0") + char).slice(-width);
-    }
-
-    const openEncounter = (data) => {
-        let encounterId = lpad(data.encounterNum);
-        console.log("encounterId", encounterId);
-
-        let encounter = EncounterBase[encounterId];
+    const openEncounter = async (data) => {
+        let encounter = findEncounterByNum(data.encounterNum);
 
         if (typeof encounter !== 'undefined') {
-            setSelectedEncounter(encounter);
+            await AsyncStorage.setItem('encounterNum', data.encounterNum);
+            navigation.navigate('AdventurePage', { encounter });
         } else {
-            reset();
             alert('Aventura não encontrada');
         }
-
     };
-
-    if (selectedEncounter !== null) {
-        return <AdventureComponent encounterData={selectedEncounter} />
-    }
 
     return (
         <View style={styles.container}>
@@ -92,4 +87,4 @@ const styles = StyleSheet.create({
 });
 
 
-export default Encounter;
+export default EncounterPage;
