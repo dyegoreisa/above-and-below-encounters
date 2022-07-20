@@ -1,0 +1,350 @@
+{
+    "enc000": {
+        "adventure": "",
+        "bonus": "",
+        "options": [
+            {
+                "id": 1,
+                "option": "",
+                "failure": "",
+                "encounterId": "",
+                "preconditions": [
+                    {
+                        "id": 1,
+                        "precondition": "3 Lanternas",
+                        "reward": "moeda"
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "option": "",
+                "failure": "",
+                "encounterId": "",
+                "preconditions": [
+                    {
+                        "id": 1,
+                        "precondition": "4 Lanternas",
+                        "reward": ""
+                    },
+                    {
+                        "id": 2,
+                        "precondition": "7 Lanternas",
+                        "reward": ""
+                    }
+                ]
+            }
+        ]
+    },
+    "enc001": {
+        "adventure": "Você pisa na profunda escuridão da caverna, lanternas ao alto, há uma fina camada de névoa entre seus pés e o chão. À frente, as paredes da caverna ficam íngremes, e você vê o que parecem ser cogumelos no topo de uma alta elevação. Você tenta subir e pegar, ou continua explorando os pisos da caverna?",
+        "bonus": "",
+        "options": [
+            {
+                "id": 1,
+                "option": "Procure pelos pisos da caverna",
+                "failure": "",
+                "encounterId": "",
+                "preconditions": [
+                    {
+                        "id": 1,
+                        "precondition": "3 Lanternas",
+                        "reward": "moeda"
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "option": "Suba a elevação",
+                "failure": "",
+                "encounterId": "",
+                "preconditions": [
+                    {
+                        "id": 1,
+                        "precondition": "4 Lanternas",
+                        "reward": "moeda, cogumelo"
+                    },
+                    {
+                        "id": 2,
+                        "precondition": "7 Lanternas",
+                        "reward": "6 moedas, 2 cogumelos"
+                    }
+                ]
+            }
+        ]
+    },
+    "enc004": {
+        "adventure": "Você segue um velho caminho, segurando sua tocha no alto. Após um tempo, você encontra uma longa escadaria cravada na pedra, mas o caminho esta bloqueado por um enorme rato marrom com olhos vermelhos brilhando na escuridão. Você evita o rato, ou tenta passar?",
+        "bonus": "+1 Lanterna por Martelo",
+        "options": [
+            {
+                "id": 1,
+                "option": "Evite o Rato",
+                "failure": "O rato rosna e mostra os dentes. Ele corre em sua direção, o seu ataque selvagem te força a correr para fora da caverna onde é seguro, deixando você sem tempo para encontrar um local seguro para construir.",
+                "encounterId": "",
+                "preconditions": [
+                    {
+                        "id": 1,
+                        "precondition": "3 Lanternas",
+                        "reward": "3 Moedas, -1 Reputação"
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "option": "Lute e tente passar pelo rato",
+                "failure": "O rato rosna e mostra os dentes. Ele corre em sua direção, o seu ataque selvagem te força a correr para fora da caverna onde é seguro, deixando você sem tempo para encontrar um local seguro para construir.",
+                "encounterId": "",
+                "preconditions": [
+                    {
+                        "id": 1,
+                        "precondition": "4 Lanternas",
+                        "reward": "Peixe, +1 reputação"
+                    },
+                    {
+                        "id": 2,
+                        "precondition": "7 Lanternas",
+                        "reward": "4 Moedas, Minério, +1 reputação"
+                    }
+                ]
+            }
+        ]
+    },
+    "enc022": {
+        "adventure": "Você viaja por um caminho alinhado com cristais brancos gigantes quando de repente, uma mulher aparece. Ela tem uma pálida pele azul, e um longo cabelo verde. “Eu perdi meu colar favorito. Por favor, me ajude a encontralo”, ela pede com uma voz que soa como o vento. Você decide ajuda-la. Ela diz que o colar é uma linda pedra em uma corrente de prata. Se você encontrá-lo, você devolverá, ou o colocará em sua mochila antes que ela note?",
+        "bonus": "",
+        "options": [
+            {
+                "id": 1,
+                "option": "Devolver o Colar",
+                "failure": "Você perde tanto tempo procurando o colar que não consegue encontrar um local seguro para construir.",
+                "encounterId": "",
+                "preconditions": [
+                    {
+                        "id": 1,
+                        "precondition": "3 Lanternas",
+                        "reward": "+2 Reputação"
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "option": "Tentar ficar com o Colar",
+                "failure": "A mulher te pega roubando o colar, e se mostra como uma poderosa feiticeira. Você derruba o colar e foge para o vilarejo, sem encontrar um local seguro para construir.",
+                "encounterId": "",
+                "preconditions": [
+                    {
+                        "id": 1,
+                        "precondition": "2 Lanternas",
+                        "reward": "Moeda, -1 Reputação"
+                    },
+                    {
+                        "id": 2,
+                        "precondition": "6 Lanternas",
+                        "reward": "Moeda, Ametista, -1 Reputação"
+                    }
+                ]
+            }
+        ]
+    },
+    "enc046": {
+        "adventure": "Você chega a uma gigante cachoeira subterrânea. As águas rugem sobre as pedras, desaparecendo na escuridão do abismo. Olhando para baixo, você nota 2 olhos apagados te encarando. Em instantes, um lagarto azul gigante surge da escuridão com um pescoço longo. Um cheiro forte de peixe azedo preenche o ar. “Eu estava ficando cansado de comer peixes” – diz o Lagarto, olhando faminto para o seu grupo. Você luta com o monstro, ou se esconde dele?",
+        "bonus": "",
+        "options": [
+            {
+                "id": 1,
+                "option": "Se esconder",
+                "failure": "Você tem que fugir de volta para sua vila e não consegue encontrar um local seguro",
+                "encounterId": "",
+                "preconditions": [
+                    {
+                        "id": 1,
+                        "precondition": "2 Lanternas",
+                        "reward": "Moeda, -1 Reputação"
+                    },
+                    {
+                        "id": 2,
+                        "precondition": "4 Lanternas",
+                        "reward": "Moeda, Cogumelo, -1 Reputação"
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "option": "Lutar com o Lagarto Gigante",
+                "failure": "Você tem que fugir de volta para sua vila e não consegue encontrar um local seguro",
+                "encounterId": "",
+                "preconditions": [
+                    {
+                        "id": 1,
+                        "precondition": "7 Lanternas",
+                        "reward": "5 Moedas, Ametista, +1 Reputação"
+                    }
+                ]
+            }
+        ]
+    },
+    "enc066": {
+        "adventure": "Seu grupo encontra um barco, ao lado de um rio limpo e claro. Você decide embarcar e ver o que encontra rio abaixo. Você passa por florestas de cogumelos, morcegos se penduram em silencio em câmaras altas, e alguns até ficam mais avançados entre os bancos de pedra. Conforme você entra em uma nova passagem, a água se torna áspera. Pedras pontudas e mortais surgem da água, ameaçando despedaçar seu pequeno barco. Tem uma margem de areia a sua direita. Você atraca por aqui, ou desbrava a correnteza?",
+        "bonus": "",
+        "options": [
+            {
+                "id": 1,
+                "option": "Atracar e explorar",
+                "failure": "",
+                "encounterId": "",
+                "preconditions": [
+                    {
+                        "id": 1,
+                        "precondition": "2 Lanternas",
+                        "reward": "Poção"
+                    },
+                    {
+                        "id": 2,
+                        "precondition": "4 Lanternas",
+                        "reward": "2 Peixes"
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "option": "Desbravar a correnteza",
+                "failure": "",
+                "encounterId": "",
+                "preconditions": [
+                    {
+                        "id": 1,
+                        "precondition": "7 Lanternas",
+                        "reward": "5 Moedas, Minério"
+                    }
+                ]
+            }
+        ]
+    },
+    "enc072": {
+        "adventure": "Você chega a um homem barbado, usando uma armadura de couro, parado na entrada da caverna. Ele te conta sobre uma caverna assombrada cheia de tesouros. Conforme ele te conta sobre as riquezas do local, você é tomado pela curiosidade, e acaba seguindo as instruções para chegar ao local. Conforme você se aproxima da entrada, você sente um estranho calafrio, e escuta um fraco sussurro vindo da escuridão. Caveiras estão em uma elevação logo afrente. Você está movendo sua lanterna, tomando coragem para entrar, quando de repente escuta um grito vindo de uma câmara atrás de você. Você entra na caverna assombrada, ou vai investigar o grito?",
+        "bonus": "",
+        "options": [
+            {
+                "id": 1,
+                "option": "Entrar na Caverna",
+                "failure": "",
+                "encounterId": "enc110",
+                "preconditions": []
+            },
+            {
+                "id": 2,
+                "option": "Investigar o grito",
+                "failure": "",
+                "encounterId": "enc111",
+                "preconditions": []
+            }
+        ]
+    },
+    "enc091": {
+        "adventure": "Seu grupo para pra descansar próximo a uma fonte de água quente. Enquanto você caminha próximo a fonte, você nota uma velha placa que foi derrubada. Você a levanta novamente, e lê: “Cidade de Sarsus”. Que sorte! Os viajantes contam histórias sobre a cidade perdida de Sarsus, um lugar repleto de tesouros, artefatos valiosos e antigas maravilhas. Porém, você não consegue para qual lado a placa aponta. Você fica próximo a fonte e vê o que pode encontrar, ou tenta a sorte por um dos caminhos?",
+        "bonus": "+1 Lanterna por cada pena",
+        "options": [
+            {
+                "id": 1,
+                "option": "Ficar próximo a fonte",
+                "failure": "",
+                "encounterId": "",
+                "preconditions": [
+                    {
+                        "id": 1,
+                        "precondition": "3 Lanternas",
+                        "reward": "Cogumelo"
+                    },
+                    {
+                        "id": 2,
+                        "precondition": "5 Lanternas",
+                        "reward": "2 Moedas, 2 Cogumelos"
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "option": "Procurar pela cidade perdida",
+                "failure": "",
+                "encounterId": "",
+                "preconditions": [
+                    {
+                        "id": 1,
+                        "precondition": "7 Lanternas",
+                        "reward": "4 Moedas, Pote, +1 Reputação"
+                    }
+                ]
+            }
+        ]
+    },
+    "enc110": {
+        "adventure": "Você ignora o grito, e se aventura na caverna assombrada. A passagem leva a todas as direções, até que você se perder completamente. Um gemido alto preenche a caverna, e logo um fantasma pálido aparece, flutuando, com roupas esfarrapadas e resgadas. Você sente seu corpo todo tremer, sem conseguir falar. Você tenta correr e se esconder do fantasma, ou tenta conversar?",
+        "bonus": "+1 Lanterna por cada pena.",
+        "options": [
+            {
+                "id": 1,
+                "option": "Se esconder do fantasma",
+                "failure": "",
+                "encounterId": "",
+                "preconditions": [
+                    {
+                        "id": 1,
+                        "precondition": "3 Lanternas",
+                        "reward": "2 Modas, -1 Reputação"
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "option": "Conversar com o fantasma",
+                "failure": "",
+                "encounterId": "",
+                "preconditions": [
+                    {
+                        "id": 1,
+                        "precondition": "4 Lanternas",
+                        "reward": "3 Moedas, +1 Reputação"
+                    },
+                    {
+                        "id": 2,
+                        "precondition": "8 Lanternas",
+                        "reward": "2 Ametistas, +1 Reputação"
+                    }
+                ]
+            }
+        ]
+    },
+    "enc111": {
+        "adventure": "Você se esquece da caverna, o corre em direção ao grito. Você segue por uma passagem e chega a uma mulher com longos cabelos pretos, cercada por caramujos do tamanho de cachorros, se rastejando em direção a ela. Ela não tem para onde correr, e logo os caramujos chegarão nela. Você vê uma pedra logo acima dela, de onde você pode tentar puxá-la para cima antes que eles te peguem. Por outro lado, se você lutar com os caramujos, você pode salvar também os pertences da mulher, que estão espalhados pelo chão da caverna. Você tenta lutar com os caramujos, ou os evita e tenta puxar a mulher para a segurança?",
+        "bonus": "",
+        "options": [
+            {
+                "id": 1,
+                "option": "Puxar a mulher para a segurança",
+                "failure": "",
+                "encounterId": "",
+                "preconditions": [
+                    {
+                        "id": 1,
+                        "precondition": "3 Lanternas",
+                        "reward": "+1 Reputação"
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "option": "Lutar com os caramujos",
+                "failure": "",
+                "encounterId": "",
+                "preconditions": [
+                    {
+                        "id": 1,
+                        "precondition": "7 Lanternas",
+                        "reward": "3 Moedas, Ametista, +1 Reputação"
+                    }
+                ]
+            }
+        ]
+    }
+}

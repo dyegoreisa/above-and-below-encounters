@@ -4,12 +4,12 @@
     "slug": "above-and-below-encounters",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/aab-icon.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "image": "./assets/aab-splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#369fd5"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
