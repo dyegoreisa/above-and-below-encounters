@@ -7,7 +7,6 @@ const RewardPage = ({ navigation }) => {
 
     const goBack = async () => {
         await AsyncStorage.clear();
-        console.log("back");
         navigation.navigate('EncounterPage');
     }
 

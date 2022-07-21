@@ -9,7 +9,6 @@ const AdventurePage = ({ navigation }) => {
   const Options = ({ options }) => {
 
     const onFailure = (e, message) => {
-      console.log("message", message);
       navigation.navigate('FailurePage', { message });
     }
 
@@ -55,7 +54,6 @@ const AdventurePage = ({ navigation }) => {
   const Preconditions = ({ preconditions }) => {
 
     const onSuccess = (e, reward) => {
-      console.log("reward", reward);
       navigation.navigate('RewardPage', { reward });
     }
 
@@ -75,7 +73,6 @@ const AdventurePage = ({ navigation }) => {
     return <>{contents}</>;
   }
 
-
   return (
     <KeyboardAvoidingView >
       <ScrollView >
@@ -83,6 +80,16 @@ const AdventurePage = ({ navigation }) => {
         <Text style={styles.adventureDescription}>
           {encounterData.adventure}
         </Text>
+        {encounterData.bonus.length !== 0 && (
+          <View style={styles.card}>
+            <Text style={styles.bonus}>
+              Bônus:
+            </Text>
+            <Text style={styles.bonusDescription}>
+              {encounterData.bonus}
+            </Text>
+          </View>
+        )}
         <Options options={encounterData.options} />
       </ScrollView>
     </KeyboardAvoidingView>
@@ -100,6 +107,17 @@ const styles = StyleSheet.create({
     color: '#666',
     fontSize: 22,
     marginHorizontal: 15,
+    marginBottom: 10
+  },
+  bonusDescription: {
+    color: '#444',
+    fontSize: 22,
+    marginHorizontal: 15,
+  },
+  bonus: {
+    color: '#222',
+    fontSize: 16,
+    marginHorizontal: 8,
   },
   button: {
     height: 46,

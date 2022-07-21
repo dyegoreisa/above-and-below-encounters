@@ -1,41 +1,5 @@
 {
-    "enc000": {
-        "adventure": "",
-        "bonus": "",
-        "options": [
-            {
-                "id": 1,
-                "option": "",
-                "failure": "",
-                "encounterId": "",
-                "preconditions": [
-                    {
-                        "id": 1,
-                        "precondition": "3 Lanternas",
-                        "reward": "moeda"
-                    }
-                ]
-            },
-            {
-                "id": 2,
-                "option": "",
-                "failure": "",
-                "encounterId": "",
-                "preconditions": [
-                    {
-                        "id": 1,
-                        "precondition": "4 Lanternas",
-                        "reward": ""
-                    },
-                    {
-                        "id": 2,
-                        "precondition": "7 Lanternas",
-                        "reward": ""
-                    }
-                ]
-            }
-        ]
-    },
+    "enc000": { "adventure": "", "bonus": "", "options": [ { "id": 1, "option": "", "failure": "", "encounterId": "", "preconditions": [ { "id": 1, "precondition": "3 Lanternas", "reward": "moeda" } ] }, { "id": 2, "option": "", "failure": "", "encounterId": "", "preconditions": [ { "id": 1, "precondition": "4 Lanternas", "reward": "" }, { "id": 2, "precondition": "7 Lanternas", "reward": "" } ] } ] },
     "enc001": {
         "adventure": "Você pisa na profunda escuridão da caverna, lanternas ao alto, há uma fina camada de névoa entre seus pés e o chão. À frente, as paredes da caverna ficam íngremes, e você vê o que parecem ser cogumelos no topo de uma alta elevação. Você tenta subir e pegar, ou continua explorando os pisos da caverna?",
         "bonus": "",

@@ -6,13 +6,10 @@ const lpad = (char) => {
 }
 
 export const findEncounterByNum = (encounterNum) => {
-    console.log("encounterNum", encounterNum);
     let encounterId = lpad(encounterNum);
-    console.log("encounterId", encounterId);
     return EncounterBase[encounterId];
 }
 
 export const findEncounterById = (encounterId) => {
-    console.log("encounterId", encounterId);
     return EncounterBase[encounterId];
 }
