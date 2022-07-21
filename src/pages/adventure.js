@@ -34,10 +34,24 @@ const AdventurePage = ({ navigation }) => {
         );
       }
 
+      let bonus;
+      if (element.bonus.length !== 0) {
+        bonus = (
+          <View style={styles.card}>
+            <Text style={styles.bonus}>
+              Bônus:
+            </Text>
+            <Text style={styles.bonusDescription}>
+              {element.bonus}
+            </Text>
+          </View>
+        )
+      }
 
       contents.push(
         <View key={element.id} style={styles.card}>
           <Text style={styles.optionName}>{element.option}</Text>
+          {bonus}
           {challenge}
           <TouchableOpacity
             style={styles.failureButton}
@@ -80,16 +94,6 @@ const AdventurePage = ({ navigation }) => {
         <Text style={styles.adventureDescription}>
           {encounterData.adventure}
         </Text>
-        {encounterData.bonus.length !== 0 && (
-          <View style={styles.card}>
-            <Text style={styles.bonus}>
-              Bônus:
-            </Text>
-            <Text style={styles.bonusDescription}>
-              {encounterData.bonus}
-            </Text>
-          </View>
-        )}
         <Options options={encounterData.options} />
       </ScrollView>
     </KeyboardAvoidingView>
