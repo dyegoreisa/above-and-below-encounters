@@ -879,25 +879,25 @@
         ]
     },
     "enc024": {
-        "adventure": "",
+        "adventure": "Você encontra uma criatura verde e gorda, com uma cabeça redonda e careca. Ele esta usando um avental cheio de ferramentas. “Eu sou um grande construtor”, ele diz “Eu vou construir algo para você, pelo preço certo”. Você negocia com a criatura, ou segue seu caminho?",
         "options": [
             {
                 "id": 1,
-                "option": "",
+                "option": "Negociar com a criatura",
                 "bonus": "",
-                "failure": "",
+                "failure": "Você acaba insultando o construtor, e ele te persegue até sua vila, antes que você tenha tempo de achar um local seguro para construir",
                 "encounterId": "",
                 "preconditions": [
                     {
                         "id": 1,
-                        "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "precondition": "3 Lanternas e Pague 2 Moedas",
+                        "reward": "Ganhe uma construção que custe até 7 moedas, +1 Reputação"
                     }
                 ]
             },
             {
                 "id": 2,
-                "option": "",
+                "option": "Seguir seu caminho",
                 "bonus": "",
                 "failure": "",
                 "encounterId": "",
@@ -905,23 +905,23 @@
                     {
                         "id": 1,
                         "precondition": "4 Lanternas",
-                        "reward": ""
+                        "reward": "2 Moedas"
                     },
                     {
                         "id": 2,
                         "precondition": "7 Lanternas",
-                        "reward": ""
+                        "reward": "Moeda, Minério, Poção"
                     }
                 ]
             }
         ]
     },
     "enc025": {
-        "adventure": "",
+        "adventure": "Seu grupo passa por uma torre caída de uma antiga cidade subterrânea. Você acende a fogueira, e começa a esquentar suas mãos, quando três criaturas agachadas de redondos olhos vermelhos chegam da escuridão. Linhas de espinhos brotam se duas costas, e suas peles são cinza e duras, como as paredes de pedra que te cercam. Você já se encontrou com eles antes, eles são os Glogos. “Deixe-nos compartilhar de sua fogueira, e conte-nos sobre sua vila. Se acharmos que vocês são dignos deixaremos que viagem por aqui.”. Você deixa que eles se juntem a sua fogueira, ou luta com eles?",
         "options": [
             {
                 "id": 1,
-                "option": "",
+                "option": "Deixar que eles se juntem a você",
                 "bonus": "",
                 "failure": "",
                 "encounterId": "",
@@ -929,13 +929,18 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Poção, +1 Reputação"
+                    },
+                    {
+                        "id": 2,
+                        "precondition": "5 Lanternas",
+                        "reward": "Peixe, Poção, +1 Reputação"
                     }
                 ]
             },
             {
                 "id": 2,
-                "option": "",
+                "option": "Lutar com eles",
                 "bonus": "",
                 "failure": "",
                 "encounterId": "",
@@ -943,88 +948,82 @@
                     {
                         "id": 1,
                         "precondition": "4 Lanternas",
-                        "reward": ""
+                        "reward": "3 Moedas, -1 Reputação"
                     },
                     {
                         "id": 2,
-                        "precondition": "7 Lanternas",
-                        "reward": ""
+                        "precondition": "6 Lanternas",
+                        "reward": "5 Moedas, Minério, -1 Reputação"
                     }
                 ]
             }
         ]
     },
     "enc026": {
-        "adventure": "",
+        "adventure": "Seu grupo chega à entrada de uma mina abandonada. Você entra na mina, esperando que alguma coisa de valor tenha sido deixada para trás. Logo você chega a um vasto saguão, onde vários tuneis se conectam, com carrinhos de mão largados pelos cantos. Na extremidade do saguão, você vê um velho baú, escuro e com manchas de água, mas não está danificado. Um pesado cadeado o mantém fechado. Você se aproxima do baú, mas para ao escutar um bater de pés. Um homem peixe surge de um dos túneis, correndo logo afrente de 5 bandidos bem armados. “Ajudeme! Eles vão me matar!” - o Homem Peixe grita para você. Alguns bandidos hesitam quando veem seu grupo, mas quando notam o baú, começam a correr por ele. “Fique parado se você sabe o que bom pra você” – um deles diz. Você ajuda o Homem Peixe, ou corre para o baú?",
         "options": [
             {
                 "id": 1,
-                "option": "",
+                "option": "Correr para o Baú",
                 "bonus": "",
-                "failure": "",
+                "failure": "Os bandidos são muito fortes, e você corre deles, voltando para sua vila, sem tempo para procurar um local seguro para construir.",
                 "encounterId": "",
                 "preconditions": [
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "2 Moedas, -1 Reputação"
                     }
                 ]
             },
             {
                 "id": 2,
-                "option": "",
+                "option": "Ajudar o Homem Peixe",
                 "bonus": "",
-                "failure": "",
+                "failure": "Os bandidos são muito fortes, e você corre deles, voltando para sua vila, sem tempo para procurar um local seguro para construir.",
                 "encounterId": "",
                 "preconditions": [
                     {
                         "id": 1,
-                        "precondition": "4 Lanternas",
-                        "reward": ""
+                        "precondition": "5 Lanternas",
+                        "reward": "Peixe, +2 Reputação"
                     },
                     {
                         "id": 2,
-                        "precondition": "7 Lanternas",
-                        "reward": ""
+                        "precondition": "8 Lanternas",
+                        "reward": "3 Moedas, Pote, +2 Reputação"
                     }
                 ]
             }
         ]
     },
     "enc027": {
-        "adventure": "",
+        "adventure": "Você chega a um grande templo cravado nas paredes da caverna. Uma grande escadaria leva a uma plataforma quadrada. No meio da plataforma, uma mulher com um pálido cabelo amarelo esta sentada dentro de uma jaula. “Por favor, me tire daqui. Eu fui capturada pelos Glogos” – ela diz quando você se aproxima. Seu primeiro pensamento é de soltá-la, mas então você pensa no por que o Glogos a prenderiam, sendo que normalmente a teriam matado. Você a liberta, ou continua explorando?",
         "options": [
             {
                 "id": 1,
-                "option": "",
+                "option": "Libertar a mulher",
                 "bonus": "",
                 "failure": "",
-                "encounterId": "",
-                "preconditions": [
-                    {
-                        "id": 1,
-                        "precondition": "3 Lanternas",
-                        "reward": "moeda"
-                    }
-                ]
+                "encounterId": "enc101",
+                "preconditions": []
             },
             {
                 "id": 2,
-                "option": "",
+                "option": "Ignorar a mulher e continuar explorando",
                 "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
                     {
                         "id": 1,
-                        "precondition": "4 Lanternas",
-                        "reward": ""
+                        "precondition": "5 Lanternas",
+                        "reward": "4 Moedas"
                     },
                     {
                         "id": 2,
-                        "precondition": "7 Lanternas",
-                        "reward": ""
+                        "precondition": "8 Lanternas",
+                        "reward": "9 Moedas"
                     }
                 ]
             }
