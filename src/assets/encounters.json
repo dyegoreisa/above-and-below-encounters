@@ -880,11 +880,11 @@
     },
     "enc024": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -898,6 +898,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -917,11 +918,11 @@
     },
     "enc025": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -935,6 +936,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -954,11 +956,11 @@
     },
     "enc026": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -972,6 +974,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -991,11 +994,11 @@
     },
     "enc027": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -1009,6 +1012,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -1028,11 +1032,11 @@
     },
     "enc028": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -1046,6 +1050,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -1065,11 +1070,11 @@
     },
     "enc029": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -1083,6 +1088,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -1102,11 +1108,11 @@
     },
     "enc030": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -1120,6 +1126,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -1139,11 +1146,11 @@
     },
     "enc031": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -1157,6 +1164,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -1176,11 +1184,11 @@
     },
     "enc032": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -1194,6 +1202,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -1213,11 +1222,11 @@
     },
     "enc033": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -1231,6 +1240,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -1250,11 +1260,11 @@
     },
     "enc034": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -1268,6 +1278,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -1287,11 +1298,11 @@
     },
     "enc035": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -1305,6 +1316,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -1324,11 +1336,11 @@
     },
     "enc036": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -1342,6 +1354,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -1361,11 +1374,11 @@
     },
     "enc037": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -1379,6 +1392,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -1398,11 +1412,11 @@
     },
     "enc038": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -1416,6 +1430,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -1435,11 +1450,11 @@
     },
     "enc039": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -1453,6 +1468,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -1472,11 +1488,11 @@
     },
     "enc040": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -1490,6 +1506,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -1509,11 +1526,11 @@
     },
     "enc041": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -1527,6 +1544,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -1546,11 +1564,11 @@
     },
     "enc042": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -1564,6 +1582,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -1583,11 +1602,11 @@
     },
     "enc043": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -1601,6 +1620,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -1620,11 +1640,11 @@
     },
     "enc044": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -1638,6 +1658,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -1657,11 +1678,11 @@
     },
     "enc045": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -1675,6 +1696,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -1694,7 +1716,6 @@
     },
     "enc046": {
         "adventure": "Você chega a uma gigante cachoeira subterrânea. As águas rugem sobre as pedras, desaparecendo na escuridão do abismo. Olhando para baixo, você nota 2 olhos apagados te encarando. Em instantes, um lagarto azul gigante surge da escuridão com um pescoço longo. Um cheiro forte de peixe azedo preenche o ar. “Eu estava ficando cansado de comer peixes” – diz o Lagarto, olhando faminto para o seu grupo. Você luta com o monstro, ou se esconde dele?",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
@@ -1731,11 +1752,11 @@
     },
     "enc047": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -1749,6 +1770,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -1768,11 +1790,11 @@
     },
     "enc048": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -1786,6 +1808,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -1805,11 +1828,11 @@
     },
     "enc049": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -1823,6 +1846,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -1842,11 +1866,11 @@
     },
     "enc050": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -1860,6 +1884,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -1879,11 +1904,11 @@
     },
     "enc051": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -1897,6 +1922,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -1916,11 +1942,11 @@
     },
     "enc052": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -1934,6 +1960,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -1953,11 +1980,11 @@
     },
     "enc053": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -1971,6 +1998,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -1990,11 +2018,11 @@
     },
     "enc054": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -2008,6 +2036,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -2027,11 +2056,11 @@
     },
     "enc055": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -2045,6 +2074,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -2064,11 +2094,11 @@
     },
     "enc056": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -2082,6 +2112,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -2101,11 +2132,11 @@
     },
     "enc057": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -2119,6 +2150,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -2138,11 +2170,11 @@
     },
     "enc058": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -2156,6 +2188,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -2175,11 +2208,11 @@
     },
     "enc059": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -2193,6 +2226,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -2212,11 +2246,11 @@
     },
     "enc060": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -2230,6 +2264,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -2249,11 +2284,11 @@
     },
     "enc061": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -2267,6 +2302,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -2286,11 +2322,11 @@
     },
     "enc062": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -2304,6 +2340,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -2323,11 +2360,11 @@
     },
     "enc063": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -2341,6 +2378,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -2360,11 +2398,11 @@
     },
     "enc064": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -2378,6 +2416,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -2397,11 +2436,11 @@
     },
     "enc065": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -2415,6 +2454,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -2434,7 +2474,6 @@
     },
     "enc066": {
         "adventure": "Seu grupo encontra um barco, ao lado de um rio limpo e claro. Você decide embarcar e ver o que encontra rio abaixo. Você passa por florestas de cogumelos, morcegos se penduram em silencio em câmaras altas, e alguns até ficam mais avançados entre os bancos de pedra. Conforme você entra em uma nova passagem, a água se torna áspera. Pedras pontudas e mortais surgem da água, ameaçando despedaçar seu pequeno barco. Tem uma margem de areia a sua direita. Você atraca por aqui, ou desbrava a correnteza?",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
@@ -2471,11 +2510,11 @@
     },
     "enc067": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -2489,6 +2528,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -2508,11 +2548,11 @@
     },
     "enc068": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -2526,6 +2566,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -2545,11 +2586,11 @@
     },
     "enc069": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -2563,6 +2604,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -2582,11 +2624,11 @@
     },
     "enc070": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -2600,6 +2642,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -2619,11 +2662,11 @@
     },
     "enc071": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -2637,6 +2680,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -2656,7 +2700,6 @@
     },
     "enc072": {
         "adventure": "Você chega a um homem barbado, usando uma armadura de couro, parado na entrada da caverna. Ele te conta sobre uma caverna assombrada cheia de tesouros. Conforme ele te conta sobre as riquezas do local, você é tomado pela curiosidade, e acaba seguindo as instruções para chegar ao local. Conforme você se aproxima da entrada, você sente um estranho calafrio, e escuta um fraco sussurro vindo da escuridão. Caveiras estão em uma elevação logo afrente. Você está movendo sua lanterna, tomando coragem para entrar, quando de repente escuta um grito vindo de uma câmara atrás de você. Você entra na caverna assombrada, ou vai investigar o grito?",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
@@ -2676,11 +2719,11 @@
     },
     "enc073": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -2694,6 +2737,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -2713,11 +2757,11 @@
     },
     "enc074": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -2731,6 +2775,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -2750,11 +2795,11 @@
     },
     "enc075": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -2768,6 +2813,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -2787,11 +2833,11 @@
     },
     "enc076": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -2805,6 +2851,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -2824,11 +2871,11 @@
     },
     "enc077": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -2842,6 +2889,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -2861,11 +2909,11 @@
     },
     "enc078": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -2879,6 +2927,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -2898,11 +2947,11 @@
     },
     "enc079": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -2916,6 +2965,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -2935,11 +2985,11 @@
     },
     "enc080": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -2953,6 +3003,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -2972,11 +3023,11 @@
     },
     "enc081": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -2990,6 +3041,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -3009,11 +3061,11 @@
     },
     "enc082": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -3027,6 +3079,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -3046,11 +3099,11 @@
     },
     "enc083": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -3064,6 +3117,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -3083,11 +3137,11 @@
     },
     "enc084": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -3101,6 +3155,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -3120,11 +3175,11 @@
     },
     "enc085": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -3138,6 +3193,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -3157,11 +3213,11 @@
     },
     "enc086": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -3175,6 +3231,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -3194,11 +3251,11 @@
     },
     "enc087": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -3212,6 +3269,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -3231,11 +3289,11 @@
     },
     "enc088": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -3249,6 +3307,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -3268,11 +3327,11 @@
     },
     "enc089": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -3286,6 +3345,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -3305,11 +3365,11 @@
     },
     "enc090": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -3323,6 +3383,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -3379,11 +3440,11 @@
     },
     "enc092": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -3397,6 +3458,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -3416,11 +3478,11 @@
     },
     "enc093": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -3434,6 +3496,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -3453,11 +3516,11 @@
     },
     "enc094": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -3471,6 +3534,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -3490,11 +3554,11 @@
     },
     "enc095": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -3508,6 +3572,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -3527,11 +3592,11 @@
     },
     "enc096": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -3545,6 +3610,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -3564,11 +3630,11 @@
     },
     "enc097": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -3582,6 +3648,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -3601,11 +3668,11 @@
     },
     "enc098": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -3619,6 +3686,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -3638,11 +3706,11 @@
     },
     "enc099": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -3656,6 +3724,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -3675,11 +3744,11 @@
     },
     "enc100": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -3693,6 +3762,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -3712,11 +3782,11 @@
     },
     "enc101": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -3730,6 +3800,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -3749,11 +3820,11 @@
     },
     "enc102": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -3767,6 +3838,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -3786,11 +3858,11 @@
     },
     "enc103": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -3804,6 +3876,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -3823,11 +3896,11 @@
     },
     "enc104": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -3841,6 +3914,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -3860,11 +3934,11 @@
     },
     "enc105": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -3878,6 +3952,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -3897,11 +3972,11 @@
     },
     "enc106": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -3915,6 +3990,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -3934,11 +4010,11 @@
     },
     "enc107": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -3952,6 +4028,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -3971,11 +4048,11 @@
     },
     "enc108": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -3989,6 +4066,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -4008,11 +4086,11 @@
     },
     "enc109": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -4026,6 +4104,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -4082,7 +4161,6 @@
     },
     "enc111": {
         "adventure": "Você se esquece da caverna, o corre em direção ao grito. Você segue por uma passagem e chega a uma mulher com longos cabelos pretos, cercada por caramujos do tamanho de cachorros, se rastejando em direção a ela. Ela não tem para onde correr, e logo os caramujos chegarão nela. Você vê uma pedra logo acima dela, de onde você pode tentar puxá-la para cima antes que eles te peguem. Por outro lado, se você lutar com os caramujos, você pode salvar também os pertences da mulher, que estão espalhados pelo chão da caverna. Você tenta lutar com os caramujos, ou os evita e tenta puxar a mulher para a segurança?",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
@@ -4114,11 +4192,11 @@
     },
     "enc112": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -4132,6 +4210,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -4151,11 +4230,11 @@
     },
     "enc113": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -4169,6 +4248,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -4188,11 +4268,11 @@
     },
     "enc114": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -4206,6 +4286,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -4225,11 +4306,11 @@
     },
     "enc115": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -4243,6 +4324,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -4262,11 +4344,11 @@
     },
     "enc116": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -4280,6 +4362,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -4299,11 +4382,11 @@
     },
     "enc117": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -4317,6 +4400,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -4336,11 +4420,11 @@
     },
     "enc118": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -4354,6 +4438,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -4373,11 +4458,11 @@
     },
     "enc119": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -4391,6 +4476,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -4410,11 +4496,11 @@
     },
     "enc120": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -4428,6 +4514,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -4447,11 +4534,11 @@
     },
     "enc121": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -4465,6 +4552,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -4484,11 +4572,11 @@
     },
     "enc122": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -4502,6 +4590,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -4521,11 +4610,11 @@
     },
     "enc123": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -4539,6 +4628,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -4558,11 +4648,11 @@
     },
     "enc124": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -4576,6 +4666,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -4595,11 +4686,11 @@
     },
     "enc125": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -4613,6 +4704,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -4632,11 +4724,11 @@
     },
     "enc126": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -4650,6 +4742,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -4669,11 +4762,11 @@
     },
     "enc127": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -4687,6 +4780,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -4706,11 +4800,11 @@
     },
     "enc128": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -4724,6 +4818,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -4743,11 +4838,11 @@
     },
     "enc129": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -4761,6 +4856,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -4780,11 +4876,11 @@
     },
     "enc130": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -4798,6 +4894,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -4817,11 +4914,11 @@
     },
     "enc131": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -4835,6 +4932,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -4854,11 +4952,11 @@
     },
     "enc132": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -4872,6 +4970,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -4891,11 +4990,11 @@
     },
     "enc133": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -4909,6 +5008,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -4928,11 +5028,11 @@
     },
     "enc134": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -4946,6 +5046,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -4965,11 +5066,11 @@
     },
     "enc135": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -4983,6 +5084,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -5002,11 +5104,11 @@
     },
     "enc136": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -5020,6 +5122,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -5039,11 +5142,11 @@
     },
     "enc137": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -5057,6 +5160,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -5076,11 +5180,11 @@
     },
     "enc138": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -5094,6 +5198,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -5113,11 +5218,11 @@
     },
     "enc139": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -5131,6 +5236,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -5150,11 +5256,11 @@
     },
     "enc140": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -5168,6 +5274,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -5187,11 +5294,11 @@
     },
     "enc141": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -5205,6 +5312,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -5224,11 +5332,11 @@
     },
     "enc142": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -5242,6 +5350,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -5261,11 +5370,11 @@
     },
     "enc143": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -5279,6 +5388,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -5298,11 +5408,11 @@
     },
     "enc144": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -5316,6 +5426,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -5335,11 +5446,11 @@
     },
     "enc145": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -5353,6 +5464,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -5372,11 +5484,11 @@
     },
     "enc146": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -5390,6 +5502,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -5409,11 +5522,11 @@
     },
     "enc147": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -5427,6 +5540,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -5446,11 +5560,11 @@
     },
     "enc148": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -5464,6 +5578,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -5483,11 +5598,11 @@
     },
     "enc149": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -5501,6 +5616,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -5520,11 +5636,11 @@
     },
     "enc150": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -5538,6 +5654,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -5557,11 +5674,11 @@
     },
     "enc151": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -5575,6 +5692,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -5594,11 +5712,11 @@
     },
     "enc152": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -5612,6 +5730,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -5631,11 +5750,11 @@
     },
     "enc153": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -5649,6 +5768,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -5668,11 +5788,11 @@
     },
     "enc154": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -5686,6 +5806,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -5705,11 +5826,11 @@
     },
     "enc155": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -5723,6 +5844,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -5742,11 +5864,11 @@
     },
     "enc156": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -5760,6 +5882,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -5779,11 +5902,11 @@
     },
     "enc157": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -5797,6 +5920,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -5816,11 +5940,11 @@
     },
     "enc158": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -5834,6 +5958,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -5853,11 +5978,11 @@
     },
     "enc159": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -5871,6 +5996,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -5890,11 +6016,11 @@
     },
     "enc160": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -5908,6 +6034,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -5927,11 +6054,11 @@
     },
     "enc161": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -5945,6 +6072,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -5964,11 +6092,11 @@
     },
     "enc162": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -5982,6 +6110,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -6001,11 +6130,11 @@
     },
     "enc163": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -6019,6 +6148,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -6038,11 +6168,11 @@
     },
     "enc164": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -6056,6 +6186,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -6075,11 +6206,11 @@
     },
     "enc165": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -6093,6 +6224,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -6112,11 +6244,11 @@
     },
     "enc166": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -6130,6 +6262,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -6149,11 +6282,11 @@
     },
     "enc167": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -6167,6 +6300,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -6186,11 +6320,11 @@
     },
     "enc168": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -6204,6 +6338,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -6223,11 +6358,11 @@
     },
     "enc169": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -6241,6 +6376,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -6260,11 +6396,11 @@
     },
     "enc170": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -6278,6 +6414,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -6297,11 +6434,11 @@
     },
     "enc171": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -6315,6 +6452,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -6334,11 +6472,11 @@
     },
     "enc172": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -6352,6 +6490,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -6371,11 +6510,11 @@
     },
     "enc173": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -6389,6 +6528,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -6408,11 +6548,11 @@
     },
     "enc174": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -6426,6 +6566,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -6445,11 +6586,11 @@
     },
     "enc175": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -6463,6 +6604,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -6482,11 +6624,11 @@
     },
     "enc176": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -6500,6 +6642,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -6519,11 +6662,11 @@
     },
     "enc177": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -6537,6 +6680,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -6556,11 +6700,11 @@
     },
     "enc178": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -6574,6 +6718,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -6593,11 +6738,11 @@
     },
     "enc179": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -6611,6 +6756,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -6630,11 +6776,11 @@
     },
     "enc180": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -6648,6 +6794,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -6667,11 +6814,11 @@
     },
     "enc181": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -6685,6 +6832,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -6704,11 +6852,11 @@
     },
     "enc182": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -6722,6 +6870,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -6741,11 +6890,11 @@
     },
     "enc183": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -6759,6 +6908,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -6778,11 +6928,11 @@
     },
     "enc184": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -6796,6 +6946,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -6815,11 +6966,11 @@
     },
     "enc185": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -6833,6 +6984,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -6852,11 +7004,11 @@
     },
     "enc186": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -6870,6 +7022,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -6889,11 +7042,11 @@
     },
     "enc187": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -6907,6 +7060,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -6926,11 +7080,11 @@
     },
     "enc188": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -6944,6 +7098,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -6963,11 +7118,11 @@
     },
     "enc189": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -6981,6 +7136,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -7000,11 +7156,11 @@
     },
     "enc190": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -7018,6 +7174,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -7037,11 +7194,11 @@
     },
     "enc191": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -7055,6 +7212,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -7074,11 +7232,11 @@
     },
     "enc192": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -7092,6 +7250,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -7111,11 +7270,11 @@
     },
     "enc193": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -7129,6 +7288,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -7148,11 +7308,11 @@
     },
     "enc194": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -7166,6 +7326,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -7185,11 +7346,11 @@
     },
     "enc195": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -7203,6 +7364,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -7222,11 +7384,11 @@
     },
     "enc196": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -7240,6 +7402,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -7259,11 +7422,11 @@
     },
     "enc197": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -7277,6 +7440,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -7296,11 +7460,11 @@
     },
     "enc198": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -7314,6 +7478,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -7333,11 +7498,11 @@
     },
     "enc199": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -7351,6 +7516,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -7370,11 +7536,11 @@
     },
     "enc200": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -7388,6 +7554,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -7407,11 +7574,11 @@
     },
     "enc201": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -7425,6 +7592,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -7444,11 +7612,11 @@
     },
     "enc202": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -7462,6 +7630,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -7481,11 +7650,11 @@
     },
     "enc203": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -7499,6 +7668,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -7518,11 +7688,11 @@
     },
     "enc204": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -7536,6 +7706,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -7555,11 +7726,11 @@
     },
     "enc205": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -7573,6 +7744,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -7592,11 +7764,11 @@
     },
     "enc206": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -7610,6 +7782,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -7629,11 +7802,11 @@
     },
     "enc207": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -7647,6 +7820,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -7666,11 +7840,11 @@
     },
     "enc208": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -7684,6 +7858,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -7703,11 +7878,11 @@
     },
     "enc209": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -7721,6 +7896,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -7740,11 +7916,11 @@
     },
     "enc210": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -7758,6 +7934,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -7777,11 +7954,11 @@
     },
     "enc211": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -7795,6 +7972,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -7814,11 +7992,11 @@
     },
     "enc212": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -7832,6 +8010,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -7851,11 +8030,11 @@
     },
     "enc213": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -7869,6 +8048,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -7888,11 +8068,11 @@
     },
     "enc214": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -7906,6 +8086,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -7925,11 +8106,11 @@
     },
     "enc215": {
         "adventure": "",
-        "bonus": "",
         "options": [
             {
                 "id": 1,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -7943,6 +8124,7 @@
             {
                 "id": 2,
                 "option": "",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
