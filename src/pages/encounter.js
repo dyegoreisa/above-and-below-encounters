@@ -1,9 +1,10 @@
 import { useState, useEffect } from 'react';
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View, TouchableOpacity, TextInput } from 'react-native';
+import { StyleSheet, Text, View, TouchableOpacity, TextInput, Image, KeyboardAvoidingView, ScrollView } from 'react-native';
 import { useForm } from 'react-hook-form'
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { findEncounterByNum } from '../service/base-encounter';
+import encounterImg from '../assets/the-game.gif';
 
 const EncounterPage = ({ navigation }) => {
     const { register, setValue, handleSubmit } = useForm();
@@ -34,9 +35,10 @@ const EncounterPage = ({ navigation }) => {
     };
 
     return (
-        <View style={styles.container}>
+        <KeyboardAvoidingView style={styles.container}>
+            <Image source={encounterImg} style={{ width: '100%', height: 240 }} />
             <Text style={styles.instructions}>
-                Informe o numero do encontro
+                Informe o número do encontro
             </Text>
             <TextInput
                 style={styles.input}
@@ -49,40 +51,54 @@ const EncounterPage = ({ navigation }) => {
                 <Text style={styles.buttonText}>Ir para o encontro</Text>
             </TouchableOpacity>
             <StatusBar style="auto" />
-        </View>
+        </KeyboardAvoidingView>
     );
 };
 
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        backgroundColor: '#fff',
-        alignItems: 'center',
         justifyContent: 'center',
+        alignItems: 'center',
+        padding: 30,
     },
-    logo: {
-        width: 305,
-        height: 159,
-        marginBottom: 10
+    img: {
+        alignSelf: 'center',
+        resizeMode: 'contain'
     },
     instructions: {
         color: '#888',
-        fontSize: 18,
+        fontSize: 26,
         marginHorizontal: 15,
     },
     button: {
-        backgroundColor: 'blue',
-        padding: 20,
-        borderRadius: 5,
+        height: 46,
+        alignSelf: 'stretch',
+        backgroundColor: '#154c79',
+        borderRadius: 4,
+        marginTop: 10,
+        justifyContent: 'center',
+        alignItems: 'center',
     },
     buttonText: {
-        fontSize: 20,
-        color: '#fff',
+        color: '#FFF',
+        fontWeight: 'bold',
+        fontSize: 16,
     },
     thumbnail: {
         width: 300,
         height: 300,
         resizeMode: "contain"
+    },
+    input: {
+        height: 46,
+        alignSelf: 'stretch',
+        backgroundColor: '#FFF',
+        borderWidth: 1,
+        borderColor: '#DDD',
+        borderRadius: 4,
+        marginTop: 20,
+        paddingHorizontal: 15,
     }
 });
 

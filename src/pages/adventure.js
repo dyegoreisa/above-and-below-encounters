@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
-import { StyleSheet, Text, View, TouchableOpacity } from 'react-native';
+import { StyleSheet, Text, View, TouchableOpacity, Image, KeyboardAvoidingView, ScrollView } from 'react-native';
 import { findEncounterById } from '../service/base-encounter';
+import caveCard from '../assets/cave-cards.jpg'
 
 const AdventurePage = ({ navigation }) => {
   const encounterData = navigation.getParam('encounter');
@@ -36,11 +37,11 @@ const AdventurePage = ({ navigation }) => {
 
 
       contents.push(
-        <View key={element.id}>
-          <Text style={styles.instructions}>{element.option}</Text>
+        <View key={element.id} style={styles.card}>
+          <Text style={styles.optionName}>{element.option}</Text>
           {challenge}
           <TouchableOpacity
-            style={styles.button}
+            style={styles.failureButton}
             onPress={e => onFailure(e, element.failure)}>
             <Text style={styles.buttonText}>Falhou?</Text>
           </TouchableOpacity>
@@ -76,50 +77,84 @@ const AdventurePage = ({ navigation }) => {
 
 
   return (
-    <View style={styles.container}>
-      <Text style={styles.instructions}>
-        {encounterData.adventure}
-      </Text>
-      <Options options={encounterData.options} />
-    </View>
+    <KeyboardAvoidingView >
+      <ScrollView >
+        <Image source={caveCard} style={styles.img} />
+        <Text style={styles.adventureDescription}>
+          {encounterData.adventure}
+        </Text>
+        <Options options={encounterData.options} />
+      </ScrollView>
+    </KeyboardAvoidingView>
   );
 };
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
     justifyContent: 'center',
+    alignItems: 'center',
+    padding: 30,
   },
-  logo: {
-    width: 305,
-    height: 159,
-    marginBottom: 10
-  },
-  instructions: {
-    color: '#888',
-    fontSize: 18,
+  adventureDescription: {
+    color: '#666',
+    fontSize: 22,
     marginHorizontal: 15,
   },
   button: {
-    backgroundColor: 'blue',
-    padding: 20,
-    borderRadius: 5,
+    height: 46,
+    alignSelf: 'stretch',
+    backgroundColor: '#154c79',
+    borderRadius: 4,
+    marginTop: 10,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  failureButton: {
+    height: 46,
+    alignSelf: 'stretch',
+    backgroundColor: '#DF4723',
+    borderRadius: 4,
+    marginTop: 10,
+    justifyContent: 'center',
+    alignItems: 'center',
   },
   buttonText: {
-    fontSize: 20,
-    color: '#fff',
+    color: '#FFF',
+    fontWeight: 'bold',
+    fontSize: 16,
   },
   preconditionButtonText: {
     fontSize: 20,
     color: '#ccc',
   },
-  thumbnail: {
-    width: 300,
-    height: 300,
-    resizeMode: "contain"
-  }
+  cardsContainer: {
+    flex: 1,
+    alignSelf: 'stretch',
+    maxHeight: 500
+  },
+  card: {
+    borderWidth: 1,
+    borderColor: '#DDD',
+    borderRadius: 8,
+    margin: 5,
+    overflow: 'hidden',
+    top: 0,
+    left: 0,
+    right: 0,
+    bottom: 0
+  },
+  optionName: {
+    fontSize: 22,
+    fontWeight: 'bold',
+    color: '#333',
+    textAlign: 'center'
+  },
+  img: {
+    width: 400,
+    alignSelf: 'center',
+    resizeMode: 'contain'
+  },
 });
 
 
