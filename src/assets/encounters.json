@@ -1030,11 +1030,11 @@
         ]
     },
     "enc028": {
-        "adventure": "",
+        "adventure": "Seu grupo chega a uma enorme e escura caverna. Você acha uma cerca de arame farpado, e a segue até o portão. Além do portão, estão diversas pedras quebradas, com estranhas escrituras – um antigo cemitério. Você mal entra, e logo aparece um fantasma – um jovem garoto, seus olhos são vazios, e suas roupas estão rasgadas e torcidas, “Eu não consigo achar a sepultura da minha mãe” – ele diz. “Ajude-me a encontra-la, ou eu te assombrarei”. Você para pra ajuda-lo, ou ignora sua ameaça?",
         "options": [
             {
                 "id": 1,
-                "option": "",
+                "option": "Ajudar o garoto a achar sua mãe",
                 "bonus": "",
                 "failure": "",
                 "encounterId": "",
@@ -1042,13 +1042,18 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda, +1 Reputação"
+                    },
+                    {
+                        "id": 2,
+                        "precondition": "5Lanternas",
+                        "reward": "Ametista, +1 Reputação"
                     }
                 ]
             },
             {
                 "id": 2,
-                "option": "",
+                "option": "Ignorar o garoto e continuar sua busca nas sepulturas",
                 "bonus": "",
                 "failure": "",
                 "encounterId": "",
@@ -1056,61 +1061,55 @@
                     {
                         "id": 1,
                         "precondition": "4 Lanternas",
-                        "reward": ""
+                        "reward": "4 Moedas, -1 Reputação"
                     },
                     {
                         "id": 2,
                         "precondition": "7 Lanternas",
-                        "reward": ""
+                        "reward": "2 Moedas, 2 Potes, -1 Reputação"
                     }
                 ]
             }
         ]
     },
     "enc029": {
-        "adventure": "",
+        "adventure": "Seu grupo segue por uma ampla passagem alinhada com antigas colunas, até que você chega a uma caverna cheia de brilhantes tendas vermelhas e amarelas. Altas tochas e lanternas iluminam o que parece ser um mercado subterrâneo. Enquanto você analisa as mercadorias oferecidas por criaturas de todos os formatos e tamanhos, um homem de barba vermelha, se apoiando em um cajado deformado se aproxima de você. “Eu tenho uma proposta que valerá o seu tempo, se você se importar em escutar” – ele diz. Você escuta o homem, ou negocia com outros mercadores?",
         "options": [
             {
                 "id": 1,
-                "option": "",
+                "option": "Escutar a proposta do homem",
                 "bonus": "",
                 "failure": "",
-                "encounterId": "",
-                "preconditions": [
-                    {
-                        "id": 1,
-                        "precondition": "3 Lanternas",
-                        "reward": "moeda"
-                    }
-                ]
+                "encounterId": "enc102",
+                "preconditions": []
             },
             {
                 "id": 2,
-                "option": "",
+                "option": "Negociar: 3 Lanternas e pague 2 Moedas",
                 "bonus": "",
-                "failure": "",
+                "failure": "Você perde muito tempo negociando, e acaba sem tempo para procurar um local seguro para construir.",
                 "encounterId": "",
                 "preconditions": [
                     {
                         "id": 1,
-                        "precondition": "4 Lanternas",
-                        "reward": ""
+                        "precondition": "3 Lanternas e pague 2 Moedas",
+                        "reward": "Papel, +1 Reputação"
                     },
                     {
                         "id": 2,
-                        "precondition": "7 Lanternas",
-                        "reward": ""
+                        "precondition": "6 Lanternas e pague 2 Moedas",
+                        "reward": "Minério, Fruta, +1 Reputação"
                     }
                 ]
             }
         ]
     },
     "enc030": {
-        "adventure": "",
+        "adventure": "Seu grupo se depara com uma criatura com pele de pedra, olhos vermelhos e espinhos nas costas – Um Glogo. Ele respira pesado, e sua perna esta coberta de sangue. “Ajude-me, por favor, eu fui atacado por ladrões” – ele diz. Você para pra ajudar, ou continua explorando?",
         "options": [
             {
                 "id": 1,
-                "option": "",
+                "option": "Ajudar o Glogo",
                 "bonus": "",
                 "failure": "",
                 "encounterId": "",
@@ -1118,26 +1117,31 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Cogumelo, +1 Reputação"
+                    },
+                    {
+                        "id": 2,
+                        "precondition": "5 Lanternas",
+                        "reward": "4 Moedas, Cogumelo, +1 Reputação"
                     }
                 ]
             },
             {
                 "id": 2,
-                "option": "",
+                "option": "Continuar Explorando",
                 "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
                     {
                         "id": 1,
-                        "precondition": "4 Lanternas",
-                        "reward": ""
+                        "precondition": "3 Lanternas",
+                        "reward": "3 Moedas, -1 Reputação"
                     },
                     {
                         "id": 2,
                         "precondition": "7 Lanternas",
-                        "reward": ""
+                        "reward": "2 Minérios, -1 Reputação"
                     }
                 ]
             }
