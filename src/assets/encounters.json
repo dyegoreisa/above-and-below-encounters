@@ -12,7 +12,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -26,7 +26,7 @@
                     {
                         "id": 1,
                         "precondition": "4 Lanternas",
-                        "reward": "moeda, cogumelo"
+                        "reward": "Moeda, cogumelo"
                     },
                     {
                         "id": 2,
@@ -50,7 +50,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -88,7 +88,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -164,7 +164,7 @@
                     {
                         "id": 1,
                         "precondition": "2 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -245,7 +245,7 @@
                     {
                         "id": 2,
                         "precondition": "7 Lanternas",
-                        "reward": "moeda, peixe, papel, -2 Reputação"
+                        "reward": "Moeda, peixe, papel, -2 Reputação"
                     }
                 ]
             },
@@ -283,7 +283,7 @@
                     {
                         "id": 1,
                         "precondition": "2 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -321,7 +321,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -359,7 +359,7 @@
                     {
                         "id": 1,
                         "precondition": "2 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -473,7 +473,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -511,7 +511,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -625,7 +625,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -772,7 +772,7 @@
                     {
                         "id": 1,
                         "precondition": "2 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -1111,7 +1111,7 @@
                 "id": 1,
                 "option": "Ajudar o Glogo",
                 "bonus": "",
-                "failure": "",
+                "failure": "Você acaba deixando o ferimento do Glogo ainda pior enquanto tenta ajuda-lo. Você perde muito tempo procurando uma instalação subterrânea, onde você o deixa antes de voltar para sua vila",
                 "encounterId": "",
                 "preconditions": [
                     {
@@ -1148,11 +1148,11 @@
         ]
     },
     "enc031": {
-        "adventure": "",
+        "adventure": "Seu grupo chega a um acampamento em uma caverna com o chão de areia. Um homem solitário com uma barba curta está sentado próximo a uma fogueira, onde ele assa o que parece ser um roedor em um palito. “Tem alguma coisa para negociar?” – ele pergunta. Você senta e negocia com o homem, ou continua explorando?",
         "options": [
             {
                 "id": 1,
-                "option": "",
+                "option": "Continuar explorando",
                 "bonus": "",
                 "failure": "",
                 "encounterId": "",
@@ -1160,37 +1160,37 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Peixe"
                     }
                 ]
             },
             {
                 "id": 2,
-                "option": "",
+                "option": "Negociar com o Homem",
                 "bonus": "",
-                "failure": "",
+                "failure": "Você perde muito tempo negociando com o homem, e não consegue encontrar um local seguro para construir.",
                 "encounterId": "",
                 "preconditions": [
                     {
                         "id": 1,
-                        "precondition": "4 Lanternas",
-                        "reward": ""
+                        "precondition": "3 Lanternas e pague 1 Moeda",
+                        "reward": "Papel, +1 Reputação"
                     },
                     {
                         "id": 2,
-                        "precondition": "7 Lanternas",
-                        "reward": ""
+                        "precondition": "6 Lanternas e Pague 1 Moeda",
+                        "reward": "2 Papeis, +1 Reputação"
                     }
                 ]
             }
         ]
     },
     "enc032": {
-        "adventure": "",
+        "adventure": "Você chega a uma ponte acima de uma profunda ravina. Uma enorme criatura com escamas, um longo focinho, e quatro olhos está parado no centro. Na sua mão, há um porrete manchado de sangue, por esmagar crânios anteriormente. “Pague o pedágio, ou morra” – o monstro diz. Você se esconde, luta ou paga o pedágio?",
         "options": [
             {
                 "id": 1,
-                "option": "",
+                "option": "Se esconder",
                 "bonus": "",
                 "failure": "",
                 "encounterId": "",
@@ -1198,75 +1198,103 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda, -1 Reputação"
                     }
                 ]
             },
             {
                 "id": 2,
-                "option": "",
+                "option": "Lutar com o Monstro",
+                "bonus": "+1 Lanterna por Martelo",
+                "failure": "",
+                "encounterId": "",
+                "preconditions": [
+                    {
+                        "id": 1,
+                        "precondition": "7 Lanternas",
+                        "reward": "3 Moedas, Minério, +1 Reputação"
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "option": "Pagar o Pedágio",
                 "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
                     {
                         "id": 1,
-                        "precondition": "4 Lanternas",
-                        "reward": ""
-                    },
-                    {
-                        "id": 2,
-                        "precondition": "7 Lanternas",
-                        "reward": ""
+                        "precondition": "1 Lanterna e pague 2 Moedas",
+                        "reward": "Cogumelo"
                     }
                 ]
             }
         ]
     },
     "enc033": {
-        "adventure": "",
+        "adventure": "Você chega a uma caverna alta, algumas partes das paredes são feitas de tijolos. Você pensa ter escutado uma voz vinda por de traz dos tijolos, mas você não entende direito. Parece que alguém esta pedindo por ajuda. Você para e quebra as paredes, ou continua seu caminho?",
         "options": [
             {
                 "id": 1,
-                "option": "",
-                "bonus": "",
-                "failure": "",
-                "encounterId": "",
-                "preconditions": [
-                    {
-                        "id": 1,
-                        "precondition": "3 Lanternas",
-                        "reward": "moeda"
-                    }
-                ]
-            },
-            {
-                "id": 2,
-                "option": "",
-                "bonus": "",
+                "option": "Quebrar as paredes",
+                "bonus": "+1 Lanterna por Martelo",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
                     {
                         "id": 1,
                         "precondition": "4 Lanternas",
-                        "reward": ""
+                        "reward": "Ganhe o aldeão mais barato disponível, +1 Reputação"
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "option": "Continue Explorando",
+                "bonus": "",
+                "failure": "",
+                "encounterId": "",
+                "preconditions": [
+                    {
+                        "id": 1,
+                        "precondition": "2 Lanternas",
+                        "reward": "Moeda"
                     },
                     {
                         "id": 2,
                         "precondition": "7 Lanternas",
-                        "reward": ""
+                        "reward": "3 Moedas, Ametista"
                     }
                 ]
             }
         ]
     },
     "enc034": {
-        "adventure": "",
+        "adventure": "Seu grupo marcha a beira de um abismo. Não muito depois, você avista uma criatura metade humana, metade peixe, sentada no lado oposto. “Eu estou preso aqui” – ele diz. “Você pode me ajudar?”. Você para pra ajuda-lo, ou continua seu caminho?",
         "options": [
             {
                 "id": 1,
-                "option": "",
+                "option": "Ajudar o Homem Peixe",
+                "bonus": "Bônus: +1 Lanterna se você possuir uma corda",
+                "failure": "",
+                "encounterId": "",
+                "preconditions": [
+                    {
+                        "id": 1,
+                        "precondition": "4 Lanternas",
+                        "reward": "Peixe, +1 Reputação"
+                    },
+                    {
+                        "id": 2,
+                        "precondition": "6 Lanternas",
+                        "reward": "Moeda, 2 Peixes, +2 Reputação"
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "option": "Continuar explorando",
                 "bonus": "",
                 "failure": "",
                 "encounterId": "",
@@ -1274,113 +1302,115 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
-                    }
-                ]
-            },
-            {
-                "id": 2,
-                "option": "",
-                "bonus": "",
-                "failure": "",
-                "encounterId": "",
-                "preconditions": [
-                    {
-                        "id": 1,
-                        "precondition": "4 Lanternas",
-                        "reward": ""
+                        "reward": "2 Moedas, -1 Reputação"
                     },
                     {
                         "id": 2,
                         "precondition": "7 Lanternas",
-                        "reward": ""
+                        "reward": "3 Moedas, Minério, Poção, -1 Reputação"
                     }
                 ]
             }
         ]
     },
     "enc035": {
-        "adventure": "",
+        "adventure": "Seu grupo chega a um circulo de cabanas em volta de uma piscina subterrânea. O chão está coberto por uma fina camada de névoa, e o ar é quente, fino e úmido. Conforme você se aproxima, percebe que o vapor está vindo da piscina – uma fonte quente. A piscina esta cheia de pessoas relaxando com os olhos fechados. Um homem careca com um longo roupão branco se aproxima. “As águas desta piscina vão rejuvenescer seu espírito. Se importa em dar um mergulho?",
         "options": [
             {
                 "id": 1,
-                "option": "",
+                "option": "Parar e relaxar",
                 "bonus": "",
                 "failure": "",
-                "encounterId": "",
-                "preconditions": [
-                    {
-                        "id": 1,
-                        "precondition": "3 Lanternas",
-                        "reward": "moeda"
-                    }
-                ]
+                "encounterId": "enc103",
+                "preconditions": []
             },
             {
                 "id": 2,
-                "option": "",
+                "option": "Recusar e continuar explorando",
                 "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
                     {
                         "id": 1,
-                        "precondition": "4 Lanternas",
-                        "reward": ""
+                        "precondition": "2 Lanternas",
+                        "reward": "Moeda"
                     },
                     {
                         "id": 2,
                         "precondition": "7 Lanternas",
-                        "reward": ""
+                        "reward": "6 Moedas, Pote"
                     }
                 ]
             }
         ]
     },
     "enc036": {
-        "adventure": "",
+        "adventure": " Você segue um caminho coberto de musgo, pelas paredes escorre água quente, e você se depara com uma cena estranha. Um grupo de viajantes cerca um homem preso, amordaçado e amarrado a uma pesada estaca de madeira, com palha e galhos aos seus pés. “Queime o feiticeiro!” – a multidão grita. Eles estão tão distraídos, que deixaram seu acampamento do outro lado, sem proteção. Se você quiser, você pode pegar algumas coisas e sair antes que te notem. Você tenta salvar o homem, roubar o acampamento, ou seguir seu caminho?",
         "options": [
             {
                 "id": 1,
-                "option": "",
+                "option": "Seguir em frente",
                 "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
                     {
                         "id": 1,
-                        "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "precondition": "2 Lanternas",
+                        "reward": "Moeda"
                     }
                 ]
             },
             {
                 "id": 2,
-                "option": "",
+                "option": "Roubar o acampamento",
                 "bonus": "",
-                "failure": "",
+                "failure": "Alguns viajantes te pegam roubando e te perseguem até o seu vilarejo, antes que você consiga achar um local seguro para construir.",
                 "encounterId": "",
                 "preconditions": [
                     {
                         "id": 1,
                         "precondition": "4 Lanternas",
-                        "reward": ""
+                        "reward": "2 Moedas, Corda"
                     },
                     {
                         "id": 2,
-                        "precondition": "7 Lanternas",
-                        "reward": ""
+                        "precondition": "8 Lanternas",
+                        "reward": "2 Moedas, Corda, Peixe"
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "option": "Salvar o homem condenado",
+                "bonus": "",
+                "failure": "Você tem que fugir de volta para o seu vilarejo, e não consegue encontrar um local seguro para construir.",
+                "encounterId": "",
+                "preconditions": [
+                    {
+                        "id": 1,
+                        "precondition": "5 Lanternas",
+                        "reward": "Ganhe o aldeão mais barato disponível, -1 Reputação"
                     }
                 ]
             }
         ]
     },
     "enc037": {
-        "adventure": "",
+        "adventure": "Você se encontra em uma caverna com um esqueleto de um monstro gigante. Você escala os ossos e acampa em baixo das costelas. No meio da noite, você é acordado pelo som de passos. Você vê uma criatura verde, com três olhos vermelhos, e orelhas finas mexendo nas suas coisas e o pega antes que ele consiga fugir. “Por favor, me deixe ir” – ele diz. “Eu prometo que não farei novamente”. Você o deixa ir, ou o amarra, para que ele não consiga lhe roubar novamente?",
         "options": [
             {
                 "id": 1,
-                "option": "",
+                "option": "Amarrar a criatura",
+                "bonus": "",
+                "failure": "",
+                "encounterId": "enc104",
+                "preconditions": []
+            },
+            {
+                "id": 2,
+                "option": "Deixá-lo ir e continuar explorando",
                 "bonus": "",
                 "failure": "",
                 "encounterId": "",
@@ -1388,89 +1418,69 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
-                    }
-                ]
-            },
-            {
-                "id": 2,
-                "option": "",
-                "bonus": "",
-                "failure": "",
-                "encounterId": "",
-                "preconditions": [
-                    {
-                        "id": 1,
-                        "precondition": "4 Lanternas",
-                        "reward": ""
+                        "reward": "Moeda, +1 Reputação"
                     },
                     {
                         "id": 2,
-                        "precondition": "7 Lanternas",
-                        "reward": ""
+                        "precondition": "6 Lanternas",
+                        "reward": "5 Moedas, Pote, +1 Reputação"
                     }
                 ]
             }
         ]
     },
     "enc038": {
-        "adventure": "",
+        "adventure": "No centro de uma sala, você encontra uma caixa de pedra, coberta de escrituras intrigantes. Na frente da caixa, há uma imagem de uma caveira. Você abre?",
         "options": [
             {
                 "id": 1,
-                "option": "",
+                "option": "Tentar abrir a caixa",
                 "bonus": "",
                 "failure": "",
-                "encounterId": "",
-                "preconditions": [
-                    {
-                        "id": 1,
-                        "precondition": "3 Lanternas",
-                        "reward": "moeda"
-                    }
-                ]
+                "encounterId": "enc105",
+                "preconditions": []
             },
             {
                 "id": 2,
-                "option": "",
+                "option": "Deixar a caixa e continuar sua busca",
                 "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
                     {
                         "id": 1,
-                        "precondition": "4 Lanternas",
-                        "reward": ""
+                        "precondition": "5 Lanternas",
+                        "reward": "2 Cogumelos"
                     },
                     {
                         "id": 2,
                         "precondition": "7 Lanternas",
-                        "reward": ""
+                        "reward": "Cogumelo, Minério"
                     }
                 ]
             }
         ]
     },
     "enc039": {
-        "adventure": "",
+        "adventure": "Você se encontra com um mercador com logos bigodes e com o cabelo preso como um rabo de cavalo. Ele segura uma garrafa com um liquido roxo. “Essa poção cura qualquer ferimento. Você quer me fazer uma oferta? ”. Você negocia com o homem, ou continua seu caminho?",
         "options": [
             {
                 "id": 1,
-                "option": "",
+                "option": "Negociar pela poção",
                 "bonus": "",
-                "failure": "",
+                "failure": "Você acaba insultando o mercador, que segura todos os conselhos sobre o local. Você acaba voltando para a vila antes de achar um local seguro para construir.",
                 "encounterId": "",
                 "preconditions": [
                     {
                         "id": 1,
-                        "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "precondition": "2 Lanternas e pague 1 Moeda",
+                        "reward": "Poção, +1 Reputação"
                     }
                 ]
             },
             {
                 "id": 2,
-                "option": "",
+                "option": "Continuar explorando",
                 "bonus": "",
                 "failure": "",
                 "encounterId": "",
@@ -1478,23 +1488,23 @@
                     {
                         "id": 1,
                         "precondition": "4 Lanternas",
-                        "reward": ""
+                        "reward": "2 Moedas"
                     },
                     {
                         "id": 2,
                         "precondition": "7 Lanternas",
-                        "reward": ""
+                        "reward": "5 Moedas, Papel"
                     }
                 ]
             }
         ]
     },
     "enc040": {
-        "adventure": "",
+        "adventure": "Em uma caverna cheia de estalagmites, você encontra um homem magro, seu rosto é cheio de rugas o contorno de seus olhos é vermelho. Ele usa um gibão rasgado. Em seu ombro está um lagarto preto com olhos vermelhos, lambendo o ar conforme você se aproxima. “Eu me perdi. Você pode me ajudar a chegar na superfície? ” – Ele pergunta. Você perde um tempo valioso ajudando o homem, ou continua procurando nas cavernas?",
         "options": [
             {
                 "id": 1,
-                "option": "",
+                "option": "Ajudar o homem a chegar à superfície",
                 "bonus": "",
                 "failure": "",
                 "encounterId": "",
@@ -1502,13 +1512,18 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "+1 Reputação"
+                    },
+                    {
+                        "id": 2,
+                        "precondition": "7 Lanternas",
+                        "reward": "7 Moedas, +2 Reputação"
                     }
                 ]
             },
             {
                 "id": 2,
-                "option": "",
+                "option": "Ignorar o pedido e continuar procurando",
                 "bonus": "",
                 "failure": "",
                 "encounterId": "",
@@ -1516,61 +1531,80 @@
                     {
                         "id": 1,
                         "precondition": "4 Lanternas",
-                        "reward": ""
+                        "reward": "Moeda, Peixe, -1 Reputação"
                     },
                     {
                         "id": 2,
-                        "precondition": "7 Lanternas",
-                        "reward": ""
+                        "precondition": "6 Lanternas",
+                        "reward": "3 Moedas, Pote, -1 Reputação"
                     }
                 ]
             }
         ]
     },
     "enc041": {
-        "adventure": "",
+        "adventure": "Após escalar um penhasco íngreme, seu grupo se depara com dois homens esfarrapados, com longas barbas passando dos seus pés. Eles encaram vocês com olhos grandes, até que um deles finalmente fala, sua voz soa como um papel sendo rasgado. “Nós somos os imortais. Responda nossas perguntas, e nós lhe garantiremos um grande conhecimento. Falhe, e será punido”. Você responde às perguntas, ou desce o penhasco?",
         "options": [
             {
                 "id": 1,
-                "option": "",
+                "option": "Descer o penhasco",
                 "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
                     {
                         "id": 1,
-                        "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "precondition": "2 Lanternas",
+                        "reward": "Moeda, -1 Reputação"
+                    },
+                    {
+                        "id": 2,
+                        "precondition": "4 Lanternas",
+                        "reward": "Moeda, Cogumelo, -1 Reputação"
                     }
                 ]
             },
             {
                 "id": 2,
-                "option": "",
-                "bonus": "",
-                "failure": "",
+                "option": "Responder as Perguntas",
+                "bonus": "+2 Lanternas por cada Pena",
+                "failure": "Você não consegue impressionar os homens, que começam a murmurar. Os murmúrios ficam mais altos, e mais altos, até que de repente, você se encontra de volta na sua vila, sem ter encontrado um local seguro para construir",
                 "encounterId": "",
                 "preconditions": [
                     {
                         "id": 1,
-                        "precondition": "4 Lanternas",
-                        "reward": ""
-                    },
-                    {
-                        "id": 2,
-                        "precondition": "7 Lanternas",
-                        "reward": ""
+                        "precondition": "6 Lanternas",
+                        "reward": "Papel, +2 Reputação"
                     }
                 ]
             }
         ]
     },
     "enc042": {
-        "adventure": "",
+        "adventure": "Você chega a uma passagem bloqueada por um escorpião gigante. Atrás do escorpião, você vê uma estranha fonte, onde a água brilha roxa na escuridão. O monstro gigante dá um passo em sua direção, sua calda farpada vai para frente e para traz. Você se esconde, ou luta contra a criatura para inspecionar a fonte?",
         "options": [
             {
                 "id": 1,
-                "option": "",
+                "option": "Lutar com o Escorpião",
+                "bonus": "",
+                "failure": "",
+                "encounterId": "",
+                "preconditions": [
+                    {
+                        "id": 1,
+                        "precondition": "5 Lanternas",
+                        "reward": "5 Moedas, Poção, +1 Reputação"
+                    },
+                    {
+                        "id": 2,
+                        "precondition": "8 Lanternas",
+                        "reward": "5 Moedas, Cogumelo, 2 Poções, +1 Reputação"
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "option": "Se esconder",
                 "bonus": "",
                 "failure": "",
                 "encounterId": "",
@@ -1578,51 +1612,32 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
-                    }
-                ]
-            },
-            {
-                "id": 2,
-                "option": "",
-                "bonus": "",
-                "failure": "",
-                "encounterId": "",
-                "preconditions": [
-                    {
-                        "id": 1,
-                        "precondition": "4 Lanternas",
-                        "reward": ""
-                    },
-                    {
-                        "id": 2,
-                        "precondition": "7 Lanternas",
-                        "reward": ""
+                        "reward": "Moeda, -1 Reputação"
                     }
                 ]
             }
         ]
     },
     "enc043": {
-        "adventure": "",
+        "adventure": "Você vira um corredor e se depara com uma enorme pilha de ossos, os crânios te encaram com seus olhos mortos e vazios. Momentos depois, um gato gigante surge da escuridão. Seus olhos tem uma fina tire de roxo, sua calda listrada e peluda balança pra frente e para traz. “Encontre um peixe para mim” – o Gato diz, olhando faminto para você. Você luta com o gato, se esconde, ou encontra algum peixe para dar a ele?",
         "options": [
             {
                 "id": 1,
-                "option": "",
+                "option": "Se esconder",
                 "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
                     {
                         "id": 1,
-                        "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "precondition": "2 Lanternas",
+                        "reward": "-1 Reputação"
                     }
                 ]
             },
             {
                 "id": 2,
-                "option": "",
+                "option": "Procurar por algum peixe para o gato",
                 "bonus": "",
                 "failure": "",
                 "encounterId": "",
@@ -1630,23 +1645,37 @@
                     {
                         "id": 1,
                         "precondition": "4 Lanternas",
-                        "reward": ""
+                        "reward": "Ganhe o aldeão Gato das Cavernas, +1 Reputação"
                     },
                     {
                         "id": 2,
                         "precondition": "7 Lanternas",
                         "reward": ""
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "option": "Lute com o gato",
+                "bonus": "",
+                "failure": "",
+                "encounterId": "",
+                "preconditions": [
+                    {
+                        "id": 1,
+                        "precondition": "6 Lanternas",
+                        "reward": "5 Moedas, Corda, -1 Reputação"
                     }
                 ]
             }
         ]
     },
     "enc044": {
-        "adventure": "",
+        "adventure": "Você chega no limite de uma enorme cidade, cravada nas pedras. Parece abandonada, portas e janelas estão escuras, teias de aranha pendem dos arcos e entre as construções. Você caminha nas ruas, até que se depara com um homem que parece ser feito de metal. Ele está sentado em um carvão gigante, te encarando com olhos brilhantes. “Eu estou quebrado” – diz o homem-máquina. “Se você seguir minhas instruções, e me consertar, eu estarei em débito com você”. Você segue as instruções e tenta consertar, ou ignora o homem e segue em frente?",
         "options": [
             {
                 "id": 1,
-                "option": "",
+                "option": "Ignorara-lo e explorar a cidade",
                 "bonus": "",
                 "failure": "",
                 "encounterId": "",
@@ -1654,37 +1683,32 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda, -1 Reputação"
                     }
                 ]
             },
             {
                 "id": 2,
-                "option": "",
-                "bonus": "",
-                "failure": "",
+                "option": "Tentar arrumar o Homem Mecânico",
+                "bonus": "+1 Lanterna por Martelo.",
+                "failure": "Você não consegue consertar o homem de lata. “Que pena” – ele diz. “Eu poderia ter te guiado através da cidade”. Ele diz para que você o deixe, e você volta ao seu vilarejo. Você perdeu tanto tempo que não conseguiu achar um local seguro.",
                 "encounterId": "",
                 "preconditions": [
                     {
                         "id": 1,
-                        "precondition": "4 Lanternas",
-                        "reward": ""
-                    },
-                    {
-                        "id": 2,
-                        "precondition": "7 Lanternas",
-                        "reward": ""
+                        "precondition": "6 Lanternas",
+                        "reward": "2 Moedas, ganhe o aldeão Homem Mecânico, +1 Reputação"
                     }
                 ]
             }
         ]
     },
     "enc045": {
-        "adventure": "",
+        "adventure": "Seu grupo viaja por uma caverna cheia de cristais azuis, e logo você encontra uma Mulher-Peixe. “Você pode me ajudar a encontrar cogumelos? ” – Ela pergunta. “Minha vila está ficando sem comida, e nós precisamos de ajuda”. Você à ajuda a procurar cogumelos, ou a ignora e continua explorando?",
         "options": [
             {
                 "id": 1,
-                "option": "",
+                "option": "Procurar por cogumelos",
                 "bonus": "",
                 "failure": "",
                 "encounterId": "",
@@ -1692,26 +1716,31 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Cogumelo, +1 Reputação"
+                    },
+                    {
+                        "id": 2,
+                        "precondition": "5 Lanternas",
+                        "reward": "2 Cogumelos, +2 Reputação"
                     }
                 ]
             },
             {
                 "id": 2,
-                "option": "",
+                "option": "Ignorar e continuar explorando",
                 "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
                     {
                         "id": 1,
-                        "precondition": "4 Lanternas",
-                        "reward": ""
+                        "precondition": "2 Lanternas",
+                        "reward": "2 Moedas, -1 Reputação"
                     },
                     {
                         "id": 2,
                         "precondition": "7 Lanternas",
-                        "reward": ""
+                        "reward": "5 Moedas, Minério, -1 Reputação"
                     }
                 ]
             }
@@ -1754,11 +1783,25 @@
         ]
     },
     "enc047": {
-        "adventure": "",
+        "adventure": "Você explora os restos de um templo subterrâneo. Colunas requintadas e escadas redondas estão encravadas no granito. No final do hall, está uma enorme porta de pedra. Você tenta abri-la, mas ela não se move. Você quer parar para tentar abri-la, ou continua explorando o templo?",
         "options": [
             {
                 "id": 1,
-                "option": "",
+                "option": "Parar para abrir a porta",
+                "bonus": "+1 Lanterna por Martelo.",
+                "failure": "",
+                "encounterId": "",
+                "preconditions": [
+                    {
+                        "id": 1,
+                        "precondition": "6 Lanternas",
+                        "reward": "3 Moedas, Minério"
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "option": "Continuar Explorando o Templo",
                 "bonus": "",
                 "failure": "",
                 "encounterId": "",
@@ -1766,89 +1809,56 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
-                    }
-                ]
-            },
-            {
-                "id": 2,
-                "option": "",
-                "bonus": "",
-                "failure": "",
-                "encounterId": "",
-                "preconditions": [
-                    {
-                        "id": 1,
-                        "precondition": "4 Lanternas",
-                        "reward": ""
-                    },
-                    {
-                        "id": 2,
-                        "precondition": "7 Lanternas",
-                        "reward": ""
+                        "reward": "Moeda, Poção"
                     }
                 ]
             }
         ]
     },
     "enc048": {
-        "adventure": "",
+        "adventure": "Você chega a uma enorme baía subterrânea. Uma fraca luz brilha sobre a água, vinda das aberturas no teto. No centro da baía, está um navio apodrecendo e afundando na água. Você nada até o navio, ou continua na beira?",
         "options": [
             {
                 "id": 1,
-                "option": "",
+                "option": "Nadar até o Navio",
                 "bonus": "",
-                "failure": "",
-                "encounterId": "",
-                "preconditions": [
-                    {
-                        "id": 1,
-                        "precondition": "3 Lanternas",
-                        "reward": "moeda"
-                    }
-                ]
-            },
-            {
-                "id": 2,
-                "option": "",
-                "bonus": "",
-                "failure": "",
+                "failure": "Um dos seus companheiros quase se afoga, e insiste para que vocês voltem imediatamente para o vilarejo. Você não consegue encontrar um local seguro",
                 "encounterId": "",
                 "preconditions": [
                     {
                         "id": 1,
                         "precondition": "4 Lanternas",
-                        "reward": ""
+                        "reward": "Pote"
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "option": "Ficar na beira",
+                "bonus": "",
+                "failure": "",
+                "encounterId": "",
+                "preconditions": [
+                    {
+                        "id": 1,
+                        "precondition": "2 Lanternas",
+                        "reward": "2 Moedas"
                     },
                     {
                         "id": 2,
-                        "precondition": "7 Lanternas",
-                        "reward": ""
+                        "precondition": "8 Lanternas",
+                        "reward": "Minério, Peixe"
                     }
                 ]
             }
         ]
     },
     "enc049": {
-        "adventure": "",
+        "adventure": "Você desce uma escadaria cravada nas pedras. Conforme você vai descendo, o ar vai ficando mais e mais quente, até que você chega a uma caverna cortada ao meio por um rio de lava brilhante e laranja. Próximo à beira do rio, está um Glogo cinza com olhos vermelhos brilhantes. Linhas de espinhos se alinham as costas da criatura. “Você poderia achar alguma comida para mim? “ – Ele te pergunta quando você se aproxima.",
         "options": [
             {
                 "id": 1,
-                "option": "",
-                "bonus": "",
-                "failure": "",
-                "encounterId": "",
-                "preconditions": [
-                    {
-                        "id": 1,
-                        "precondition": "3 Lanternas",
-                        "reward": "moeda"
-                    }
-                ]
-            },
-            {
-                "id": 2,
-                "option": "",
+                "option": "Encontrar comida para o Glogo",
                 "bonus": "",
                 "failure": "",
                 "encounterId": "",
@@ -1856,23 +1866,42 @@
                     {
                         "id": 1,
                         "precondition": "4 Lanternas",
-                        "reward": ""
+                        "reward": "Cogumelo, +1 Reputação"
                     },
                     {
                         "id": 2,
-                        "precondition": "7 Lanternas",
-                        "reward": ""
+                        "precondition": "8 Lanternas",
+                        "reward": "Cogumelo, Minério, +2 Reputação"
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "option": "Ignorar o Glogo e continuar sua busca",
+                "bonus": "",
+                "failure": "",
+                "encounterId": "",
+                "preconditions": [
+                    {
+                        "id": 1,
+                        "precondition": "3 Lanternas",
+                        "reward": "2 Cogumelos, -1 Reputação"
+                    },
+                    {
+                        "id": 2,
+                        "precondition": "6 Lanternas",
+                        "reward": "3 Moedas, Minério, -1 Reputação"
                     }
                 ]
             }
         ]
     },
     "enc050": {
-        "adventure": "",
+        "adventure": "Você chega a uma caverna cheia de cristais, mas um cheiro estranho preenche o ar. Quanto mais você fica, mais doente você se sente. Você continua explorando os cristais, ou opta pela segurança e faz o caminho de volta?",
         "options": [
             {
                 "id": 1,
-                "option": "",
+                "option": "Fazer o caminho de volta",
                 "bonus": "",
                 "failure": "",
                 "encounterId": "",
@@ -1880,113 +1909,113 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
+                    },
+                    {
+                        "id": 2,
+                        "precondition": "5 Lanternas",
+                        "reward": "Fruta"
                     }
                 ]
             },
             {
                 "id": 2,
-                "option": "",
+                "option": "Continuar explorando os cristais",
                 "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
                     {
                         "id": 1,
-                        "precondition": "4 Lanternas",
-                        "reward": ""
-                    },
-                    {
-                        "id": 2,
                         "precondition": "7 Lanternas",
-                        "reward": ""
+                        "reward": "Moeda, Pote, 2 Poções"
                     }
                 ]
             }
         ]
     },
     "enc051": {
-        "adventure": "",
+        "adventure": "Você faz seu caminho em volta de duros pedregulhos, até que chega em uma caverna alta. Tiras de luz saem de uma abertura no teto até chegar a uma árvore gigante. O tronco é cinza e duro, e folhas roxas cobrem os galhos. Pequenas frutas verdes pedem dos galhos. Elas parecem tão deliciosas que seu grupo começam a comer. “Como vocês se atrevem a roubar de mim! “ - diz uma voz, e assustado, você percebe que é a árvore, abrindo uma boca negra se abrindo nas raízes. Ela começa a balançar os galhos, tornando difícil para pegar as frutas. Você tenta convencer a árvore a deixá-los comer? Ou ignora a árvore e tenta pegar as frutas dos galhos balançando?",
         "options": [
             {
                 "id": 1,
-                "option": "",
+                "option": "Pegar as frutas",
                 "bonus": "",
-                "failure": "",
+                "failure": "Você perde muito tempo tentando pegar frutas, e acaba não encontrando um local seguro.",
                 "encounterId": "",
                 "preconditions": [
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Fruta, -1 Reputação"
                     }
                 ]
             },
             {
                 "id": 2,
-                "option": "",
-                "bonus": "",
-                "failure": "",
+                "option": "Tentar convencer a árvore",
+                "bonus": "+1 Lanternas por cada pena",
+                "failure": "Você perde muito tempo tentando pegar frutas, e acaba não encontrando um local seguro.",
                 "encounterId": "",
                 "preconditions": [
                     {
                         "id": 1,
                         "precondition": "4 Lanternas",
-                        "reward": ""
+                        "reward": "Fruta, +1 Reputação"
                     },
                     {
                         "id": 2,
                         "precondition": "7 Lanternas",
-                        "reward": ""
+                        "reward": "2 Frutas, +2 Reputação"
                     }
                 ]
             }
         ]
     },
     "enc052": {
-        "adventure": "",
+        "adventure": "Você chega a uma pousada subterrânea, uma luz amarela emana das janelas, vindas de uma fogueira. O lugar parece quente e convidativo, então você entra. A sala de entrada está cheia de viajantes: homens-peixes, humanos e até mesmo os Glogos de olhos vermelhos. Uma placa acima do bar diz: “Elixir curativo grátis em todos os quartos! “. Você fica tentado a passar a noite, mas assim que você chega ao dono da pousada, um homem com uma cicatriz atravessando seu queijo se aproxima de você. “Eu perdi minha filha em algum lugar desta caverna. Você poderia me ajudar a encontrá-la? “ – ele pergunta. Você ajuda o homem, ou fica na pousada para continuar sua busca?",
         "options": [
             {
                 "id": 1,
-                "option": "",
+                "option": "Ficar na pousada",
                 "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
                     {
                         "id": 1,
-                        "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "precondition": "3 Lanternas e pague 1 Moeda",
+                        "reward": "2 Poções, -1 Reputação"
                     }
                 ]
             },
             {
                 "id": 2,
-                "option": "",
-                "bonus": "",
-                "failure": "",
+                "option": "Ajudar o homem a encontrar sua filha",
+                "bonus": "+1 Lanterna se você tem uma corda.",
+                "failure": "Você perde muito tempo tentando procurar pela filha do homem, e acaba não encontrando um local seguro para construir.",
                 "encounterId": "",
                 "preconditions": [
                     {
                         "id": 1,
                         "precondition": "4 Lanternas",
-                        "reward": ""
+                        "reward": "Cogumelo, +1 Reputação"
                     },
                     {
                         "id": 2,
                         "precondition": "7 Lanternas",
-                        "reward": ""
+                        "reward": "Ametista, +1 Reputação"
                     }
                 ]
             }
         ]
     },
     "enc053": {
-        "adventure": "",
+        "adventure": "Seu grupo encontra um alçapão de madeira no chão da caverna. É bem pesado, mas vocês conseguem abrir. Embaixo do alçapão, está um foço profundo. Balançando suas lanternas nas beiras, vocês visualizam uma pilha de moedas de ouro no fundo. Sentada próxima as moedas, está uma mulher, mas você não consegue ver seu rosto. Ela tem um longo cabelo castanho, que cobre a maior parte das suas costas. Sua pele é pálida e sardenta, e ela pula sutilmente para a luz da lanterna. A visão da mulher te dá um arrepio na espinha, mas há muito ouro lá em baixo, e talvez, a pobre mulher só precise de ajuda. Você tenta pegar o ouro e ajudar a mulher, ou fecha o alçapão e continua sua busca.",
         "options": [
             {
                 "id": 1,
-                "option": "",
+                "option": "Fechar o alçapão e continuar a busca",
                 "bonus": "",
                 "failure": "",
                 "encounterId": "",
@@ -1994,75 +2023,83 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Cogumelo, -1 Reputação"
                     }
                 ]
             },
             {
                 "id": 2,
-                "option": "",
+                "option": "Tentar tirar a mulher e o ouro",
                 "bonus": "",
                 "failure": "",
-                "encounterId": "",
-                "preconditions": [
-                    {
-                        "id": 1,
-                        "precondition": "4 Lanternas",
-                        "reward": ""
-                    },
-                    {
-                        "id": 2,
-                        "precondition": "7 Lanternas",
-                        "reward": ""
-                    }
-                ]
+                "encounterId": "enc107",
+                "preconditions": []
             }
         ]
     },
     "enc054": {
-        "adventure": "",
+        "adventure": "Seu grupo chega a um acampamento de Glogos. As criaturas cinzas de olhos vermelhos e brilhantes enxergam seu grupo, e imediatamente os cercam. Você tenta conversar com eles, ou ataca-los?",
         "options": [
             {
                 "id": 1,
-                "option": "",
-                "bonus": "",
-                "failure": "",
-                "encounterId": "",
-                "preconditions": [
-                    {
-                        "id": 1,
-                        "precondition": "3 Lanternas",
-                        "reward": "moeda"
-                    }
-                ]
-            },
-            {
-                "id": 2,
-                "option": "",
-                "bonus": "",
-                "failure": "",
+                "option": "Tentar conversar",
+                "bonus": "+1 Lanterna por cada pena",
+                "failure": "Você tem que fugir, e não encontra um local seguro.",
                 "encounterId": "",
                 "preconditions": [
                     {
                         "id": 1,
                         "precondition": "4 Lanternas",
-                        "reward": ""
+                        "reward": "+1 Reputação"
+                    },
+                    {
+                        "id": 2,
+                        "precondition": "6 Lanternas",
+                        "reward": "Pote, +2 Reputação"
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "option": "Lutar com os Glogos",
+                "bonus": "",
+                "failure": "Você tem que fugir, e não encontra um local seguro.",
+                "encounterId": "",
+                "preconditions": [
+                    {
+                        "id": 1,
+                        "precondition": "3 Lanternas",
+                        "reward": "2 Moedas, -1 Reputação"
                     },
                     {
                         "id": 2,
                         "precondition": "7 Lanternas",
-                        "reward": ""
+                        "reward": "5 Moedas, Minério, -1 Reputação"
                     }
                 ]
             }
         ]
     },
     "enc055": {
-        "adventure": "",
+        "adventure": "Você sobe uma passagem escorregadia, com paredes de musgo. Logo, a caverna fica repleta de gelo e um vento congelante faz com que vocês apertarem os casacos. Você vê alguma coisa presa nas paredes de gelo, uma criatura pequena e cinza. Seu corpo congelado é grosso, e tem espinhos saindo das costas. É um Glogo, e seus olhos continuam brilhando dentro da prisão de gelo. Apenas um pouco além na caverna, você encontra uma pilha de madeira, e mais além, a caverna se abre em uma área florestada ao lado. Se você construir uma fogueira perto do Glogo, você pode derreter o gelo. Você constrói a fogueira, ou continua explorando?",
         "options": [
             {
                 "id": 1,
-                "option": "",
+                "option": "Construir a fogueira",
+                "bonus": "",
+                "failure": "Você perde muito tempo tentando construir a fogueira, e tem que voltar para sua vila, sem encontrar um local seguro.",
+                "encounterId": "",
+                "preconditions": [
+                    {
+                        "id": 1,
+                        "precondition": "4 Lanternas",
+                        "encounterId": "enc109"
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "option": "Continuar explorando a caverna de gelo",
                 "bonus": "",
                 "failure": "",
                 "encounterId": "",
@@ -2070,26 +2107,12 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
-                    }
-                ]
-            },
-            {
-                "id": 2,
-                "option": "",
-                "bonus": "",
-                "failure": "",
-                "encounterId": "",
-                "preconditions": [
-                    {
-                        "id": 1,
-                        "precondition": "4 Lanternas",
-                        "reward": ""
+                        "reward": "2 Moedas"
                     },
                     {
                         "id": 2,
-                        "precondition": "7 Lanternas",
-                        "reward": ""
+                        "precondition": "6 Lanternas",
+                        "reward": "4 Moedas, Minério"
                     }
                 ]
             }
@@ -2108,7 +2131,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -2146,7 +2169,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -2184,7 +2207,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -2222,7 +2245,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -2260,7 +2283,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -2298,7 +2321,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -2336,7 +2359,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -2374,7 +2397,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -2412,7 +2435,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -2450,7 +2473,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -2526,7 +2549,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -2564,7 +2587,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -2602,7 +2625,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -2640,7 +2663,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -2678,7 +2701,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -2737,7 +2760,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -2775,7 +2798,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -2813,7 +2836,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -2851,7 +2874,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -2889,7 +2912,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -2927,7 +2950,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -2965,7 +2988,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -3003,7 +3026,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -3041,7 +3064,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -3079,7 +3102,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -3117,7 +3140,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -3155,7 +3178,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -3193,7 +3216,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -3231,7 +3254,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -3269,7 +3292,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -3307,7 +3330,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -3345,7 +3368,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -3383,7 +3406,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -3460,7 +3483,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -3498,7 +3521,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -3536,7 +3559,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -3574,7 +3597,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -3612,7 +3635,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -3650,7 +3673,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -3688,7 +3711,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -3726,7 +3749,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -3764,7 +3787,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -3802,7 +3825,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -3840,7 +3863,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -3878,7 +3901,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -3916,7 +3939,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -3954,7 +3977,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -3992,7 +4015,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -4030,7 +4053,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -4068,7 +4091,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -4094,40 +4117,25 @@
         ]
     },
     "enc109": {
-        "adventure": "",
+        "adventure": "Você monta uma enorme fogueira perto do Glogo congelado e o gelo vai derretendo até que a criatura cai ao chão. Logo ele abre seus olhos redondos e vermelhos e te agradece. “Eu não consigo me lembrar por quanto tempo estive preso aqui. Eu gostaria de me juntar a vocês até que minha dívida esteja paga” – ele diz. Você deixa que ele se junte a você?",
         "options": [
             {
                 "id": 1,
-                "option": "",
+                "option": "Levar o Glogo com você",
                 "bonus": "",
                 "failure": "",
                 "encounterId": "",
-                "preconditions": [
-                    {
-                        "id": 1,
-                        "precondition": "3 Lanternas",
-                        "reward": "moeda"
-                    }
-                ]
+                "reward": "Ganhe o Aldeão Glogo, +1 Reputação",
+                "preconditions": []
             },
             {
                 "id": 2,
-                "option": "",
+                "option": "Recusar e continuar seu caminho",
                 "bonus": "",
                 "failure": "",
                 "encounterId": "",
-                "preconditions": [
-                    {
-                        "id": 1,
-                        "precondition": "4 Lanternas",
-                        "reward": ""
-                    },
-                    {
-                        "id": 2,
-                        "precondition": "7 Lanternas",
-                        "reward": ""
-                    }
-                ]
+                "reward": "Cogumelo, +2 Reputação",
+                "preconditions": []
             }
         ]
     },
@@ -4215,7 +4223,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -4253,7 +4261,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -4291,7 +4299,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -4329,7 +4337,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -4367,7 +4375,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -4405,7 +4413,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -4443,7 +4451,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -4481,7 +4489,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -4519,7 +4527,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -4557,7 +4565,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -4595,7 +4603,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -4633,7 +4641,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -4671,7 +4679,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -4709,7 +4717,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -4747,7 +4755,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -4785,7 +4793,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -4823,7 +4831,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -4861,7 +4869,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -4899,7 +4907,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -4937,7 +4945,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -4975,7 +4983,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -5013,7 +5021,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -5051,7 +5059,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -5089,7 +5097,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -5127,7 +5135,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -5165,7 +5173,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -5203,7 +5211,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -5241,7 +5249,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -5279,7 +5287,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -5317,7 +5325,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -5355,7 +5363,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -5393,7 +5401,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -5431,7 +5439,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -5469,7 +5477,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -5507,7 +5515,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -5545,7 +5553,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -5583,7 +5591,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -5621,7 +5629,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -5659,7 +5667,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -5697,7 +5705,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -5735,7 +5743,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -5773,7 +5781,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -5811,7 +5819,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -5849,7 +5857,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -5887,7 +5895,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -5925,7 +5933,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -5963,7 +5971,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -6001,7 +6009,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -6039,7 +6047,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -6077,7 +6085,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -6115,7 +6123,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -6153,7 +6161,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -6191,7 +6199,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -6229,7 +6237,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -6267,7 +6275,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -6305,7 +6313,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -6343,7 +6351,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -6381,7 +6389,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -6419,7 +6427,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -6457,7 +6465,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -6495,7 +6503,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -6533,7 +6541,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -6571,7 +6579,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -6609,7 +6617,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -6647,7 +6655,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -6685,7 +6693,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -6723,7 +6731,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -6761,7 +6769,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -6799,7 +6807,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -6837,7 +6845,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -6875,7 +6883,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -6913,7 +6921,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -6951,7 +6959,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -6989,7 +6997,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -7027,7 +7035,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -7065,7 +7073,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -7103,7 +7111,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -7141,7 +7149,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -7179,7 +7187,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -7217,7 +7225,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -7255,7 +7263,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -7293,7 +7301,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -7331,7 +7339,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -7369,7 +7377,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -7407,7 +7415,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -7445,7 +7453,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -7483,7 +7491,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -7521,7 +7529,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -7559,7 +7567,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -7597,7 +7605,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -7635,7 +7643,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -7673,7 +7681,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -7711,7 +7719,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -7749,7 +7757,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -7787,7 +7795,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -7825,7 +7833,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -7863,7 +7871,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -7901,7 +7909,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -7939,7 +7947,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -7977,7 +7985,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -8015,7 +8023,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -8053,7 +8061,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -8091,7 +8099,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },
@@ -8129,7 +8137,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "moeda"
+                        "reward": "Moeda"
                     }
                 ]
             },

@@ -1,4 +1,5 @@
 import { StyleSheet, Text, View, TouchableOpacity, Image, KeyboardAvoidingView, ScrollView } from 'react-native';
+import { findEncounterById } from '../service/base-encounter';
 import caveCard from '../assets/cave-cards.jpg'
 
 const OptionPage = ({ navigation }) => {
@@ -8,8 +9,13 @@ const OptionPage = ({ navigation }) => {
         return (any) ? true : false;
     }
 
-    const onSuccess = (e, reward) => {
-        navigation.navigate('RewardPage', { reward });
+    const onSuccess = (e, selectedOption) => {
+        if (selectedOption.reward) {
+            navigation.navigate('RewardPage', { reward: selectedOption.reward });
+        } else {
+            let encounter = findEncounterById(selectedOption.encounterId);
+            navigation.navigate('AdventurePage', { encounter });  
+        }
     }
 
     const onFailure = (e, message) => {
@@ -25,7 +31,7 @@ const OptionPage = ({ navigation }) => {
                 <TouchableOpacity
                     key={element.id}
                     style={styles.button}
-                    onPress={e => onSuccess(e, element.reward)}>
+                    onPress={e => onSuccess(e, element)}>
                     <Text style={styles.buttonText}>{element.precondition}</Text>
                 </TouchableOpacity>
             )

@@ -7,9 +7,13 @@ const AdventurePage = ({ navigation }) => {
 
   const Options = ({ options }) => {
 
-    const goTo = (e, encounterId) => {
+    const goToEncounter = (e, encounterId) => {
       let encounter = findEncounterById(encounterId);
       navigation.navigate('AdventurePage', { encounter });
+    }
+
+    const goToSuccess = (e, reward) => {
+      navigation.navigate('RewardPage', { reward });
     }
 
     const openOption = (e, option) => {
@@ -29,12 +33,21 @@ const AdventurePage = ({ navigation }) => {
             <Text style={styles.buttonText}>{element.option}</Text>
           </TouchableOpacity>
         );
+      } else if (element.encounterId) {
+        challenge = (
+          <TouchableOpacity
+            key={element.id}
+            style={styles.button}
+            onPress={e => goToEncounter(e, element.encounterId)}>
+            <Text style={styles.buttonText}>{element.option}</Text>
+          </TouchableOpacity>
+        );
       } else {
         challenge = (
           <TouchableOpacity
             key={element.id}
             style={styles.button}
-            onPress={e => goTo(e, element.encounterId)}>
+            onPress={e => goToSuccess(e, element.reward)}>
             <Text style={styles.buttonText}>{element.option}</Text>
           </TouchableOpacity>
         );
