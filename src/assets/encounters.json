@@ -1085,7 +1085,7 @@
             },
             {
                 "id": 2,
-                "option": "Negociar: 3 Lanternas e pague 2 Moedas",
+                "option": "Negociar",
                 "bonus": "",
                 "failure": "Você perde muito tempo negociando, e acaba sem tempo para procurar um local seguro para construir.",
                 "encounterId": "",
@@ -2481,6 +2481,7 @@
             {
                 "id": 1,
                 "option": "Atracar e explorar",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -2499,6 +2500,7 @@
             {
                 "id": 2,
                 "option": "Desbravar a correnteza",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -2707,6 +2709,7 @@
             {
                 "id": 1,
                 "option": "Entrar na Caverna",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "enc110",
                 "preconditions": []
@@ -2714,6 +2717,7 @@
             {
                 "id": 2,
                 "option": "Investigar o grito",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "enc111",
                 "preconditions": []
@@ -3411,6 +3415,7 @@
             {
                 "id": 1,
                 "option": "Ficar próximo a fonte",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -3429,6 +3434,7 @@
             {
                 "id": 2,
                 "option": "Procurar pela cidade perdida",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -4127,11 +4133,11 @@
     },
     "enc110": {
         "adventure": "Você ignora o grito, e se aventura na caverna assombrada. A passagem leva a todas as direções, até que você se perder completamente. Um gemido alto preenche a caverna, e logo um fantasma pálido aparece, flutuando, com roupas esfarrapadas e resgadas. Você sente seu corpo todo tremer, sem conseguir falar. Você tenta correr e se esconder do fantasma, ou tenta conversar?",
-        "bonus": "+1 Lanterna por cada pena.",
         "options": [
             {
                 "id": 1,
                 "option": "Se esconder do fantasma",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -4145,6 +4151,7 @@
             {
                 "id": 2,
                 "option": "Conversar com o fantasma",
+                "bonus": "+1 Lanterna por cada pena.",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -4168,6 +4175,7 @@
             {
                 "id": 1,
                 "option": "Puxar a mulher para a segurança",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
@@ -4181,6 +4189,7 @@
             {
                 "id": 2,
                 "option": "Lutar com os caramujos",
+                "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [

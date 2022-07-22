@@ -14,6 +14,9 @@ const RewardPage = ({ navigation }) => {
         <KeyboardAvoidingView >
             <ScrollView >
                 <Image source={rewardImg} style={styles.img} />
+                <Text style={styles.success}>
+                    Conseguiu encontrar um lugar seguro para construir!
+                </Text>
                 <View style={styles.card}>
                     <Text style={styles.instructions}>{reward}</Text>
                     <TouchableOpacity
@@ -39,8 +42,16 @@ const styles = StyleSheet.create({
         height: 159,
         marginBottom: 10
     },
+    success: {
+        color: '#555',
+        fontSize: 24,
+        textAlign: 'center',
+        marginLeft: 15,
+        marginRight: 15,
+        marginBottom: 15,
+    },
     instructions: {
-        color: '#666',
+        color: '#446128',
         fontSize: 22,
         marginHorizontal: 15,
     },
@@ -69,7 +80,7 @@ const styles = StyleSheet.create({
     },
     card: {
         borderWidth: 1,
-        borderColor: '#DDD',
+        borderColor: '#b8e77f',
         borderRadius: 8,
         margin: 5,
         overflow: 'hidden',

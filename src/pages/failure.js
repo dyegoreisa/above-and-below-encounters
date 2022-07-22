@@ -5,6 +5,8 @@ import failureImg from '../assets/failure.png'
 const FailurePage = ({ navigation }) => {
     const message = navigation.getParam('message');
 
+    let instructions = (message) ? message : "Não conseguiu encontrar um lugar seguro para construir."
+
     const goBack = async () => {
         await AsyncStorage.clear();
         navigation.navigate('EncounterPage');
@@ -14,8 +16,11 @@ const FailurePage = ({ navigation }) => {
         <KeyboardAvoidingView >
             <ScrollView >
                 <Image source={failureImg} style={styles.img} />
+                <Text style={styles.failure}>
+                    Falhou!
+                </Text>
                 <View style={styles.card}>
-                    <Text style={styles.instructions}>{message}</Text>
+                    <Text style={styles.instructions}>{instructions}</Text>
                     <TouchableOpacity
                         style={styles.button}
                         onPress={goBack}>
@@ -39,8 +44,16 @@ const styles = StyleSheet.create({
         height: 159,
         marginBottom: 10
     },
+    failure: {
+        color: '#555',
+        fontSize: 24,
+        textAlign: 'center',
+        marginLeft: 15,
+        marginRight: 15,
+        marginBottom: 15,
+    },
     instructions: {
-        color: '#666',
+        color: '#ddd',
         fontSize: 22,
         marginHorizontal: 15,
     },
@@ -69,7 +82,8 @@ const styles = StyleSheet.create({
     },
     card: {
         borderWidth: 1,
-        borderColor: '#DDD',
+        borderColor: '#DF4723',
+        backgroundColor: "#DF4723",
         borderRadius: 8,
         margin: 5,
         overflow: 'hidden',
