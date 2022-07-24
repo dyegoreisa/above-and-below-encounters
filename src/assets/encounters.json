@@ -2119,177 +2119,158 @@
         ]
     },
     "enc056": {
-        "adventure": "",
+        "adventure": "Você viaja por uma caverna quente, cheia de cogumelos. Você está prestes a pegar alguns, quando escuta um assobio aterrorizador. Segundos depois, uma serpente preta gigante surge das sombras com os olhos amarelos brilhando. Você luta contra a serpente, ou corre e se esconde?",
         "options": [
             {
                 "id": 1,
-                "option": "",
+                "option": "Se esconder da Serpente",
                 "bonus": "",
-                "failure": "",
+                "failure": "A serpente te persegue, e você não consegue encontrar um local seguro.",
                 "encounterId": "",
                 "preconditions": [
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "Moeda"
+                        "reward": "Moeda, -1 Reputação"
                     }
                 ]
             },
             {
                 "id": 2,
-                "option": "",
+                "option": "Lutar com a serpente",
                 "bonus": "",
-                "failure": "",
+                "failure": "A serpente te persegue, e você não consegue encontrar um local seguro.",
                 "encounterId": "",
                 "preconditions": [
                     {
                         "id": 1,
-                        "precondition": "4 Lanternas",
-                        "reward": ""
+                        "precondition": "5 Lanternas",
+                        "reward": "4 Moedas, Cogumelo, +1 Reputação"
                     },
                     {
                         "id": 2,
-                        "precondition": "7 Lanternas",
-                        "reward": ""
+                        "precondition": "8 Lanternas",
+                        "reward": "3 Moedas, Cogumelo, Pote, +1 Reputação"
                     }
                 ]
             }
         ]
     },
     "enc057": {
-        "adventure": "",
+        "adventure": "Seu grupo chega a uma masmorra abandonada ao lado da caverna. Vocês se aventuram na masmorra, andando juntos, quando um sapo com pele obsidiana, olhos vermelhos e uma barrida enorme surge da escuridão. Ele balança um porrete mortal em sua direção. “Me dê ouro, ou eu irei te esmagar!”. Você lhe entrega o ouro, ou tenta lutar com ele?",
         "options": [
             {
                 "id": 1,
-                "option": "",
+                "option": "Entregar o ouro",
                 "bonus": "",
-                "failure": "",
+                "failure": "O sapo te persegue, e você foge para sua vila, sem encontrar um local seguro.",
                 "encounterId": "",
                 "preconditions": [
                     {
                         "id": 1,
-                        "precondition": "3 Lanternas",
-                        "reward": "Moeda"
+                        "precondition": "1 Lanterna e pague 2 Moeda",
+                        "reward": "sem recompensa"
                     }
                 ]
             },
             {
                 "id": 2,
-                "option": "",
+                "option": "Lutar com ele",
                 "bonus": "",
-                "failure": "",
+                "failure": "O sapo te persegue, e você foge para sua vila, sem encontrar um local seguro.",
                 "encounterId": "",
                 "preconditions": [
                     {
                         "id": 1,
-                        "precondition": "4 Lanternas",
-                        "reward": ""
-                    },
-                    {
-                        "id": 2,
-                        "precondition": "7 Lanternas",
-                        "reward": ""
+                        "precondition": "6 Lanternas",
+                        "reward": "4 Moedas, Pote, +1 Reputação"
                     }
                 ]
             }
         ]
     },
     "enc058": {
-        "adventure": "",
+        "adventure": "Vocês estão andando em uma caverna com o piso pavimentado, quando de repente, seis Glogos surgem da escuridão com os olhos vermelhos brilhando. Eles amarram vocês e te jogam em uma masmorra com apenas um guarda. Você consegue ver as chaves da sua cela pendendo em uma parede que está perto. Você consegue pegar as chaves usando um gancho em um fio. Assim que você consegue abrir a porta, o carcereiro vem olhar seu grupo. Você luta com ele ou tenta convence-lo a deixá-los ir?",
         "options": [
             {
                 "id": 1,
-                "option": "",
+                "option": "Lutar com o carcereiro",
                 "bonus": "",
-                "failure": "",
+                "failure": "Você tem que fugir do carcereiro, e não consegue encontrar um local seguro para construir.",
                 "encounterId": "",
                 "preconditions": [
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "Moeda"
+                        "reward": "Cogumelo, -1 Reputação"
+                    },
+                    {
+                        "id": 2,
+                        "precondition": "6 Lanternas",
+                        "reward": "Moeda, Minério, -1 Reputação"
                     }
                 ]
             },
             {
                 "id": 2,
-                "option": "",
+                "option": "Convencer o carcereiro para te libertar",
                 "bonus": "",
-                "failure": "",
+                "failure": "Você tem que fugir do carcereiro, e não consegue encontrar um local seguro para construir.",
                 "encounterId": "",
                 "preconditions": [
                     {
                         "id": 1,
                         "precondition": "4 Lanternas",
-                        "reward": ""
+                        "reward": "3 Moedas, +1 Reputação"
                     },
                     {
                         "id": 2,
                         "precondition": "7 Lanternas",
-                        "reward": ""
+                        "reward": "4 Moedas, Corda, +2 Reputação"
                     }
                 ]
             }
         ]
     },
     "enc059": {
-        "adventure": "",
+        "adventure": "Você chega a uma caverna com paredes lisas como vidro. Centenas de caramujos do tamanho de ovelhas se arrastam pelas paredes e teto para todas as direções. Eles deixam um caminho gosmento por onde passam, que se cruzam e formam um padrão complexo. Antes que você consiga dar mais de cinco passos, os caramujos começam a se mover em direção do seu grupo. Você tenta lutar com eles ou volta por onde veio?",
         "options": [
             {
                 "id": 1,
-                "option": "",
+                "option": "Dar a volta",
                 "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
                     {
                         "id": 1,
-                        "precondition": "3 Lanternas",
+                        "precondition": "2 Lanternas",
                         "reward": "Moeda"
                     }
                 ]
             },
             {
                 "id": 2,
-                "option": "",
+                "option": "Lutar com os caramujos",
                 "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
                     {
                         "id": 1,
-                        "precondition": "4 Lanternas",
-                        "reward": ""
-                    },
-                    {
-                        "id": 2,
                         "precondition": "7 Lanternas",
-                        "reward": ""
+                        "reward": "Cogumelo, Minério, Poção, +1 Reputação"
                     }
                 ]
             }
         ]
     },
     "enc060": {
-        "adventure": "",
+        "adventure": "Uma porta redonda cravada na pedra se abre revelando uma escadaria escura. Você desce até chegar a uma larga roda de bronze que está enterrada no chão pela metade. Está coberta por marcas estranhas, e logo você descobre que é um mapa para as cavernas por perto. Você pode perder um tempo para desenterrar a roda, ou continuar explorando.",
         "options": [
             {
                 "id": 1,
-                "option": "",
-                "bonus": "",
-                "failure": "",
-                "encounterId": "",
-                "preconditions": [
-                    {
-                        "id": 1,
-                        "precondition": "3 Lanternas",
-                        "reward": "Moeda"
-                    }
-                ]
-            },
-            {
-                "id": 2,
-                "option": "",
+                "option": "Cavar para remover a roda",
                 "bonus": "",
                 "failure": "",
                 "encounterId": "",
@@ -2297,23 +2278,56 @@
                     {
                         "id": 1,
                         "precondition": "4 Lanternas",
-                        "reward": ""
+                        "reward": "Ganhe 1 carta de caverna extra"
                     },
                     {
                         "id": 2,
-                        "precondition": "7 Lanternas",
-                        "reward": ""
+                        "precondition": "6 Lanternas",
+                        "reward": "Ganhe 1 carta de caverna extra, Ametista"
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "option": "Continuar explorando",
+                "bonus": "",
+                "failure": "",
+                "encounterId": "",
+                "preconditions": [
+                    {
+                        "id": 1,
+                        "precondition": "3 Lanternas",
+                        "reward": "Moeda, Peixe"
+                    },
+                    {
+                        "id": 2,
+                        "precondition": "6 Lanternas",
+                        "reward": "4 Moedas, Corda"
                     }
                 ]
             }
         ]
     },
     "enc061": {
-        "adventure": "",
+        "adventure": "Seu grupo viaja por um baixa e gelada gruta, suas paredes estão cobertas por um musgo brilhante. De repente, você se depara com um homem barbado, carregando uma mala cheia de pergaminhos. “ Eu sou Breric, o renomado Cartógrafo. Você deseja comprar um mapa?” Você negocia com o homem, ou continua explorando?",
         "options": [
             {
                 "id": 1,
-                "option": "",
+                "option": "Negociar pelo mapa",
+                "bonus": "",
+                "failure": "",
+                "encounterId": "",
+                "preconditions": [
+                    {
+                        "id": 1,
+                        "precondition": "3 Lanternas e pague 1 Moeda",
+                        "reward": "Ganhe uma carta de caverna extra, +1 Reputação"
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "option": "Continuar explorando a gruta",
                 "bonus": "",
                 "failure": "",
                 "encounterId": "",
@@ -2321,37 +2335,23 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "Moeda"
-                    }
-                ]
-            },
-            {
-                "id": 2,
-                "option": "",
-                "bonus": "",
-                "failure": "",
-                "encounterId": "",
-                "preconditions": [
-                    {
-                        "id": 1,
-                        "precondition": "4 Lanternas",
-                        "reward": ""
+                        "reward": "Moeda, Peixe"
                     },
                     {
                         "id": 2,
-                        "precondition": "7 Lanternas",
-                        "reward": ""
+                        "precondition": "6 Lanternas",
+                        "reward": "4 Moedas, Corda"
                     }
                 ]
             }
         ]
     },
     "enc062": {
-        "adventure": "",
+        "adventure": "Você segue por um túnel quadrado, as paredes lisas foram cortadas com perfeição. Logo você chega a uma câmara alta, no meio, está um grande cristal, flutuando no ar. Ele emana um fino brilho violeta, e conforme você se aproxima uma voz preenche o ar. “Eu sou o cristal dos oráculos, e se você provar seu valor, nós te garantiremos conhecimento”. Você continua falando com o cristal, ou segue explorando as passagens por perto?",
         "options": [
             {
                 "id": 1,
-                "option": "",
+                "option": "Explore as passagens",
                 "bonus": "",
                 "failure": "",
                 "encounterId": "",
@@ -2359,75 +2359,80 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "Moeda"
+                        "reward": "2 Moeda"
+                    },
+                    {
+                        "id": 2,
+                        "precondition": "5 Lanternas",
+                        "reward": "Moeda, Peixe, Cogumelo"
                     }
                 ]
             },
             {
                 "id": 2,
-                "option": "",
+                "option": "Provar seu valor ao Cristal",
                 "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
                     {
                         "id": 1,
-                        "precondition": "4 Lanternas",
-                        "reward": ""
+                        "precondition": "3 Lanternas",
+                        "reward": "+1 Reputação"
                     },
                     {
                         "id": 2,
-                        "precondition": "7 Lanternas",
-                        "reward": ""
+                        "precondition": "6 Lanternas",
+                        "reward": "Ganhe uma carta de Caverna extra, +2 Reputação"
                     }
                 ]
             }
         ]
     },
     "enc063": {
-        "adventure": "",
+        "adventure": "Você para em um posto de comércio que fica próximo a um rio subterrâneo. Lanternas brilhantes se estendem nas docas, e pequenos barcos estão presos com uma fina corda, descendo e subindo na água. Um homem careca com uma longa túnica vermelha está parado por perto, e se aproxima assim que te vê. “Eu tenho uma proposta de negócio. Eu obtive um mapa para um antigo tesouro, mas para chegar lá devemos passar por ratos gigantes. Eu estou disposto a dividir qualquer coisa que encontrarmos se vocês vierem comigo”. Você vai com o homem, ou fica para negociar no posto?",
         "options": [
             {
                 "id": 1,
-                "option": "",
+                "option": "Negociar no posto de comércio",
                 "bonus": "",
+                "failure": "",
+                "encounterId": "",
+                "preconditions": [
+                    {
+                        "id": 1,
+                        "precondition": " 2 Lanternas e pague 1 Moeda",
+                        "reward": "Fruta"
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "option": "Se juntar a missão do homem",
+                "bonus": "+1 Lanterna se você tiver uma corda",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "Moeda"
-                    }
-                ]
-            },
-            {
-                "id": 2,
-                "option": "",
-                "bonus": "",
-                "failure": "",
-                "encounterId": "",
-                "preconditions": [
-                    {
-                        "id": 1,
-                        "precondition": "4 Lanternas",
-                        "reward": ""
+                        "reward": "Moeda, +1 Reputação"
                     },
                     {
                         "id": 2,
                         "precondition": "7 Lanternas",
-                        "reward": ""
+                        "reward": "Moeda, Ametista, +2 Reputação"
                     }
                 ]
             }
         ]
     },
     "enc064": {
-        "adventure": "",
+        "adventure": "Seu grupo se depara com uma jangada próxima a um rio subterrâneo de água clara e limpa. Vocês decidem embarcar e descobrir o que existe descendo o rio. Pequenos peixes prateados seguem o barco, e mais se juntam a cada momento. Logo, o cardume se separa em várias direções, e algo grande e escuro mergulha abaixo da jangada. Quatro grandes olhos vermelhos se abrem, e um peixe monstruoso joga sua jangada em direção margem do rio. Você nada até a margem, ou luta com o peixe?",
         "options": [
             {
                 "id": 1,
-                "option": "",
+                "option": "Nadar para a margem",
                 "bonus": "",
                 "failure": "",
                 "encounterId": "",
@@ -2441,31 +2446,31 @@
             },
             {
                 "id": 2,
-                "option": "",
+                "option": "Lutar com o peixe",
                 "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
                     {
                         "id": 1,
-                        "precondition": "4 Lanternas",
-                        "reward": ""
+                        "precondition": "5 Lanternas",
+                        "reward": "2 Peixes, +1 Reputação"
                     },
                     {
                         "id": 2,
-                        "precondition": "7 Lanternas",
-                        "reward": ""
+                        "precondition": "8 Lanternas",
+                        "reward": "Peixe, Ametista, +1 Reputação"
                     }
                 ]
             }
         ]
     },
     "enc065": {
-        "adventure": "",
+        "adventure": "Uma mulher magra, com um cajado de madeira e um manto preto se aproxima de você, seu rosto se esconde nas sombras de um gorro. “Eu devo perguntar algo de você” – ela diz. “Meus companheiros de viagem me traíram e roubaram meu tomo da sabedoria. Ele conta a história de um reino antigo, que comandou essas cavernas a muito tempo, e não existe outro. Você poderia ajudar-me a recuperá-lo?”. Você ajuda a mulher a recuperar o tomo, ou caça o grupo sozinho e tenta pegar o tomo só para você?",
         "options": [
             {
                 "id": 1,
-                "option": "",
+                "option": "Ajudar a mulher",
                 "bonus": "",
                 "failure": "",
                 "encounterId": "",
@@ -2473,13 +2478,18 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "Moeda"
+                        "reward": "+1 Reputação"
+                    },
+                    {
+                        "id": 2,
+                        "precondition": "6 Lanternas",
+                        "reward": "Papel, +2 Reputação"
                     }
                 ]
             },
             {
                 "id": 2,
-                "option": "",
+                "option": "Tentar pegar o Tomo para você",
                 "bonus": "",
                 "failure": "",
                 "encounterId": "",
@@ -2487,12 +2497,12 @@
                     {
                         "id": 1,
                         "precondition": "4 Lanternas",
-                        "reward": ""
+                        "reward": "Ganhe uma carta de Caverna extra, -1 Reputação"
                     },
                     {
                         "id": 2,
-                        "precondition": "7 Lanternas",
-                        "reward": ""
+                        "precondition": "6 Lanternas",
+                        "reward": "5 Moedas, ganhe uma carta de caverna extra, -1 Reputação"
                     }
                 ]
             }
@@ -2537,11 +2547,30 @@
         ]
     },
     "enc067": {
-        "adventure": "",
+        "adventure": "Você chega a uma enorme caverna, cheia pelas ruinas de uma cidade decadente. Conforme você caminha pelos restos de parede de pedra, você sente o cheiro de madeira queimada, e logo chega a um acampamento, com um viajante coberto sentado logo atrás. “Eu explorei cada centímetro desta cidade, e você não encontrará nenhum tesouro. Porém, por um preço, talvez eu possa ser persuadido a compartilhar meu conhecimento sobre este lugar” – ele diz. Até onde você sabe, ele pode ter chegado agora. Você senta e tenta convence-lo a lhe contar sobre a cidade, ou continua explorando você mesmo?",
         "options": [
             {
                 "id": 1,
-                "option": "",
+                "option": "Convencer o homem a lhe contar sobre a cidade",
+                "bonus": "",
+                "failure": "",
+                "encounterId": "",
+                "preconditions": [
+                    {
+                        "id": 1,
+                        "precondition": "2 Lanternas e pague 1 Moeda",
+                        "reward": "Ganhe uma carta de caverna extra, +1 Reputação"
+                    },
+                    {
+                        "id": 2,
+                        "precondition": "5 Lanternas",
+                        "reward": "Ganhe uma carta de caverna extra, +2 Reputação"
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "option": "Explorar a cidade sozinho",
                 "bonus": "",
                 "failure": "",
                 "encounterId": "",
@@ -2549,26 +2578,12 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "Moeda"
-                    }
-                ]
-            },
-            {
-                "id": 2,
-                "option": "",
-                "bonus": "",
-                "failure": "",
-                "encounterId": "",
-                "preconditions": [
-                    {
-                        "id": 1,
-                        "precondition": "4 Lanternas",
-                        "reward": ""
+                        "reward": "Poção"
                     },
                     {
                         "id": 2,
-                        "precondition": "7 Lanternas",
-                        "reward": ""
+                        "precondition": "8 Lanternas",
+                        "reward": "Ametista, Pote"
                     }
                 ]
             }
@@ -3813,253 +3828,203 @@
         ]
     },
     "enc101": {
-        "adventure": "",
+        "adventure": "A mulher se levanta das barras e gargalha descontroladamente enquanto se transforma em um demônio de sombras com olhos flamejantes. “ Eu finalmente estou livre depois de centenas de anos! Obrigado, criaturas tolas. Agora, eu os destruirei” – urra a criatura. Você tenta correr e se esconder, ou luta contra o demônio?",
         "options": [
             {
                 "id": 1,
-                "option": "",
+                "option": "Tentar se esconder do demônio",
                 "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
                     {
                         "id": 1,
-                        "precondition": "3 Lanternas",
-                        "reward": "Moeda"
+                        "precondition": "2 Lanternas",
+                        "reward": "Moeda, -2 Reputação"
                     }
                 ]
             },
             {
                 "id": 2,
-                "option": "",
+                "option": "Tentar parar o demônio",
                 "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
                     {
                         "id": 1,
-                        "precondition": "4 Lanternas",
-                        "reward": ""
-                    },
-                    {
-                        "id": 2,
-                        "precondition": "7 Lanternas",
-                        "reward": ""
+                        "precondition": "8 Lanternas",
+                        "reward": "Ametista, +3 Reputação"
                     }
                 ]
             }
         ]
     },
     "enc102": {
-        "adventure": "",
+        "adventure": "“Eu posso te contar mais quando chegarmos ao meu acampamento” – diz o homem barbado. Ele acena para você segui-lo, e te leva para longe do círculo de tendas de mercadores, descendo alguns caminhos escuros, parando em uma caverna redonda. Você não vê nenhum sinal do acampamento dele. De repente, cinco homens surgem das sombras, armados com pedras e porretes. “Minha proposta é a seguinte” – diz o homem com um sorriso mau. “Esvazie seus bolsos, e nós não te machucaremos”. Você paga os ladrões, ou luta com eles?",
         "options": [
             {
                 "id": 1,
-                "option": "",
+                "option": "Pagar os ladrões",
                 "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
                     {
                         "id": 1,
-                        "precondition": "3 Lanternas",
-                        "reward": "Moeda"
+                        "precondition": "2 Lanternas e pague 1 Moeda",
+                        "reward": "-1 Reputação"
                     }
                 ]
             },
             {
                 "id": 2,
-                "option": "",
+                "option": "Lutar com os ladrões",
                 "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
                     {
                         "id": 1,
-                        "precondition": "4 Lanternas",
-                        "reward": ""
+                        "precondition": "5 Lanternas",
+                        "reward": "2 Moedas, Corda, +1 Reputação"
                     },
                     {
                         "id": 2,
                         "precondition": "7 Lanternas",
-                        "reward": ""
+                        "reward": "4 Moedas, Corda, +1 Reputação"
                     }
                 ]
             }
         ]
     },
     "enc103": {
-        "adventure": "",
+        "adventure": "Você decide aceitar a oferta do homem careca e relaxar na fonte de água quente. Você deixa seus pertences na encosta por perto, entra na água quente e fumegante. Você está fechando os olhos ao encontrar um local para sentar, quando nota algo estranho. Todos na fonte estão olhando para você, com um olhar faminto. Você observa aterrorizado enquanto eles vêm em sua direção, com dentes pontiagudos e olhos de cobra brilhando. É uma armadilha! Você corre para se esconder e deixa seus pertences? Ou fica e luta?",
         "options": [
             {
                 "id": 1,
-                "option": "",
+                "option": "Correr e se esconder",
                 "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
                     {
                         "id": 1,
-                        "precondition": "3 Lanternas",
-                        "reward": "Moeda"
+                        "precondition": "2 Lanternas",
+                        "reward": "Perca 2 Moedas"
                     }
                 ]
             },
             {
                 "id": 2,
-                "option": "",
+                "option": "Lutar contra os monstros",
                 "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
                     {
                         "id": 1,
-                        "precondition": "4 Lanternas",
-                        "reward": ""
+                        "precondition": "5 Lanternas",
+                        "reward": "4 Moedas, +1 Reputação"
                     },
                     {
                         "id": 2,
                         "precondition": "7 Lanternas",
-                        "reward": ""
+                        "reward": "5 Moedas, Peixe, +2 Reputação"
                     }
                 ]
             }
         ]
     },
     "enc104": {
-        "adventure": "",
+        "adventure": "Você amarra a pobre criatura em um buraco no chão. Ele se geme e se debate, chutando e soltando um alto berro. Enquanto ele se enraivece, sua pele começa a ficar vermelha e ele estoura as cordas, crescendo instantaneamente para um tamanho gigante. Ele é enorme, sua barriga redonda é grande o bastante para engolir seu grupo todo. “Eu disse para me deixar ir!” – ele grita, sua voz faz a caverna tremer. “Agora eu vou comer vocês inteiros!”. Você tentar conversar com a criatura, luta, ou se esconde?",
         "options": [
             {
                 "id": 1,
-                "option": "",
+                "option": "Se esconder",
                 "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
                     {
                         "id": 1,
-                        "precondition": "3 Lanternas",
-                        "reward": "Moeda"
+                        "precondition": "2 Lanternas",
+                        "reward": "Não recebe nada"
                     }
                 ]
             },
             {
                 "id": 2,
-                "option": "",
+                "option": "Lutar com o monstro",
                 "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
                     {
                         "id": 1,
-                        "precondition": "4 Lanternas",
-                        "reward": ""
-                    },
+                        "precondition": "6 Lanternas",
+                        "reward": "7 Moedas"
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "option": "Conversar com o monstro",
+                "bonus": "+1 Lanternas por cada pena.",
+                "failure": "",
+                "encounterId": "",
+                "preconditions": [
                     {
-                        "id": 2,
+                        "id": 1,
                         "precondition": "7 Lanternas",
-                        "reward": ""
+                        "reward": "Ametista, +1 Reputação"
                     }
                 ]
             }
         ]
     },
     "enc105": {
-        "adventure": "",
+        "adventure": "Você abre a caixa e deixa a pesada tampa de pedra por perto. Dentro, parece ter um líquido escuro rodando. O líquido escorre para fora da caixa, tomando a forma de uma mulher, suas feições pingam e sua cor é obsidiana. “Obrigado por me libertar. Posso me juntar a vocês para demonstrar minha gratidão?” Você permite que ela se junte, ou rejeita?",
         "options": [
             {
                 "id": 1,
-                "option": "",
+                "option": "Rejeitar",
                 "bonus": "",
                 "failure": "",
-                "encounterId": "",
-                "preconditions": [
-                    {
-                        "id": 1,
-                        "precondition": "3 Lanternas",
-                        "reward": "Moeda"
-                    }
-                ]
+                "encounterId": "enc106",
+                "preconditions": []
             },
             {
                 "id": 2,
-                "option": "",
+                "option": "Deixar que ela se junte a vocês",
                 "bonus": "",
                 "failure": "",
                 "encounterId": "",
-                "preconditions": [
-                    {
-                        "id": 1,
-                        "precondition": "4 Lanternas",
-                        "reward": ""
-                    },
-                    {
-                        "id": 2,
-                        "precondition": "7 Lanternas",
-                        "reward": ""
-                    }
-                ]
+                "reward": "Ganhe o aldeão da mulher líquida",
+                "preconditions": []
             }
         ]
     },
     "enc106": {
-        "adventure": "",
+        "adventure": "A mulher fica triste com sua decisão. “Bom, pelo menos eu posso oferecer alguma recompensa”. Ela te diz onde você pode encontrar um punhado de ouro.",
         "options": [
             {
                 "id": 1,
-                "option": "",
+                "option": "Agradecer",
                 "bonus": "",
                 "failure": "",
                 "encounterId": "",
-                "preconditions": [
-                    {
-                        "id": 1,
-                        "precondition": "3 Lanternas",
-                        "reward": "Moeda"
-                    }
-                ]
-            },
-            {
-                "id": 2,
-                "option": "",
-                "bonus": "",
-                "failure": "",
-                "encounterId": "",
-                "preconditions": [
-                    {
-                        "id": 1,
-                        "precondition": "4 Lanternas",
-                        "reward": ""
-                    },
-                    {
-                        "id": 2,
-                        "precondition": "7 Lanternas",
-                        "reward": ""
-                    }
-                ]
+                "reward": "3 Moedas",
+                "preconditions": []
             }
         ]
     },
     "enc107": {
-        "adventure": "",
+        "adventure": "Você decide tentar tirar a mulher e o ouro do foço. Ela não responde quando você chama por ela. Você abaixa a mão para ajudá-la, e ela instantaneamente se agarra em seu braço. Seus olhos são grandes, e seu rosto está coberto de sujeira e lama. Você pode sentir suas unhas como garras entrando em seu pulso. Você deixa para lá e esquece ela, ou ajuda ela a chegar ao topo?",
         "options": [
             {
                 "id": 1,
-                "option": "",
-                "bonus": "",
-                "failure": "",
-                "encounterId": "",
-                "preconditions": [
-                    {
-                        "id": 1,
-                        "precondition": "3 Lanternas",
-                        "reward": "Moeda"
-                    }
-                ]
-            },
-            {
-                "id": 2,
-                "option": "",
+                "option": "Deixá-la no poço e continuar explorando",
                 "bonus": "",
                 "failure": "",
                 "encounterId": "",
@@ -4067,50 +4032,39 @@
                     {
                         "id": 1,
                         "precondition": "4 Lanternas",
-                        "reward": ""
-                    },
-                    {
-                        "id": 2,
-                        "precondition": "7 Lanternas",
-                        "reward": ""
+                        "reward": "Moeda, Peixe, -1 Reputação"
                     }
                 ]
+            },
+            {
+                "id": 2,
+                "option": "Tirar ela do poço",
+                "bonus": "",
+                "failure": "",
+                "encounterId": "enc108",
+                "preconditions": []
             }
         ]
     },
     "enc108": {
-        "adventure": "",
+        "adventure": "Você a puxa para cima, gemendo de dor das suas unhas afiadas entrando na sua pele. Quando ela chega topo, ela corre até a parede e começa a chorar. “Os Glogos me mantiveram lá em baixo por semanas” ela finalmente diz. “Como um símbolo de gratidão, eu posso te contar onde eles guardam um monte de ouro”.",
         "options": [
             {
                 "id": 1,
-                "option": "",
+                "option": "Procurar pelo ouro",
                 "bonus": "",
-                "failure": "",
+                "failure": "Você passa muito tempo procurando pelo ouro, e não encontra um local seguro para construir.",
                 "encounterId": "",
                 "preconditions": [
                     {
                         "id": 1,
-                        "precondition": "3 Lanternas",
-                        "reward": "Moeda"
-                    }
-                ]
-            },
-            {
-                "id": 2,
-                "option": "",
-                "bonus": "",
-                "failure": "",
-                "encounterId": "",
-                "preconditions": [
-                    {
-                        "id": 1,
-                        "precondition": "4 Lanternas",
-                        "reward": ""
+                        "precondition": "2 Lanternas",
+                        "reward": "+2 Reputação"
                     },
                     {
                         "id": 2,
-                        "precondition": "7 Lanternas",
-                        "reward": ""
+                        "precondition": "6 Lanternas",
+                        "reward": "6 Moedas, +2 Reputação"
                     }
                 ]
             }
@@ -4211,87 +4165,58 @@
         ]
     },
     "enc112": {
-        "adventure": "",
+        "adventure": "Você pega a mochila e corre, com as moedas caindo atrás de você enquanto corre. O barulho das moedas caindo preenchem a caverna. De repente, um homem nervoso com músculos enormes te avisa. “Pare! Essas moedas são minhas!”. Você para e conversa com ele, ou tenta escapar e se esconder com as moedas?",
         "options": [
             {
                 "id": 1,
-                "option": "",
+                "option": "Conversar com ele",
                 "bonus": "",
-                "failure": "",
+                "failure": "Mesmo com sua oferta de devolver as moedas, você não consegue acalmar o homem, e é obrigado a fugir de volta para sua vila, sem encontrar um local para construir",
                 "encounterId": "",
                 "preconditions": [
                     {
                         "id": 1,
-                        "precondition": "3 Lanternas",
-                        "reward": "Moeda"
+                        "precondition": "2 Lanternas",
+                        "reward": "+1 reputação"
                     }
                 ]
             },
             {
                 "id": 2,
-                "option": "",
+                "option": "Tentar se esconder do homem",
                 "bonus": "",
-                "failure": "",
+                "failure": "Você parece não conseguir se livrar do homem, então foge de volta para sua vila, largando a bolsa com o ouro no caminho. Você não consegue encontrar um local para construir",
                 "encounterId": "",
                 "preconditions": [
                     {
                         "id": 1,
-                        "precondition": "4 Lanternas",
-                        "reward": ""
-                    },
-                    {
-                        "id": 2,
-                        "precondition": "7 Lanternas",
-                        "reward": ""
+                        "precondition": "6 Lanternas",
+                        "reward": "8 Moedas, -1 Reputação"
                     }
                 ]
             }
         ]
     },
     "enc113": {
-        "adventure": "",
+        "adventure": "Não demora muito, e você encontra o dono da bolsa, um homem enorme e musculoso, então você devolve a bolsa a ele. Ele fica tão feliz que te da algumas moedas.",
         "options": [
             {
                 "id": 1,
-                "option": "",
+                "option": "Agradecer",
                 "bonus": "",
                 "failure": "",
                 "encounterId": "",
-                "preconditions": [
-                    {
-                        "id": 1,
-                        "precondition": "3 Lanternas",
-                        "reward": "Moeda"
-                    }
-                ]
-            },
-            {
-                "id": 2,
-                "option": "",
-                "bonus": "",
-                "failure": "",
-                "encounterId": "",
-                "preconditions": [
-                    {
-                        "id": 1,
-                        "precondition": "4 Lanternas",
-                        "reward": ""
-                    },
-                    {
-                        "id": 2,
-                        "precondition": "7 Lanternas",
-                        "reward": ""
-                    }
-                ]
+                "reward": "2 Moedas, +1 Reputação",
+                "preconditions": []
             }
         ]
     },
     "enc114": {
-        "adventure": "",
+        "adventure": "Você desliza pelo lado da criatura, pulando em uma escada que esta por perto. Você esta quase fugindo, quando um homem se aproxima. Ele tem uma pele marrom e parecida com couro, e seu cabelo branco aponta para todos os lados. “Aquilo era um mamute de pedra raro”, ele diz. “Eu tenho procurado por essa criatura a meses. Se você me ajudar a estuda-la, eu irei recompensar o seu tempo”. Você o ajuda a estudar o Mamute de pedra, ou segue seu caminho e continua explorando?",
         "options": [
             {
                 "id": 1,
-                "option": "",
+                "option": "Continuar explorando",
                 "bonus": "",
                 "failure": "",
                 "encounterId": "",
@@ -4305,31 +4230,45 @@
             },
             {
                 "id": 2,
-                "option": "",
-                "bonus": "",
+                "option": "Ajudar o homem a estudar",
+                "bonus": "+1 Lanterna por cada pena",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
                     {
                         "id": 1,
-                        "precondition": "4 Lanternas",
-                        "reward": ""
+                        "precondition": "5 Lanternas",
+                        "reward": "Papel, +1 Reputação"
                     },
                     {
                         "id": 2,
                         "precondition": "7 Lanternas",
-                        "reward": ""
+                        "reward": "4 Moedas, Papel, +1 Reputação"
                     }
                 ]
             }
         ]
     },
     "enc115": {
-        "adventure": "",
+        "adventure": "Você permanece em cima da criatura, que viaja por entre as cavernas por horas. Enquanto você sentado nas costas de pedra, você nota um grito abafado. Primeiro você não da atenção, mas logo em seguida segue o som em direção a cabeça da criatura. Se inclinando para frente, você vê um homem pendurado na gigante boca da criatura! Suas pernas se debatem, mas ele com certeza esta exausto. A maior parte do corpo do homem ainda esta dentro da boca da criatura. Você tenta libertá-lo? Talvez você consiga acertar o olho da criatura, na esperança de que ele abra a boca. Por outro lado, essa pode ser uma boa oportunidade para sair o mais rápido possível. O que você faz?",
         "options": [
             {
                 "id": 1,
-                "option": "",
+                "option": "Tentar libertar o homem",
+                "bonus": "",
+                "failure": "Você acerta a criatura no olho e ela te joga para de sua cabeça. Ela pode ser grande e lenta, mas se vira e começa a te perseguir. Você corre todo o caminho até a sua vila, e não consegue encontrar um local seguro para construir.",
+                "encounterId": "",
+                "preconditions": [
+                    {
+                        "id": 1,
+                        "precondition": "5 Lanternas",
+                        "reward": "ganhe o Aldeão mais barato disponível, +2 Reputação"
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "option": "Pular e explorar a área",
                 "bonus": "",
                 "failure": "",
                 "encounterId": "",
@@ -4337,26 +4276,12 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "Moeda"
-                    }
-                ]
-            },
-            {
-                "id": 2,
-                "option": "",
-                "bonus": "",
-                "failure": "",
-                "encounterId": "",
-                "preconditions": [
-                    {
-                        "id": 1,
-                        "precondition": "4 Lanternas",
-                        "reward": ""
+                        "reward": "2 Moedas"
                     },
                     {
                         "id": 2,
                         "precondition": "7 Lanternas",
-                        "reward": ""
+                        "reward": "2 Minérios"
                     }
                 ]
             }
