@@ -5083,25 +5083,11 @@
         ]
     },
     "enc144": {
-        "adventure": "",
+        "adventure": "Estalactites coloridas caem do teto de uma caverna com um cheiro doce. Pequenos potes de cerâmica estão debaixo de outros maiores. Todos estão vazios. Em uma inspeção mais detalhada, você nota que cada estalactites, possui uma estalagmite correspondente que pulsa no chão com a mesma cor. Pendurado na parede da caverna, há um pequeno martelo, próximo a uma inscrição cravada em uma linguagem que você não pode decifrar. Lentas gotas de orvalho ecoam debilmente enquanto você decide o que fazer.",
         "options": [
             {
                 "id": 1,
-                "option": "",
-                "bonus": "",
-                "failure": "",
-                "encounterId": "",
-                "preconditions": [
-                    {
-                        "id": 1,
-                        "precondition": "3 Lanternas",
-                        "reward": "Moeda"
-                    }
-                ]
-            },
-            {
-                "id": 2,
-                "option": "",
+                "option": "Roubar alguns potes",
                 "bonus": "",
                 "failure": "",
                 "encounterId": "",
@@ -5109,14 +5095,22 @@
                     {
                         "id": 1,
                         "precondition": "4 Lanternas",
-                        "reward": ""
+                        "reward": "Pote, -1 Reputação"
                     },
                     {
                         "id": 2,
                         "precondition": "7 Lanternas",
-                        "reward": ""
+                        "reward": "4 Moedas, 2 Potes, -1 Reputação"
                     }
                 ]
+            },
+            {
+                "id": 2,
+                "option": "Usar o martelo para quebrar uma estalagmite",
+                "bonus": "",
+                "failure": "",
+                "encounterId": "enc145",
+                "preconditions": []
             }
         ]
     },
@@ -5135,76 +5129,85 @@
         ]
     },
     "enc146": {
-        "adventure": "",
+        "adventure": " No centro desta sala, está uma bruta mesa, com assentos de pedra. Contra a parede, esta um largo e retangular aparato de metal que você não reconhece. Próximo ao topo, há uma pequena fenda, do tamanho de uma moeda.",
         "options": [
             {
                 "id": 1,
-                "option": "",
+                "option": "Inserir uma moeda e tentar operar o dispositivo",
                 "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
                     {
                         "id": 1,
-                        "precondition": "3 Lanternas",
-                        "reward": "Moeda"
+                        "precondition": "2 Lanternas e pague 1 Moeda",
+                        "reward": "2 Poções"
                     }
                 ]
             },
             {
                 "id": 2,
-                "option": "",
+                "option": "Balançar o dispositivo",
                 "bonus": "",
-                "failure": "",
+                "failure": "Você acidentalmente esmaga seu pé com o a máquina, e nada acontece. Você se sente e parece bem estúpido (-1 Reputação)",
                 "encounterId": "",
                 "preconditions": [
                     {
                         "id": 1,
                         "precondition": "4 Lanternas",
-                        "reward": ""
+                        "encounterId": "enc213"
                     },
                     {
                         "id": 2,
-                        "precondition": "7 Lanternas",
-                        "reward": ""
+                        "precondition": "6 Lanternas",
+                        "reward": "Minério, 2 Poções"
                     }
                 ]
             }
         ]
     },
     "enc147": {
-        "adventure": "",
+        "adventure": "A carroça de um mágico viajante quebrou por aqui. Você não consegue ver nenhum cavalo, e as rédeas pendem soltas. O mágico, no entanto, se senta pacientemente em um cobertor de veludo vermelho, tomando um líquido azul de um recipiente de cristal. Um coelho bem ocupado trabalha atrás dele, trocando uma das rodas quebradas da carroça. Dois pombos pousam em cima do vagão. “Oh, olá!” – Diz o magico. Levantando para te encontrar, um belo buquê de flores frescas aparece do nada em suas mãos. Ele as entrega a você. Ele murmura um nome que você não consegue entender, seguido de um “A seu serviço”. Vendo sua confusão, ele diz: “De verdade, eu ESTOU a seu serviço. Eu recebi intimações indicando que eu estou aqui a dever. Isso é, dever de conjurar.” Ele não parece feliz com isso. “Eu cometi o erro de dizer ao juiz que como um mestre prestidigitador, eu estava acima de truques de conjuração baratos. Para me punir devidamente, ele me enviou aqui: abaixo”. Ele suspira. “Mas vamos tirar o melhor disto. O que eu posso conjurar para você? Como de costume, eu precisarei de uma ajuda da minha audiência, então você deve medir suas expectativas de acordo”.",
         "options": [
             {
                 "id": 1,
-                "option": "",
+                "option": "Peça para ele conjurar algo fácil",
                 "bonus": "",
-                "failure": "",
+                "failure": "Ele encanta, “Como Acima, então Embaixo!”. Você tosse sonoramente enquanto a caverna se enche de fumaça. Infelizmente o truque não funcionou. O conjurador junta suas coisas nervosamente, esconde o coelho dentro de seu chapéu e se apressa para longe, abandonando sua carroça na escuridão. Os pombos voam silenciosamente atrás dele.",
                 "encounterId": "",
                 "preconditions": [
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "Moeda"
+                        "encounterId": "enc150"
                     }
                 ]
             },
             {
                 "id": 2,
-                "option": "",
+                "option": "Peça para ela conjurar algo moderadamente difícil",
                 "bonus": "",
-                "failure": "",
+                "failure": "Ele encanta, “Como Acima, então Embaixo!”. Você tosse sonoramente enquanto a caverna se enche de fumaça. Infelizmente o truque não funcionou. O conjurador junta suas coisas nervosamente, esconde o coelho dentro de seu chapéu e se apressa para longe, abandonando sua carroça na escuridão. Os pombos voam silenciosamente atrás dele.",
                 "encounterId": "",
                 "preconditions": [
                     {
                         "id": 1,
                         "precondition": "4 Lanternas",
-                        "reward": ""
-                    },
+                        "encounterId": "enc148"
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "option": "Peça para ele conjurar algo muito desafiador",
+                "bonus": "",
+                "failure": "Ele encanta, “Como Acima, então Embaixo!”. Você tosse sonoramente enquanto a caverna se enche de fumaça. Infelizmente o truque não funcionou. O conjurador junta suas coisas nervosamente, esconde o coelho dentro de seu chapéu e se apressa para longe, abandonando sua carroça na escuridão. Os pombos voam silenciosamente atrás dele.",
+                "encounterId": "",
+                "preconditions": [
                     {
-                        "id": 2,
+                        "id": 1,
                         "precondition": "7 Lanternas",
-                        "reward": ""
+                        "encounterId": "enc149"
                     }
                 ]
             }
@@ -5215,7 +5218,7 @@
         "options": [
             {
                 "id": 1,
-                "option": "Conjurar algo moderadamente",
+                "option": "Pegar a recompensa",
                 "bonus": "",
                 "failure": "",
                 "encounterId": "",
@@ -5229,7 +5232,7 @@
         "options": [
             {
                 "id": 1,
-                "option": "Conjurar algo muito desafiador",
+                "option": "Pegar a recompensa",
                 "bonus": "",
                 "failure": "",
                 "encounterId": "",
@@ -5243,7 +5246,7 @@
         "options": [
             {
                 "id": 1,
-                "option": "Conjurar algo fácil",
+                "option": "Pegar a recompensa",
                 "bonus": "",
                 "failure": "",
                 "encounterId": "",
@@ -5253,49 +5256,72 @@
         ]
     },
     "enc151": {
-        "adventure": "",
+        "adventure": "Uma fonte de azulejos brilhantes e talhada é localizada no centro de uma câmara perfeitamente organizada, jorrando em júbilo. O fundo da fonte está coberto de moedas. Em uma placa grande se lê “FAÇA UM PEDIDO”, escrito em diversas línguas diferentes.",
         "options": [
             {
                 "id": 1,
-                "option": "",
+                "option": "Pedir por cura",
                 "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
                     {
                         "id": 1,
-                        "precondition": "3 Lanternas",
-                        "reward": "Moeda"
+                        "precondition": "2 Lanternas e pague 1 Moeda",
+                        "reward": "Poção"
                     }
                 ]
             },
             {
                 "id": 2,
-                "option": "",
+                "option": "Pedir por uma reputação melhor",
                 "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
                     {
                         "id": 1,
-                        "precondition": "4 Lanternas",
-                        "reward": ""
-                    },
+                        "precondition": "4 Lanternas e pague 1 Moeda",
+                        "reward": "+3 Reputação"
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "option": "Roubar as moedas do poço",
+                "bonus": "",
+                "failure": "",
+                "encounterId": "",
+                "preconditions": [
                     {
-                        "id": 2,
-                        "precondition": "7 Lanternas",
-                        "reward": ""
+                        "id": 1,
+                        "precondition": "6 Lanternas",
+                        "reward": "7 Moedas, -1 Reputação"
                     }
                 ]
             }
         ]
     },
     "enc152": {
-        "adventure": "",
+        "adventure": "Um pequeno palco de teatro preenche esta sala estreita, com as cortinas de veludo fechadas. Uma multidão de enormes musaranhos ansiosas está sentada em suas cadeiras, esperando pelo espetáculo. Uma delas pula avidamente no palco, olha um pergaminho todo escrito e balança a cabeça.",
         "options": [
             {
                 "id": 1,
-                "option": "",
+                "option": "Oferecer um espetáculo improvisado para os musaranhos",
+                "bonus": "",
+                "failure": "Seus aldeões dançam e fazem malabarismos para impressionar o público. Porém, as musaranhos sendo musaranhos, mal conseguem distinguir os movimentos do seu desempenho. Sua maravilhosa arte esta perdida com eles. (-1 Reputação)",
+                "encounterId": "",
+                "preconditions": [
+                    {
+                        "id": 1,
+                        "precondition": "4 Lanternas",
+                        "encounterId": "enc153"
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "option": "Roubar os bolsos da audiência",
                 "bonus": "",
                 "failure": "",
                 "encounterId": "",
@@ -5303,26 +5329,12 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "Moeda"
-                    }
-                ]
-            },
-            {
-                "id": 2,
-                "option": "",
-                "bonus": "",
-                "failure": "",
-                "encounterId": "",
-                "preconditions": [
-                    {
-                        "id": 1,
-                        "precondition": "4 Lanternas",
-                        "reward": ""
+                        "reward": "2 Moedas, -1 Reputação"
                     },
                     {
                         "id": 2,
-                        "precondition": "7 Lanternas",
-                        "reward": ""
+                        "precondition": "6 Lanternas",
+                        "reward": "7 Moedas, -1 Reputação"
                     }
                 ]
             }
@@ -5343,11 +5355,11 @@
         ]
     },
     "enc154": {
-        "adventure": "",
+        "adventure": "Um generoso banquete foi preparado em uma longa mesa de pedra. Parece que ela esta esperando o jantar por um bom tempo: as velas já foram completamente queimadas, há uma grossa camada de poeira nos pratos, e a comida já apodreceu há tempos. Os donos daquele jantar não estão em nenhum lugar por perto. Um garçom-robô em roupas elegantes, porém decaídas está parado na ponta da mesa, sem te dar atenção. Quando você sopra a poeira da mesa, a prataria brilha, convidativamente.",
         "options": [
             {
                 "id": 1,
-                "option": "",
+                "option": "Roubar a prataria",
                 "bonus": "",
                 "failure": "",
                 "encounterId": "",
@@ -5355,26 +5367,26 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "Moeda"
+                        "reward": "3 Moedas, -1 Reputação"
+                    },
+                    {
+                        "id": 2,
+                        "precondition": "5 Lanternas",
+                        "reward": "3 Moedas, Papel, -1 Reputação"
                     }
                 ]
             },
             {
                 "id": 2,
-                "option": "",
+                "option": "Reparar o garçom-robô",
                 "bonus": "",
-                "failure": "",
+                "failure": "Você ativa um mecanismo de defesa ao tentar reparar o garçom-robô. Ele então começa a defender a sala contra intrusos, com artes marciais excepcionais. Você então foge da sala, cansado, machucado, e sem encontrar um local para construir.",
                 "encounterId": "",
                 "preconditions": [
                     {
                         "id": 1,
-                        "precondition": "4 Lanternas",
-                        "reward": ""
-                    },
-                    {
-                        "id": 2,
-                        "precondition": "7 Lanternas",
-                        "reward": ""
+                        "precondition": "6 Lanternas",
+                        "encounterId": "enc155"
                     }
                 ]
             }
@@ -5527,49 +5539,46 @@
         ]
     },
     "enc162": {
-        "adventure": "",
+        "adventure": "Um barulhento carnaval subterrâneo preenche a vasta sala, iluminado por vagalumes coloridos como lanternas dançantes. Jogos de azar, juntos com jogos de destreza em um bizarro amontoado de criaturas juntas pela diversão, um monte de couro, lã, penas, escamas e afins. Sua atenção fica presa em um Jardim Zoológico atrás das barracas de jogos. O gerente do local te apresenta uma variedade de animais tristes, que com certeza já viram dias melhores. O atendente aponta para os diversos avisos de segurança: “ Para sua própria segurança, por favor, não encoste na cabeça do unicórnio”, “Puxar o rabo da Mantícora não é recomendável”, “Encare o basilisco por sua própria conta em risco” e finalmente: “Crianças desatentas serão abraçadas por um clã de ursos sarnentos”. O unicórnio cansado levanta a cabeça em sua direção.",
         "options": [
             {
                 "id": 1,
-                "option": "",
+                "option": "Jogar o “jogo das conchas”, anunciado em uma das barracas",
                 "bonus": "",
                 "failure": "",
-                "encounterId": "",
-                "preconditions": [
-                    {
-                        "id": 1,
-                        "precondition": "3 Lanternas",
-                        "reward": "Moeda"
-                    }
-                ]
+                "encounterId": "enc209",
+                "preconditions": []
             },
             {
                 "id": 2,
-                "option": "",
+                "option": "Desobedecer aos avisos do Jardim-Zoológico",
                 "bonus": "",
                 "failure": "",
-                "encounterId": "",
+                "encounterId": "enc210",
+                "preconditions": []
+            },
+            {
+                "id": 3,
+                "option": "Oferecer para comprar os pobres animais presos no Jardim-Zoológico",
+                "bonus": "",
+                "failure": "",
+                "encounterId": "enc210",
                 "preconditions": [
                     {
                         "id": 1,
-                        "precondition": "4 Lanternas",
-                        "reward": ""
-                    },
-                    {
-                        "id": 2,
-                        "precondition": "7 Lanternas",
-                        "reward": ""
+                        "precondition": "3 Lanternas e pague 1 Moeda",
+                        "encounterId": "enc211"
                     }
                 ]
             }
         ]
     },
     "enc163": {
-        "adventure": "",
+        "adventure": "Você se encontra na casa de um ancião alquimista sem olhos. Ele vive entre uma mistura de poeira e papeis velhos, sem nenhuma luz, exceto a que você traz consigo. Ouvindo você entrar, ele fica feliz por sua companhia, e te convida para uma xícara de chá. Infelizmente, a xícara que ele te serviu tem um pequeno peixe nadando dentro.",
         "options": [
             {
                 "id": 1,
-                "option": "",
+                "option": "Comandar que ele te faça uma poção de cura",
                 "bonus": "",
                 "failure": "",
                 "encounterId": "",
@@ -5577,13 +5586,13 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "Moeda"
+                        "reward": "Moeda, Poção, -1 Reputação"
                     }
                 ]
             },
             {
                 "id": 2,
-                "option": "",
+                "option": "Sentar com ele, fingir que está tomando o chá e lhe contar histórias sobre a terra acima",
                 "bonus": "",
                 "failure": "",
                 "encounterId": "",
@@ -5591,75 +5600,66 @@
                     {
                         "id": 1,
                         "precondition": "4 Lanternas",
-                        "reward": ""
+                        "reward": "Papel, +1 Reputação"
                     },
                     {
                         "id": 2,
                         "precondition": "7 Lanternas",
-                        "reward": ""
+                        "reward": "3 Moedas, Papel, Poção, +1 Reputação"
                     }
                 ]
             }
         ]
     },
     "enc164": {
-        "adventure": "",
+        "adventure": "A passagem de repente se separa em duas. O caminho da esquerda é uma descida muito íngreme, e com a ajuda de sua lanterna, você vê moedas espalhadas no fundo distante. A passagem da direita não te dá dicas do que pode oferecer, mas é uma decida muito mais suave.",
         "options": [
             {
                 "id": 1,
-                "option": "",
-                "bonus": "",
-                "failure": "",
-                "encounterId": "",
-                "preconditions": [
-                    {
-                        "id": 1,
-                        "precondition": "3 Lanternas",
-                        "reward": "Moeda"
-                    }
-                ]
-            },
-            {
-                "id": 2,
-                "option": "",
-                "bonus": "",
+                "option": "Descer a passagem íngreme pela esquerda",
+                "bonus": "+1 Lanterna se você tiver uma corda",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
                     {
                         "id": 1,
                         "precondition": "4 Lanternas",
-                        "reward": ""
+                        "reward": "2 Moedas, +1 Reputação"
                     },
                     {
                         "id": 2,
                         "precondition": "7 Lanternas",
-                        "reward": ""
+                        "reward": "4 Moedas, Papel, +1 Reputação"
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "option": "Seguir pela passagem mais fácil a direita",
+                "bonus": "",
+                "failure": "",
+                "encounterId": "",
+                "preconditions": [
+                    {
+                        "id": 1,
+                        "precondition": "2 Lanternas",
+                        "reward": "Moeda"
+                    },
+                    {
+                        "id": 2,
+                        "precondition": "5 Lanternas",
+                        "reward": "Pote"
                     }
                 ]
             }
         ]
     },
     "enc165": {
-        "adventure": "",
+        "adventure": "Você se encontra em uma vasta correnteza subterrânea, abrindo seu caminho por entre a escuridão com muito barulho. Um pequeno barco de pesca se situa amarrado em uma margem, e uma ponte inconsistente lhe convida a atravessar.",
         "options": [
             {
                 "id": 1,
-                "option": "",
-                "bonus": "",
-                "failure": "",
-                "encounterId": "",
-                "preconditions": [
-                    {
-                        "id": 1,
-                        "precondition": "3 Lanternas",
-                        "reward": "Moeda"
-                    }
-                ]
-            },
-            {
-                "id": 2,
-                "option": "",
+                "option": "Entrar no barco",
                 "bonus": "",
                 "failure": "",
                 "encounterId": "",
@@ -5667,23 +5667,42 @@
                     {
                         "id": 1,
                         "precondition": "4 Lanternas",
-                        "reward": ""
+                        "reward": "2 Peixes"
                     },
                     {
                         "id": 2,
-                        "precondition": "7 Lanternas",
-                        "reward": ""
+                        "precondition": "6 Lanternas",
+                        "reward": "4 Moedas, 2 Peixes"
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "option": "Atravessar a correnteza subterrânea",
+                "bonus": "",
+                "failure": "",
+                "encounterId": "",
+                "preconditions": [
+                    {
+                        "id": 1,
+                        "precondition": "3 Lanternas",
+                        "reward": "Moeda, Poção, -1 Reputação"
+                    },
+                    {
+                        "id": 2,
+                        "precondition": "5 Lanternas",
+                        "reward": "5 Moedas, -1 Reputação"
                     }
                 ]
             }
         ]
     },
     "enc166": {
-        "adventure": "",
+        "adventure": "Em uma sala com cheiro de caixa de areia usada, você acidentalmente interrompe um misterioso ritual de uma anciã deusa dos gatos Friida. Seus devotos possuem grande ciúme de seus segredos. Cinco deles se aproximam de você, com caudas balançando e com grandes olhos maliciosos.",
         "options": [
             {
                 "id": 1,
-                "option": "",
+                "option": "Assuste-os para longe e roube o local",
                 "bonus": "",
                 "failure": "",
                 "encounterId": "",
@@ -5691,37 +5710,60 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "Moeda"
+                        "reward": "3 Moedas, -1 Reputação"
                     }
                 ]
             },
             {
                 "id": 2,
-                "option": "",
+                "option": "Se desculpe por sua intrusão",
                 "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
                     {
                         "id": 1,
-                        "precondition": "4 Lanternas",
-                        "reward": ""
-                    },
+                        "precondition": "3 Lanternas",
+                        "reward": "+1 Reputação"
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "option": "Fazer uma oferenda",
+                "bonus": "+1 Lanterna se você tiver um peixe",
+                "failure": "",
+                "encounterId": "",
+                "preconditions": [
                     {
-                        "id": 2,
-                        "precondition": "7 Lanternas",
-                        "reward": ""
+                        "id": 1,
+                        "precondition": "6 Lanternas",
+                        "reward": "4 Moedas, Corda"
                     }
                 ]
             }
         ]
     },
     "enc167": {
-        "adventure": "",
+        "adventure": "Você descobre uma estátua em decadência de um deus a muito tempo negligenciado, provavelmente uma divindade caída dos Homens-Peixe. Sua calda esta se desfazendo, e um de seus olhos de joia esta faltando. Fragmentos de vidro e velhos presentes se esparramam ao redor da estatua.",
         "options": [
             {
                 "id": 1,
-                "option": "",
+                "option": "Substituir o olho faltante com os fragmentos de vidro",
+                "bonus": "+2 Lanternas se você pagar 1 Moeda",
+                "failure": "",
+                "encounterId": "",
+                "preconditions": [
+                    {
+                        "id": 1,
+                        "precondition": "5 Lanternas",
+                        "encounterId": "enc168"
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "option": "Roubar o olho remanescente todas as oferendas que encontrar",
                 "bonus": "",
                 "failure": "",
                 "encounterId": "",
@@ -5729,26 +5771,12 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "Moeda"
-                    }
-                ]
-            },
-            {
-                "id": 2,
-                "option": "",
-                "bonus": "",
-                "failure": "",
-                "encounterId": "",
-                "preconditions": [
-                    {
-                        "id": 1,
-                        "precondition": "4 Lanternas",
-                        "reward": ""
+                        "reward": "Peixe, -1 Reputação"
                     },
                     {
                         "id": 2,
-                        "precondition": "7 Lanternas",
-                        "reward": ""
+                        "precondition": "8 Lanternas",
+                        "reward": "3 Moedas, Ametista, -1 Reputação"
                     }
                 ]
             }
@@ -5769,11 +5797,11 @@
         ]
     },
     "enc169": {
-        "adventure": "",
+        "adventure": "Você se encontra em um misterioso templo subterrâneo, onde o silencio reverencial é interrompido apendas pelo som dos seus passos. Uma estranha colunata de leva para frente, descendo uma escadaria de mármore, por um mausoléu iluminado por tochas, e finalmente para o trono de uma criatura sem cabelos, com longos dentes, como um roedor gigante. Seu nariz treme antecipando sua chegada, e suas grandes orelhas tremem em excitação. Você ouviu rumores sobre o Santuário da Musaranha, mas contempla-lo pessoalmente lhe faz tremer. Instantes depois, ela murmura, “Bem vindo meu novo discípulo! Você vai cantar para mim?”.",
         "options": [
             {
                 "id": 1,
-                "option": "",
+                "option": "Cantar para a alteza",
                 "bonus": "",
                 "failure": "",
                 "encounterId": "",
@@ -5781,64 +5809,64 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "Moeda"
+                        "reward": "Moeda, +1 Reputação"
+                    },
+                    {
+                        "id": 2,
+                        "precondition": "7 Lanternas",
+                        "reward": "Ametista, +2 Reputação"
                     }
                 ]
             },
             {
                 "id": 2,
-                "option": "",
+                "option": "Explicar que você possui uma garganta ruim, e oferecer fidelidade em troca",
                 "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
                     {
                         "id": 1,
-                        "precondition": "4 Lanternas",
-                        "reward": ""
-                    },
-                    {
-                        "id": 2,
-                        "precondition": "7 Lanternas",
-                        "reward": ""
+                        "precondition": "5 Lanternas",
+                        "reward": "6 Moedas, -1 Reputação"
                     }
                 ]
             }
         ]
     },
     "enc170": {
-        "adventure": "",
+        "adventure": "Enquanto você caminha em direção a um tridente em uma dura passagem, uma flecha é atirada pela sua direita, errando seus exploradores. Parece que você tropeçou em uma linha, ativando uma armadilha. A flecha fica presa inutilmente na parede da caverna, com um papel preso a ela. Nele diz: “Vá por outro caminho. Eu falo sério!”. Parece que alguém esta decidido a te manter longe da passagem descendo pela direita.",
         "options": [
             {
                 "id": 1,
-                "option": "",
+                "option": "Ignorar o aviso e seguir pela passagem a direita de qualquer maneira",
                 "bonus": "",
-                "failure": "",
-                "encounterId": "",
-                "preconditions": [
-                    {
-                        "id": 1,
-                        "precondition": "3 Lanternas",
-                        "reward": "Moeda"
-                    }
-                ]
-            },
-            {
-                "id": 2,
-                "option": "",
-                "bonus": "",
-                "failure": "",
+                "failure": "Seus medo sobrepõe seu heroísmo. Você volta para sua vila sem saber o que está além.",
                 "encounterId": "",
                 "preconditions": [
                     {
                         "id": 1,
                         "precondition": "4 Lanternas",
-                        "reward": ""
+                        "encounterId": "enc171"
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "option": "Evitar o perigo e pegar a passagem pela esquerda",
+                "bonus": "",
+                "failure": "",
+                "encounterId": "",
+                "preconditions": [
+                    {
+                        "id": 1,
+                        "precondition": "2 Lanternas",
+                        "reward": "Moeda, -1 Reputação"
                     },
                     {
                         "id": 2,
                         "precondition": "7 Lanternas",
-                        "reward": ""
+                        "reward": "4 Moedas, Pote, -1 Reputação"
                     }
                 ]
             }
@@ -5859,25 +5887,25 @@
         ]
     },
     "enc172": {
-        "adventure": "",
+        "adventure": "Uma solitária maga de salão está acampada sozinha dentro de uma passagem lateral. Grata por sua companhia, ela te ensina alguma mágicas básicas de rua. Ela te oferece para ficar com alguns adereços, se você conseguir fazer uma mágica com eles.",
         "options": [
             {
                 "id": 1,
-                "option": "",
+                "option": "Fazer um truque simples da moeda",
                 "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
                     {
                         "id": 1,
-                        "precondition": "3 Lanternas",
+                        "precondition": "2 Lanternas",
                         "reward": "Moeda"
                     }
                 ]
             },
             {
                 "id": 2,
-                "option": "",
+                "option": "Fazer um cogumelo desaparecer e reaparecer",
                 "bonus": "",
                 "failure": "",
                 "encounterId": "",
@@ -5885,23 +5913,32 @@
                     {
                         "id": 1,
                         "precondition": "4 Lanternas",
-                        "reward": ""
-                    },
+                        "reward": "Cogumelo, +2 Reputação"
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "option": "Fazer malabarismo com dois peixes e algumas moedas",
+                "bonus": "",
+                "failure": "",
+                "encounterId": "",
+                "preconditions": [
                     {
-                        "id": 2,
+                        "id": 1,
                         "precondition": "7 Lanternas",
-                        "reward": ""
+                        "reward": "5 Moedas, 2 Peixes"
                     }
                 ]
             }
         ]
     },
     "enc173": {
-        "adventure": "",
+        "adventure": "Você escuta um baixo farejar afrente no escuro, mas quando você se aproxima, qualquer que seja a criatura galopa para longe em pânico. Momentos depois um fungo fazendeiro irritado chega até você, arquejando em exaustão. Ele está verdadeiramente esgotado por tentar pegar seu porco a muito perdido (o motivo aparente do som de farejo, e que claramente não quer ser encontrado). O Fungo fazendeiro lhe oferece uma recompensa se você pegar o porco para ele.",
         "options": [
             {
                 "id": 1,
-                "option": "",
+                "option": "Laçar o porco com uma corda que você pegou emprestado com o fazendeiro",
                 "bonus": "",
                 "failure": "",
                 "encounterId": "",
@@ -5909,26 +5946,35 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "Moeda"
+                        "reward": "Corda, -1 Reputação"
                     }
                 ]
             },
             {
                 "id": 2,
-                "option": "",
+                "option": "Atrair o porco com algo saboroso",
                 "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
                     {
                         "id": 1,
-                        "precondition": "4 Lanternas",
-                        "reward": ""
-                    },
+                        "precondition": "5 Lanternas",
+                        "reward": "Cogumelo, +1 Reputação"
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "option": "Cantar uma canção Misteriosa de atração de porcos",
+                "bonus": "",
+                "failure": "",
+                "encounterId": "",
+                "preconditions": [
                     {
-                        "id": 2,
-                        "precondition": "7 Lanternas",
-                        "reward": ""
+                        "id": 1,
+                        "precondition": "8 Lanternas",
+                        "encounterId": "enc174"
                     }
                 ]
             }
@@ -5949,25 +5995,11 @@
         ]
     },
     "enc175": {
-        "adventure": "",
+        "adventure": "Uma arvore trançada preenche esta caverna, seus galhos se curvam em direção a luz do sol que passa por uma abertura na pedra. Os galhos mais altos possuem estranhas frutas e tem folhas que parecem moedas. Frutas e folhas remanescentes se espalham pelo chão.",
         "options": [
             {
                 "id": 1,
-                "option": "",
-                "bonus": "",
-                "failure": "",
-                "encounterId": "",
-                "preconditions": [
-                    {
-                        "id": 1,
-                        "precondition": "3 Lanternas",
-                        "reward": "Moeda"
-                    }
-                ]
-            },
-            {
-                "id": 2,
-                "option": "",
+                "option": "Apertar as frutas caídas para pegar suco",
                 "bonus": "",
                 "failure": "",
                 "encounterId": "",
@@ -5975,23 +6007,37 @@
                     {
                         "id": 1,
                         "precondition": "4 Lanternas",
-                        "reward": ""
+                        "reward": "Moeda, 2 Poções"
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "option": "Subir na árvore e pegar frutas e folhas",
+                "bonus": "",
+                "failure": "",
+                "encounterId": "",
+                "preconditions": [
+                    {
+                        "id": 1,
+                        "precondition": "3 Lanternas",
+                        "reward": "Fruta, +1 Reputação"
                     },
                     {
                         "id": 2,
                         "precondition": "7 Lanternas",
-                        "reward": ""
+                        "reward": "5 Moedas, 2 Frutas, +1 Reputação"
                     }
                 ]
             }
         ]
     },
     "enc176": {
-        "adventure": "",
+        "adventure": "Um lago profundo reflete a luz das estrelas que passam por uma abertura na caverna diretamente acima dele. Quem sabe o que pode viver abaixo da água, ou o que pode ter caído no lago?",
         "options": [
             {
                 "id": 1,
-                "option": "",
+                "option": "Beber a água do lago",
                 "bonus": "",
                 "failure": "",
                 "encounterId": "",
@@ -5999,13 +6045,13 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "Moeda"
+                        "reward": "+1 Reputação"
                     }
                 ]
             },
             {
                 "id": 2,
-                "option": "",
+                "option": "Mergulhar no lago para examinar o fundo",
                 "bonus": "",
                 "failure": "",
                 "encounterId": "",
@@ -6013,37 +6059,23 @@
                     {
                         "id": 1,
                         "precondition": "4 Lanternas",
-                        "reward": ""
+                        "reward": "Moeda, Peixe"
                     },
                     {
                         "id": 2,
-                        "precondition": "7 Lanternas",
-                        "reward": ""
+                        "precondition": "8 Lanternas",
+                        "reward": "Peixe, Minério, +1 Reputação"
                     }
                 ]
             }
         ]
     },
     "enc177": {
-        "adventure": "",
+        "adventure": "Sem se preocupar com o escuro, uma herborista cega vende suas mercadorias por aqui. Ela parece ter perdido o caminho, junto com seu bastão de caminhar. Você pode construir outro para ela com restos encontrados na caverna.",
         "options": [
             {
                 "id": 1,
-                "option": "",
-                "bonus": "",
-                "failure": "",
-                "encounterId": "",
-                "preconditions": [
-                    {
-                        "id": 1,
-                        "precondition": "3 Lanternas",
-                        "reward": "Moeda"
-                    }
-                ]
-            },
-            {
-                "id": 2,
-                "option": "",
+                "option": "Fazer um novo bastão de caminhar para ela, e ajuda-la a encontrar seu caminho",
                 "bonus": "",
                 "failure": "",
                 "encounterId": "",
@@ -6051,37 +6083,56 @@
                     {
                         "id": 1,
                         "precondition": "4 Lanternas",
-                        "reward": ""
+                        "reward": "Poção, +1 Reputação"
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "option": "Roubar de sua mochila de mercadorias",
+                "bonus": "",
+                "failure": "",
+                "encounterId": "",
+                "preconditions": [
+                    {
+                        "id": 1,
+                        "precondition": "3 Lanternas",
+                        "reward": "Moeda, Cogumelo, -1 Reputação"
                     },
                     {
                         "id": 2,
                         "precondition": "7 Lanternas",
-                        "reward": ""
+                        "reward": "3 Moedas, Minério, -2 Reputação"
                     }
                 ]
             }
         ]
     },
     "enc178": {
-        "adventure": "",
+        "adventure": "Estranhos símbolos cobrem as paredes da caverna, e o fogo queima nas tochas penduradas ao centro. Uma placa impecável diz: “Escola Sônica de Evocações: Aulas disponíveis – Por uma canção!”. Arrumados em um altar, há três instrumentos musicais: Uma harpa de vidro, um bandolim de mármore e um trompete de cristal. Não há sinais de professores ou estudantes.",
         "options": [
             {
                 "id": 1,
-                "option": "",
+                "option": "Tocar a harpa de vidro",
                 "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
                     {
                         "id": 1,
-                        "precondition": "3 Lanternas",
+                        "precondition": "2 Lanternas",
                         "reward": "Moeda"
+                    },
+                    {
+                        "id": 2,
+                        "precondition": "5 Lanternas",
+                        "reward": "Moeda, Minério"
                     }
                 ]
             },
             {
                 "id": 2,
-                "option": "",
+                "option": "Tocar o Bandolim de Mármore",
                 "bonus": "",
                 "failure": "",
                 "encounterId": "",
@@ -6089,23 +6140,32 @@
                     {
                         "id": 1,
                         "precondition": "4 Lanternas",
-                        "reward": ""
-                    },
+                        "reward": "Pote, +1 Reputação"
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "option": "Tocar o trompete",
+                "bonus": "",
+                "failure": "",
+                "encounterId": "",
+                "preconditions": [
                     {
-                        "id": 2,
+                        "id": 1,
                         "precondition": "7 Lanternas",
-                        "reward": ""
+                        "reward": "4 Moedas, +3 Reputação"
                     }
                 ]
             }
         ]
     },
     "enc179": {
-        "adventure": "",
+        "adventure": "Uma vidente de pele azul e enrugada e com penas em seus cabelos, se inclina sobre um cristal luminoso. Em uma voz rouca ela te promete prosperidade imediata se você falar seu verdadeiro nome na voz de seu animal espiritual.",
         "options": [
             {
                 "id": 1,
-                "option": "",
+                "option": "Mie como um gato",
                 "bonus": "",
                 "failure": "",
                 "encounterId": "",
@@ -6113,13 +6173,13 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "Moeda"
+                        "reward": "Peixe, +1 Reputação"
                     }
                 ]
             },
             {
                 "id": 2,
-                "option": "",
+                "option": "Borbulhe como um peixe",
                 "bonus": "",
                 "failure": "",
                 "encounterId": "",
@@ -6127,126 +6187,152 @@
                     {
                         "id": 1,
                         "precondition": "4 Lanternas",
-                        "reward": ""
-                    },
+                        "reward": "2 Moedas, Peixe"
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "option": "Faça “Ow Ow Ow” como uma foca",
+                "bonus": "",
+                "failure": "",
+                "encounterId": "",
+                "preconditions": [
                     {
-                        "id": 2,
+                        "id": 1,
                         "precondition": "7 Lanternas",
-                        "reward": ""
+                        "reward": "Peixe, Minério"
                     }
                 ]
             }
         ]
     },
     "enc180": {
-        "adventure": "",
+        "adventure": "Afrente de você, iluminado contra a parede de um corredor nevoado, um rato de má reputação espera, com um chapéu preto cobre seus olhos e um palito de dente pendendo da ponta de seus dentes da frente. Com uma voz lenta e desagradável ele se oferece para jogar um jogo de azar com você. Cada vez que você rodar um dado, você guarda o número e pega uma moeda. Se você rolar um número que você já obteve antes, você perde tudo. Você pode parar e coletar seu dinheiro a qualquer momento antes da próxima rolagem. “Você não perde nenhum dinheiro desta maneira”, o roedor insiste. “Tudo o que peço, é uma pequena parte de sua reputação...”. O rato de má reputação então lambe seus dentes terrivelmente.",
         "options": [
             {
                 "id": 1,
-                "option": "",
+                "option": "Perder uma reputação e começar a rolar",
                 "bonus": "",
                 "failure": "",
                 "encounterId": "",
-                "preconditions": [
-                    {
-                        "id": 1,
-                        "precondition": "3 Lanternas",
-                        "reward": "Moeda"
-                    }
-                ]
+                "reward": "O rato surpreendentemente cumpre com sua palavra, e te paga o que foi prometido. Não é preciso falar que o máximo que você ganhará serão 6 moedas. Você perde apenas um de reputação, sem importar o quantas moedas você ganhe",
+                "preconditions": []
             },
             {
                 "id": 2,
-                "option": "",
+                "option": "Intimidar o roedor para te dar moedas",
+                "bonus": "",
+                "failure": "",
+                "encounterId": "",
+                "reward": "-1 Reputação para cada moeda que você pegar, até 5 Moedas",
+                "preconditions": []
+            },
+            {
+                "id": 3,
+                "option": "Deixar o rato e explorar outro lugar",
                 "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
                     {
                         "id": 1,
-                        "precondition": "4 Lanternas",
-                        "reward": ""
-                    },
-                    {
-                        "id": 2,
-                        "precondition": "7 Lanternas",
-                        "reward": ""
+                        "precondition": "6 Lanternas",
+                        "reward": "2 Moedas, Minério"
                     }
                 ]
             }
         ]
     },
     "enc181": {
-        "adventure": "",
+        "adventure": "Você encontra um mapa apagado, listando tesouros escondidos nas cavernas subterrâneas! Ou é uma lista de compras? Não importa: Você acredita que conseguirá decifrar a localização de alguns itens valiosos, se colocar o mapa sobre o fogo e dar uma olhada mais de perto nas letras apagadas do mapa",
         "options": [
             {
                 "id": 1,
-                "option": "",
+                "option": "Segurar o mapa longe do fogo",
                 "bonus": "",
-                "failure": "",
+                "failure": "Infelizmente você segura o mapa próximo de mais das chamas, ele pega fogo. Você volta para casa de mãos vazias.",
                 "encounterId": "",
                 "preconditions": [
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "Moeda"
+                        "reward": "Fruta"
                     }
                 ]
             },
             {
                 "id": 2,
-                "option": "",
+                "option": "Segurar o mapa de uma distancia moderada do fogo",
                 "bonus": "",
-                "failure": "",
+                "failure": "Infelizmente você segura o mapa próximo de mais das chamas, ele pega fogo. Você volta para casa de mãos vazias.",
                 "encounterId": "",
                 "preconditions": [
                     {
                         "id": 1,
-                        "precondition": "4 Lanternas",
-                        "reward": ""
-                    },
+                        "precondition": "5 Lanternas",
+                        "reward": "Moeda, 2 Frutas, +1 Reputação"
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "option": "Segurar o mapa muito perto do fogo, em caso de ter escrituras secretas com tinta invisível",
+                "bonus": "",
+                "failure": "Infelizmente você segura o mapa próximo de mais das chamas, ele pega fogo. Você volta para casa de mãos vazias.",
+                "encounterId": "",
+                "preconditions": [
                     {
-                        "id": 2,
+                        "id": 1,
                         "precondition": "7 Lanternas",
-                        "reward": ""
+                        "reward": "2 Moedas, Ametista, +2 Reputação"
                     }
                 ]
             }
         ]
     },
     "enc182": {
-        "adventure": "",
+        "adventure": "No meio de uma floresta de canos de metal entrelaçados, você se encontra em frente a Lendária.. Não... Mítica Mainá Mecânica de Júbilo e Regurgitação. Seu bico brilhante é amplo e entreaberto. Das histórias que você escutou na infância, você sabe o que fazer: Coloque uma oferenda em seu bico e gentilmente puxe uma das penas de metal de sua calda. Antes de puxar a pena gentilmente, você...",
         "options": [
             {
                 "id": 1,
-                "option": "",
+                "option": "Não coloca nada no bico do pássaro",
                 "bonus": "",
-                "failure": "",
+                "failure": "Você puxa a pena forte de mais, e ela fica na sua mão! O pássaro torce o pescoço em sua direção em surpresa e horror, com olhos arregalados. Seu olho pisca duas vezes, vira sua cabeça para traz, e começa a te caçar com seu bico pontudo. Momentos depois, você se encontra fugindo de uma Mainá Mecânica muito nervosa e muito perigosa. (Fira um aldeão).",
                 "encounterId": "",
                 "preconditions": [
                     {
                         "id": 1,
-                        "precondition": "3 Lanternas",
-                        "reward": "Moeda"
+                        "precondition": "2 Lanternas",
+                        "encounterId": "enc183"
                     }
                 ]
             },
             {
                 "id": 2,
-                "option": "",
+                "option": "Colocar uma moeda no bico do pássaro",
                 "bonus": "",
-                "failure": "",
+                "failure": "Você puxa a pena forte de mais, e ela fica na sua mão! O pássaro torce o pescoço em sua direção em surpresa e horror, com olhos arregalados. Seu olho pisca duas vezes, vira sua cabeça para traz, e começa a te caçar com seu bico pontudo. Momentos depois, você se encontra fugindo de uma Mainá Mecânica muito nervosa e muito perigosa. (Fira um aldeão).",
                 "encounterId": "",
                 "preconditions": [
                     {
                         "id": 1,
-                        "precondition": "4 Lanternas",
-                        "reward": ""
-                    },
+                        "precondition": "4 Lanternas e pague 1 Moeda ",
+                        "encounterId": "enc214"
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "option": "Colocar duas moedas no bico do pássaro",
+                "bonus": "",
+                "failure": "Você puxa a pena forte de mais, e ela fica na sua mão! O pássaro torce o pescoço em sua direção em surpresa e horror, com olhos arregalados. Seu olho pisca duas vezes, vira sua cabeça para traz, e começa a te caçar com seu bico pontudo. Momentos depois, você se encontra fugindo de uma Mainá Mecânica muito nervosa e muito perigosa. (Fira um aldeão).",
+                "encounterId": "",
+                "preconditions": [
                     {
-                        "id": 2,
-                        "precondition": "7 Lanternas",
-                        "reward": ""
+                        "id": 1,
+                        "precondition": "6 Lanternas e pague 2 moedas",
+                        "encounterId": "enc215"
                     }
                 ]
             }
@@ -6267,40 +6353,29 @@
         ]
     },
     "enc184": {
-        "adventure": "",
+        "adventure": "Enquanto você organiza seu grupo, alguém pega uma sacola e puxa um mapa. “Eu obtive isso na minha ultima expedição”, ela diz. “Está marcado com mais de uma dúzia de cavernas cheias de joias, e eu tenho bons motivos para acreditar que elas nunca foram exploradas”. Ignorando as feições de dúvida, ela sugere que o grupo comece pela primeira caverna. Você inspeciona o mapa, e percebe que o caminho para essa suposta caverna dos cristais passa por pântanos tóxico e próximo ao lar de um monstro comedor de homens. Você ignora o mapa e pega uma rota mais segura, ou confia em sua companheira e vai para o tesouro?",
         "options": [
             {
                 "id": 1,
-                "option": "",
+                "option": "Pegar a rota segura",
                 "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
                     {
                         "id": 1,
-                        "precondition": "3 Lanternas",
-                        "reward": "Moeda"
+                        "precondition": "2 Lanternas",
+                        "reward": "2 Moedas, -1 Reputação"
                     }
                 ]
             },
             {
                 "id": 2,
-                "option": "",
+                "option": "Ir para a caverna",
                 "bonus": "",
                 "failure": "",
-                "encounterId": "",
-                "preconditions": [
-                    {
-                        "id": 1,
-                        "precondition": "4 Lanternas",
-                        "reward": ""
-                    },
-                    {
-                        "id": 2,
-                        "precondition": "7 Lanternas",
-                        "reward": ""
-                    }
-                ]
+                "encounterId": "enc185",
+                "preconditions": []
             }
         ]
     },
@@ -6343,25 +6418,30 @@
         ]
     },
     "enc186": {
-        "adventure": "",
+        "adventure": "A luz da lanterna pula de pedra em pedra enquanto você caminha pelas cavernas. Você já esta aqui a muito tempo, seu tempo e sua moral estão acabando. Então a luz pega a imagem de uma fenda quase invisível na pedra. Desenhos em forma de pessoas e animais estão marcados na superfície. Você nota que há representações de peixes e o que parece ser tesouros entre as formas, mas não sabe o que eles significam ou se podem te ajudar. Você fica e tenta decifrar os petroglifos, ou os ignora e pega o que conseguir antes que acabe seu tempo?",
         "options": [
             {
                 "id": 1,
-                "option": "",
-                "bonus": "",
+                "option": "Decifrar os petroglifos",
+                "bonus": "+3 lanternas se você tiver um aldeão homem-peixe",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
                     {
                         "id": 1,
-                        "precondition": "3 Lanternas",
-                        "reward": "Moeda"
+                        "precondition": "2 Lanternas",
+                        "reward": "Peixe"
+                    },
+                    {
+                        "id": 2,
+                        "precondition": "6 Lanternas",
+                        "reward": "2 Moedas, Ametista, +1 Reputação"
                     }
                 ]
             },
             {
                 "id": 2,
-                "option": "",
+                "option": "Ignorar os petroglifos",
                 "bonus": "",
                 "failure": "",
                 "encounterId": "",
@@ -6369,52 +6449,36 @@
                     {
                         "id": 1,
                         "precondition": "4 Lanternas",
-                        "reward": ""
-                    },
-                    {
-                        "id": 2,
-                        "precondition": "7 Lanternas",
-                        "reward": ""
+                        "reward": "Moeda, Pote"
                     }
                 ]
             }
         ]
     },
     "enc187": {
-        "adventure": "",
+        "adventure": "Seu grupo parece fadigado, e você não tem nenhuma comida, mas você monta uma fogueira e para pra beber e descansar. Um de seus companheiros tira uma flauta da mochila e começa a tocar em tom folclórico. Enquanto você fecha seus olhos e aproveita a musica, um som de algo escorregando preenche a caverna. Você abre seus olhos e vê dúzias de criaturas reptilianas. Eles se empoleiram nas pedras, e preenchem o chão da caverna com os olhos fixos no músico e sua flauta. Você pega um deles para comer, ou tem pena deles, e os deixa ficarem lá?",
         "options": [
             {
                 "id": 1,
-                "option": "",
+                "option": "Pegar um deles",
                 "bonus": "",
                 "failure": "",
                 "encounterId": "",
                 "preconditions": [
                     {
                         "id": 1,
-                        "precondition": "3 Lanternas",
-                        "reward": "Moeda"
+                        "precondition": "2 Lanternas",
+                        "encounterId": "enc188"
                     }
                 ]
             },
             {
                 "id": 2,
-                "option": "",
+                "option": "Ter pena dos repteis amadores da musica",
                 "bonus": "",
                 "failure": "",
-                "encounterId": "",
-                "preconditions": [
-                    {
-                        "id": 1,
-                        "precondition": "4 Lanternas",
-                        "reward": ""
-                    },
-                    {
-                        "id": 2,
-                        "precondition": "7 Lanternas",
-                        "reward": ""
-                    }
-                ]
+                "encounterId": "enc189",
+                "preconditions": []
             }
         ]
     },
@@ -6457,11 +6521,30 @@
         ]
     },
     "enc190": {
-        "adventure": "",
+        "adventure": "“Me de comida!” – grita um ágil esqueleto de homem que pula em frente ao seu grupo. Seus olhos estão alucinados, e seu amplo sorriso segura poucos dentes. “Eu te levarei até o tesouro, se você me der comida”, ele ri e dança em volta, usando suas mãos e pés, como um primata. Você procura em suas coisas por alguma comida, ou o ignora e segue em frente?",
         "options": [
             {
                 "id": 1,
-                "option": "",
+                "option": "Separar comida",
+                "bonus": "+1 Lanterna se você tiver uma fruta, peixe, cogumelo ou cidra",
+                "failure": "",
+                "encounterId": "",
+                "preconditions": [
+                    {
+                        "id": 1,
+                        "precondition": "5 Lanternas",
+                        "encounterId": "enc191"
+                    },
+                    {
+                        "id": 2,
+                        "precondition": "7 Lanternas",
+                        "encounterId": "enc192"
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "option": "Ignora-lo",
                 "bonus": "",
                 "failure": "",
                 "encounterId": "",
@@ -6469,26 +6552,7 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "Moeda"
-                    }
-                ]
-            },
-            {
-                "id": 2,
-                "option": "",
-                "bonus": "",
-                "failure": "",
-                "encounterId": "",
-                "preconditions": [
-                    {
-                        "id": 1,
-                        "precondition": "4 Lanternas",
-                        "reward": ""
-                    },
-                    {
-                        "id": 2,
-                        "precondition": "7 Lanternas",
-                        "reward": ""
+                        "reward": "3 Moedas, -1 Reputação"
                     }
                 ]
             }
@@ -6523,11 +6587,11 @@
         ]
     },
     "enc193": {
-        "adventure": "",
+        "adventure": "Seu grupo chega a uma sala alinhada a cachoeiras azuis. Grandes vagalumes brilham como tochas, zanzando preguiçosamente pelo ar úmido, seguindo seus próprios reflexos em um lago no fundo da sala. Enquanto você caminha, mais e mais vagalumes se juntam, até que tudo o que você consegue escutar e um zumbido enlouquecedor. Você tenta expulsar os vagalumes ou acalma-los?",
         "options": [
             {
                 "id": 1,
-                "option": "",
+                "option": "Expulsar os vagalumes",
                 "bonus": "",
                 "failure": "",
                 "encounterId": "",
@@ -6535,13 +6599,13 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "Moeda"
+                        "encounterId": "enc194"
                     }
                 ]
             },
             {
                 "id": 2,
-                "option": "",
+                "option": "Tentar acalmar os vagalumes",
                 "bonus": "",
                 "failure": "",
                 "encounterId": "",
@@ -6549,12 +6613,12 @@
                     {
                         "id": 1,
                         "precondition": "4 Lanternas",
-                        "reward": ""
+                        "encounterId": "enc195"
                     },
                     {
                         "id": 2,
                         "precondition": "7 Lanternas",
-                        "reward": ""
+                        "encounterId": "enc196"
                     }
                 ]
             }
@@ -6603,25 +6667,11 @@
         ]
     },
     "enc197": {
-        "adventure": "",
+        "adventure": "Você viaja por cavernas amplas de nebulosas, até que de repente, um homem com uma capa vermelha aparece. Você o reconhece de imediato: O Caçador Vermelho, um lendário aventureiro, e a fonte de muitas histórias de fogueira. Em uma voz sedosa e tenaz, ele te cumprimenta. “Eu preciso de sua ajuda para caçar um criminoso perigoso” – ele diz. Você esta inclinado a se juntar a ele e dividir suas aventuras, mas sente que algo não esta certo. O caçador vermelho parece estar no limite, e há uma leve contorção em seu olho. Você se junta a ele, ou recusa e o segue para ver o que acontece?",
         "options": [
             {
                 "id": 1,
-                "option": "",
-                "bonus": "",
-                "failure": "",
-                "encounterId": "",
-                "preconditions": [
-                    {
-                        "id": 1,
-                        "precondition": "3 Lanternas",
-                        "reward": "Moeda"
-                    }
-                ]
-            },
-            {
-                "id": 2,
-                "option": "",
+                "option": "Juntar-se ao Caçador Vermelho em sua busca",
                 "bonus": "",
                 "failure": "",
                 "encounterId": "",
@@ -6629,12 +6679,26 @@
                     {
                         "id": 1,
                         "precondition": "4 Lanternas",
-                        "reward": ""
+                        "encounterId": "enc198"
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "option": "Recusar, mas seguir o caçador vermelho",
+                "bonus": "",
+                "failure": "",
+                "encounterId": "",
+                "preconditions": [
+                    {
+                        "id": 1,
+                        "precondition": "3 Lanternas",
+                        "encounterId": "enc199"
                     },
                     {
                         "id": 2,
-                        "precondition": "7 Lanternas",
-                        "reward": ""
+                        "precondition": "6 Lanternas",
+                        "encounterId": "enc200"
                     }
                 ]
             }
@@ -6683,25 +6747,11 @@
         ]
     },
     "enc201": {
-        "adventure": "",
+        "adventure": "Você caminha por uma estrada pavimentada em uma caverna iluminada por um musgo azul brilhante, quando uma magra mulher encapuzada surge da escuridão. “Eu tenho uma canção que precisa chegar aos ouvidos do Rei da Lama, Infelizmente, seu reino é escondido, então eu devo ensinar a todos que possam aprender, na esperança de que ele ouça. Você aprenderia a minha canção? Eu estou disposta a lhe dar alguma recompensa das minhas coisas”. Você simplesmente aprende a canção, ou chama a mulher para se juntar a você na busca pelo Rei da Lama?",
         "options": [
             {
                 "id": 1,
-                "option": "",
-                "bonus": "",
-                "failure": "",
-                "encounterId": "",
-                "preconditions": [
-                    {
-                        "id": 1,
-                        "precondition": "3 Lanternas",
-                        "reward": "Moeda"
-                    }
-                ]
-            },
-            {
-                "id": 2,
-                "option": "",
+                "option": "Aprender a Canção do Rei da Lama",
                 "bonus": "",
                 "failure": "",
                 "encounterId": "",
@@ -6709,14 +6759,17 @@
                     {
                         "id": 1,
                         "precondition": "4 Lanternas",
-                        "reward": ""
-                    },
-                    {
-                        "id": 2,
-                        "precondition": "7 Lanternas",
-                        "reward": ""
+                        "reward": "Papel, +1 Reputação"
                     }
                 ]
+            },
+            {
+                "id": 2,
+                "option": "Convida-la a se juntar a você",
+                "bonus": "",
+                "failure": "",
+                "encounterId": "enc202",
+                "preconditions": []
             }
         ]
     },
@@ -6754,11 +6807,11 @@
         ]
     },
     "enc203": {
-        "adventure": "",
+        "adventure": "Seus exploradores chegam a uma carruagem de madeira, pintada com cores brilhantes. Uma mulher com cabelos pretos profundos esta sentada na frente, mas não há nenhum animal para puxar a carga. “Minhas cabras da caverna se perderam enquanto eu descansava. Você pode me ajudar a encontra-las? Eu ficaria feliz em dividir alguns medicamentos que carrego”.",
         "options": [
             {
                 "id": 1,
-                "option": "",
+                "option": "Procurar pelas cabras da caverna",
                 "bonus": "",
                 "failure": "",
                 "encounterId": "",
@@ -6766,13 +6819,18 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "Moeda"
+                        "reward": "Moeda, Poção, +1 Reputação"
+                    },
+                    {
+                        "id": 2,
+                        "precondition": "5 Lanternas",
+                        "reward": "Pote, Poção, +1 Reputação"
                     }
                 ]
             },
             {
                 "id": 2,
-                "option": "",
+                "option": "Procurar pelas cabras da caverna e então ficar com elas para pedir resgate",
                 "bonus": "",
                 "failure": "",
                 "encounterId": "",
@@ -6780,37 +6838,23 @@
                     {
                         "id": 1,
                         "precondition": "4 Lanternas",
-                        "reward": ""
+                        "reward": "Moeda, Corda, Poção, -2 Reputação"
                     },
                     {
                         "id": 2,
-                        "precondition": "7 Lanternas",
-                        "reward": ""
+                        "precondition": "6 Lanternas",
+                        "reward": "2 Moedas, Papel, 2 Poções, -2 Reputação"
                     }
                 ]
             }
         ]
     },
     "enc204": {
-        "adventure": "",
+        "adventure": "Seu grupo atravessa uma enorme ponte de pedra, suas colunas anciãs estão rachando desmoronando em cima de uma profunda correnteza. Do outro lado, morcegos voam um pouco antes de um vilarejo protegido por muros. “Siga seu caminho! Nós não gostamos de visitantes por aqui” – avisa um homem de armadura, em uma torre de vigia, segurando uma fina lança, pronta para ser lançada em você, em lhe de motivo. Você tenta convence-lo a deixar seu grupo entrar para negociar com os habitantes, ou deixa para entrar de fininho mais tarde?",
         "options": [
             {
                 "id": 1,
-                "option": "",
-                "bonus": "",
-                "failure": "",
-                "encounterId": "",
-                "preconditions": [
-                    {
-                        "id": 1,
-                        "precondition": "3 Lanternas",
-                        "reward": "Moeda"
-                    }
-                ]
-            },
-            {
-                "id": 2,
-                "option": "",
+                "option": "Convencer o guarda a deixa-lo entrar",
                 "bonus": "",
                 "failure": "",
                 "encounterId": "",
@@ -6818,12 +6862,26 @@
                     {
                         "id": 1,
                         "precondition": "4 Lanternas",
-                        "reward": ""
+                        "reward": "Peixe, +1 Reputação"
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "option": "Entrar no vilarejo de fininho",
+                "bonus": "",
+                "failure": "",
+                "encounterId": "",
+                "preconditions": [
+                    {
+                        "id": 1,
+                        "precondition": "3 Lanternas",
+                        "encounterId": "enc205"
                     },
                     {
                         "id": 2,
-                        "precondition": "7 Lanternas",
-                        "reward": ""
+                        "precondition": "6 Lanternas",
+                        "encounterId": "enc206"
                     }
                 ]
             }
@@ -6872,11 +6930,11 @@
         ]
     },
     "enc208": {
-        "adventure": "",
+        "adventure": "Você chega na cidade dos Glogos, uma gigantesca metrópole escavada nas paredes das cavernas. Quando você se aproxima, você vê um homem-peixe fugindo de um grupo de soldados glogos. “Ajude-me!” – Ele diz quanto te vê. “Eles me mantiveram preso aqui sem motivo algum!”. Você ajuda o homem-peixe a fugir, ou o para e o entrega para os glogos?",
         "options": [
             {
                 "id": 1,
-                "option": "",
+                "option": "Capturar o Homem-Peixe e entrega-lo",
                 "bonus": "",
                 "failure": "",
                 "encounterId": "",
@@ -6884,13 +6942,13 @@
                     {
                         "id": 1,
                         "precondition": "3 Lanternas",
-                        "reward": "Moeda"
+                        "reward": "Moeda, +2 Reputação"
                     }
                 ]
             },
             {
                 "id": 2,
-                "option": "",
+                "option": "Lutar contra os glogos e ajudar o Homem-Peixe a fugir",
                 "bonus": "",
                 "failure": "",
                 "encounterId": "",
@@ -6898,12 +6956,12 @@
                     {
                         "id": 1,
                         "precondition": "4 Lanternas",
-                        "reward": ""
+                        "reward": "2 Peixes, -2 Reputação"
                     },
                     {
                         "id": 2,
-                        "precondition": "7 Lanternas",
-                        "reward": ""
+                        "precondition": "6 Lanternas",
+                        "reward": "3 Moedas, Peixe, Papel, -2 Reputação"
                     }
                 ]
             }
